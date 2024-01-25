@@ -2,6 +2,7 @@ package com.example.bakalaurinis.bootstrap;
 
 import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.model.UserRole;
+import com.example.bakalaurinis.repository.QuestionRepository;
 import com.example.bakalaurinis.repository.UserRepository;
 import com.example.bakalaurinis.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -11,6 +12,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class DataLoader implements CommandLineRunner  {
     UserRepository userRepository;
+    QuestionRepository questionRepository;
     @Autowired
     public DataLoader(UserRepository userRepository) {
         this.userRepository = userRepository;

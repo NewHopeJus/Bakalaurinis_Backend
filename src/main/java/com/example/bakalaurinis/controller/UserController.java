@@ -19,7 +19,6 @@ import java.util.Optional;
 @RequestMapping("/api/users")
 public class UserController {
 
-
     UserService userService;
 
     @Autowired
@@ -31,6 +30,8 @@ public class UserController {
     public Optional<User> getUserById(@PathVariable Long id) {
         return userService.getUserById(id);
     }
+
+
     @GetMapping("/all")
     public Collection<User> getAllUsers() {
         return userService.findAll();
