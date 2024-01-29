@@ -2,6 +2,7 @@ package com.example.bakalaurinis.services;
 
 import com.example.bakalaurinis.model.Option;
 import com.example.bakalaurinis.model.Question;
+import com.example.bakalaurinis.model.QuestionType;
 import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.repository.QuestionRepository;
 import com.example.bakalaurinis.repository.UserRepository;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import java.util.Collection;
+import java.util.List;
 import java.util.Optional;
 
 @Service
@@ -36,5 +38,14 @@ public class QuestionService {
             option.setQuestion(question);
         }
         return questionRepository.save(question);
+    }
+    public List<Question> saveQuestions(List<Question> questions){
+        for(Question question: questions){
+            for (Option option : question.getOptions()) {
+                option.setQuestion(question);
+            }
+
+        }
+        return questionRepository.saveAll(questions);
     }
 }

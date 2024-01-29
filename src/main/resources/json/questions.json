@@ -1,0 +1,51 @@
+[
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "25 + 5  = ",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "options": [
+            {
+                "text": "30",
+                "isCorrect": 1
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "15 + 10  = ",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "options": [
+            {
+                "text": "25",
+                "isCorrect": 1
+            },
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            }
+        ]
+    }
+    
+]

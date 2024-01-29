@@ -7,7 +7,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.util.ArrayList;
+
 import java.util.List;
 
 @Getter
@@ -24,6 +24,12 @@ public class Question {
     @Enumerated(EnumType.STRING)
     private QuestionType questionType;
     private String description;
+
+    private String questionLevel;
+    private String questionTopic;
+
+    private Integer experience;
+    private Integer coins;
 
     @JsonManagedReference
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "question", cascade = CascadeType.ALL)
