@@ -1,20 +1,323 @@
 [
     {
         "questionType": "ONE_ANSWER",
-        "description": "25 + 5  = ",
+        "description": "Povandeninėje karalystėje žuvys rado 3 perlus koralų srityje ir dar 2 perlus prie mėlynojo akmens. Kiek iš viso perlų žuvys rado?",
         "questionLevel": "1 lygis",
         "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"3 + 2 = ?",
         "options": [
             {
-                "text": "30",
+                "text": "5",
                 "isCorrect": 1
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfų sode auga 4 raudonos ir 2 baltos rožės. Kiek iš viso rožių auga sode?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 + 2 = ?",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 1
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pilį saugojo 7 riteriai. Vieną dieną prie jų prisijungė dar 1 riteris iš gretimos karalystės. Kiek iš viso riterių dabar saugo pilį?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 + 1 = ?",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfas Jonas savo sode rado 4 žalius ir 3 raudonus obuolius. Kiek iš viso obuolių surado elfas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 + 3 = ?",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 1
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų Karalystės konditeris iškepė 10 tortų, o jo padejėjas pagamino dar 5 pyragus. Kiek iš viso kepinių jie kartu pagamino?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"10 + 5 = ?",
+        "options": [
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 1
+            },
+            {
+                "text": "11",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ant pilies viršūnės plevėsavo 6 raudonos vėliavėlės. Tačiau per audrą vėjas nuplėšė vieną vėliavėlę. Kiek dabar vėliavų ant pilies viršūnės?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"6 - 1 = ?",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfų karalystės aikštėje susirinko 8 elfai, tačiau 3 iš jų išėjo padėti karaliui. Kiek elfų liko aikštėje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"8 - 3 = ?",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Gėlių karalystės lauke žydėjo 11 kvepiančių ramunėlių. Princesė Rimutė nuskynė 5 ramunėles iš šio lauko. Kiek dabar ramunėlių žydi lauke?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"11 - 5 = ?",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 1
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfas Jonas turėjo 7 eurus. Už 4 eurus nusipirko tortą žiogo gimtadieniui. Kiek dabar eurų turi elfas Jonas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 - 4 = ?",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
             },
             {
                 "text": "2",
                 "isCorrect": 0
             },
             {
-                "text": "1",
+                "text": "11",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Gėlių karalystėje ant žydinčios liepos susirinko 13 margaspalvių drugelių. Kai pražydo obelis 5 drugeliai nuskrido ant jos. Kiek drugelių liko ant liepos?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"13 - 5 = ?",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "18",
+                "isCorrect": 0
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Povandeninėje karalystėje 4 žuvys rado po 2 perlus. Kiek perlų jos surado visos kartu?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 × 2 = ?",
+        "options": [
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kiekviena iš 5 povandeninės karalystės žuvų į pilį atnešė po 4 spindinčius akmenukus. Kiek akmenukų dabar yra pilyje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 × 4 = ?",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 1
+            },
+            {
+                "text": "25",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
                 "isCorrect": 0
             },
             {
@@ -23,18 +326,213 @@
             }
         ]
     },
+
     {
         "questionType": "ONE_ANSWER",
-        "description": "15 + 10  = ",
+        "description": "Konditerijos meistras sukūrė 4 rūšių sausainius ir iš kiekvienos rūšies iškepė po 7 sausainius. Kiek iš viso sausainių iškepė meistras?",
         "questionLevel": "1 lygis",
-        "questionTopic": "Sudėtis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 × 7 = ?",
         "options": [
             {
-                "text": "25",
+                "text": "11",
                 "isCorrect": 1
             },
             {
-                "text": "20",
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 1
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Šį pavasarį nykštukas Antanas savo kieme pasodino 5 eilutes medžių sodinukų po 6 sodinukus kiekvienoje eilėje. Kiek iš viso sodinukų pasodino nykštukas Antanas šį pavasarį?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 × 6 = ?",
+        "options": [
+            {
+                "text": "11",
+                "isCorrect": 0
+            },
+            {
+                "text": "40",
+                "isCorrect": 0
+            },
+            {
+                "text": "25",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų karalystės 8 cukraus fėjos pagamino po 2 ledinukus. Kiek iš viso ledinukų kartu sukūrė cukraus fėjos?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"8 × 2 = ?",
+        "options": [
+            {
+                "text": "16",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pilyje buvo 24 strėlės, kurias reikėjo tolygiai paskirstyti 4 riteriams. Kiek strėlių gavo kiekvienas riteris?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"24 ÷ 4 = ?",
+        "options": [
+            {
+                "text": "28",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų karalystėje konditeris pagamino 18 pyragėlių, kuriuos reikėjo vienodai paskirstyti 6 darbuotojams. Kiek pyragėlių gavo kiekvienas darbuotojas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"18 ÷ 6 = ?",
+        "options": [
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 1
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Povandeninėje karalystėje buvo 12 margaspalvių perlų. Juos reikėjo tolygiai padalyti tarp 3 žuvyčių. Kiek perlų gavo kiekviena žuvytė?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"12 ÷ 3 = ?",
+        "options": [
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Grybų karalystėje buvo surinkti 36 baravykai kuriuos reikėjo tolygiai paskirstyti 4 voverėms. Kiek grybų gavo kiekviena voverė?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"36 ÷ 4 = ?",
+        "options": [
+            {
+                "text": "9",
+                "isCorrect": 1
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų karalystėje 5 cukraus fėjos išgėrė 20 taurių šokoladinio pieno. Kiek taurių pieno išgėrė kiekviena fėja?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"20 ÷ 5 = ?",
+        "options": [
+            {
+                "text": "25",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
                 "isCorrect": 0
             },
             {
@@ -42,10 +540,1737 @@
                 "isCorrect": 0
             },
             {
-                "text": "30",
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Į pilies pokylį buvo atvežta 35 pyragų. Jei juos lygiai pasidalins 7 riteriai, kiek pyragų atiteks kiekvienam riteriui?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"35 ÷ 7 = ?",
+        "options": [
+            {
+                "text": "42",
+                "isCorrect": 0
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 1
+            },
+            {
+                "text": "4",
                 "isCorrect": 0
             }
         ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 1024 ir 1567.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 305 ir 298.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 49 ir 49.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 1
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 8735 ir 9042.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 8735 ir 9042.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 210 ir 211.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 3589 ir 3589.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 1
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 360 ir 171.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 11 ir 999.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 282 ir 580.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 2505 ir 2099.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki dešimčių skaičių 7365.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "7370",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki dešimčių skaičių 4529.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "4530",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki dešimčių skaičių 81573.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "81570",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki dešimčių skaičių 5901.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "5900",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki dešimčių skaičių 31753.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "31750",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki šimtų skaičių 7365.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "7400",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki šimtų skaičių 4529.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "4500",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki šimtų skaičių 81573.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "81600",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki šimtų skaičių 5901.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "5900",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki šimtų skaičių 31753.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "31800",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki tūkstančių skaičių 7365.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "7000",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki tūkstančių skaičių 4529.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "5000",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki tūkstančių skaičių 81573.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "82000",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki tūkstančių skaičių 5901.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "6000",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Suapvalinkite iki tūkstančių skaičių 31753.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "32000",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: 15; -7; 3,14; 5; 20; -1; 0; -1,5; -20. Kiek tarp jų yra teigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: -15; -7; 3,14; 5; 20; -1; 0; -1,5; -20. Kiek tarp jų yra neigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: 2,5; -7,5; 0; -1; 8; -2; 12.  Kiek tarp jų yra teigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: 2,5; 7,5; 0; 1; 8; 3; -2; 12. Kiek tarp jų yra teigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "6",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: 0; -4; 4; -2,3; 5,6; -7; 2; -9. Kiek tarp jų yra neigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: -3; 1; -5,5; -6; 0; -2,2; -8; 9. Kiek tarp jų yra teigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "2",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: -10; -2; 3; 0; -4,5; 7; -1; 8,3. Kiek tarp jų yra neigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: 105; -150; 200; -275,5; 0; 320,7; -480; 550. Kiek tarp jų yra teigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: 105; -150; 200; -275,5; 0; 320,7; -480; 550. Kiek tarp jų yra neigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: -500; 600; -700,5; 800; 0; -900,2; 1000; -1100. Kiek tarp jų yra teigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Duoti skaičiai: -500; 600; -700,5; 800; 0; -900,2; 1000; -1100. Kiek tarp jų yra teigiamų skaičių?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių kairėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "-7",
+                "isCorrect": 1
+            },
+            {
+                "text": "-3",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių dešinėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "8",
+                "isCorrect": 1
+            },
+            {
+                "text": "-5",
+                "isCorrect": 0
+            },
+            {
+                "text": "-2",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių kairėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "1",
+                "isCorrect": 0
+            },
+            {
+                "text": "-6",
+                "isCorrect": 1
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių dešinėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 1
+            },
+            {
+                "text": "-3",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių kairėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "-10",
+                "isCorrect": 1
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių dešinėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "-157",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.75",
+                "isCorrect": 1
+            },
+            {
+                "text": "-200",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.5",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių kairėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "-50",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.33",
+                "isCorrect": 0
+            },
+            {
+                "text": "-75",
+                "isCorrect": 1
+            },
+            {
+                "text": "0.4",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių dešinėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "0.25",
+                "isCorrect": 1
+            },
+            {
+                "text": "-100",
+                "isCorrect": 0
+            },
+            {
+                "text": "-0.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "-150",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių kairėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "-0.2",
+                "isCorrect": 0
+            },
+            {
+                "text": "-200",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 0
+            },
+            {
+                "text": "-0.75",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris iš pateiktų skaičių, skaičių tiesėje, yra visų nurodytų skaičių dešinėje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "-0.65",
+                "isCorrect": 0
+            },
+            {
+                "text": "-250",
+                "isCorrect": 0
+            },
+            {
+                "text": "-0.2",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite elfui surasti nežinomą dėmenį: 68 + ___ = 143.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "75",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite elfui surasti nežinomą dėmenį: ___ + 457 = 902.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "445",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite burtininkui iš paslapčių miško surasti nežinomą dėmenį: 200 + ___ = 350.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "150",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite nykštukui surasti nežinomą dėmenį:  ___ + 250 = 400.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "150",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite fėjai iš saldumynų karalystės surasti nežinomą dėmenį: ___ + 123 = 245.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "122",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite burtininkui iš elfų karalystės surasti nežinomą dėmenį: 485 + ___ = 957.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "472",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite drakonui iš ugnies kalno surasti nežinomą dėmenį: ___ + 1267 = 2000.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "733",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite fėjai iš saldumynų karalystės surasti nežinomą dėmenį: ___ + 2350 = 3000.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "650",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite elfui iš elfų karalystės surasti nežinomą dėmenį: 1000 + ___ = 1500.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "500",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Padėkite drakonui iš ugnies karalystės surasti nežinomą dėmenį: ___ + 1550 = 2500.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "950",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 317 + x = 602",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "285",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x – 402 = 521.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "119",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: y × 38 = 950.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "25",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą:3001 × z = 3001.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "1",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x : 5 = 9.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "options": [
+            {
+                "text": "45",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Saldumynų karalystės kepykloje kiekvieną dieną iškepa šokoladinių pyragaičių. Per pastarąsias dešimt dienų buvo iškepti šie pyragaičių kiekiai: 30, 28, 32, 31, 29, 30, 28, 33, 32, 31. Apskaičiuokite vidurkį, kiek pyragaičių buvo iškepta per dieną (atsakymą pateikite atskirta tašku). ",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "30.4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pilies gynėjai kiekvieną mėnesį atlieka pratimus. Per paskutinius šešis mėnesius jų atliktų pratimų skaičius buvo: 20, 18, 22, 21, 19, 20. Koks buvo pratimų skaičiaus vidurkis per mėnesį?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Grybų karalystės virėjas kiekvieną dieną ruošia patiekalus iš grybų. Per savaitę jis pagamino šiuos patiekalų kiekius: 10, 12, 11, 10, 9, 12, 11. Koks buvo virėjo pagamintų patiekalų vidurkis per dieną? (Atsakymą pateikite atskirta tašku, suapvalinta iki dešimtųjų).",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "10.71",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pasakų miško gyventojai kiekvieną mėnesį stebi krintančių žvaigždžių skaičių. Per paskutinius penkis mėnesius jie užfiksavo šiuos skaičius: 24, 19, 23, 21, 22. Apskaičiuokite kiek vidutiniškai žvaigždžių krito per mėnesį (atsakymą pateikite atskirta tašku).",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "21.8",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Vėjo karalystės orų magai fiksavo mėnesio vėjo greičius kiekvieną savaitę. Jie užrašė šiuos duomenis: 15 km/h, 20 km/h, 22 km/h ir 18 km/h. Koks buvo vėjo greičio vidurkis per savaitę vėjo karalystėje? (Atsakymą pateikite atskirta tašku).",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "18.75",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite pateiktų skaičių medianą: 6, 7, 9, 9.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "8",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite pateiktų skaičių medianą: 6, 7, 8, 9, 10.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "8",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite pateiktų skaičių medianą: 3, 5, 7, 8, 12.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite pateiktų skaičių medianą: 10, 14, 15, 17, 18, 21.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "16",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite pateiktų skaičių medianą: 2, 2, 4, 6, 8, 9, 10.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "6",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite duomenų moda: 4, 5, 5, 5, 6, 7, 8, 9, 10.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite duomenų moda: 3, 3, 4, 4, 4, 4, 5, 5, 5, 6, 7, 8, 9.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite duomenų moda: 18, 18, 22, 22, 22, 25, 25, 30, 30.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "22",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite duomenų moda: 12, 12, 12, 15, 15, 19, 20, 20, 21.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "12",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite duomenų moda: 14, 14, 16, 16, 16, 19, 21, 23, 25.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Duomenys (vidurkis, mediana, moda)",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "16",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Nykštukų kalvėje pagamintas kirvis pradinėje pardavimo stadijoje kainavo 120 eurų. Pirmiausia kaina buvo pakelta 15%, o vėliau dar 10%. Kiek dabar kainuoja kirvis (atsakymą pateikite atskirta tašku)?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "151.8",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Elfų karalystės aukso monetos vertė pradžioje buvo 200 eurų. Po 2 metų monetos vertė padidėjo 25%, o dar po metų, dėl padidėjusios aukso paklausos, dar 5%. Kokia dabar yra aukso monetos vertė (atsakymą pateikite atskirta tašku)?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "262.5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite skaičių, kurio 25% lygu 150.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "600",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Stebuklingų gėlių puokštė pradžioje kainavo 50 eurų. Sezono pabaigoje, norint paskatinti pardavimus, kaina buvo sumažinta 15%. Kiek dabar kainuoja stebuklingų gėlių puokštė (atsakymą pateikite atskirta tašku)?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "42.5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite skaičių, kurio 75% lygu 300.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "400",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Raskite skaičių, kurio 20% lygu 40.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "200",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Nykštukų sandėlyje buvo laikoma 300 tonų bulvių. Per žiemą 15% bulvių supuvo. Kiek tonų bulvių išsilaikė iki pavasario?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "255",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Kiek procentų skaičiaus 160 sudaro skaičius 32?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Kiek procentų skaičiaus 300 sudaro skaičius 60?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Drakonų kalne surastas magiškas kristalas kainavo 120 eurų. Vėliau, kaina buvo sumažinta 20%. Kiek dabar kainuoja magiškas kristalas?",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Procentai",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "96",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 4x - 3 = 13.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 2x + 5 = 11.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 5x - 6 = 19.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 3x + 4 = 16.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 6x - 2 = 28.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 10 - 3x = 7.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "1",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 4x – 2 = 0. (Trupmeninę dalį pateikite atskirta tašku).",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "0.5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 5x + 3 = 18.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 7x = -49.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "options": [
+            {
+                "text": "-7",
+                "isCorrect": 1
+            }
+        ]
     }
-    
 ]

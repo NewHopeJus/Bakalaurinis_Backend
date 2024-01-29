@@ -30,6 +30,7 @@ public class Question {
 
     private Integer experience;
     private Integer coins;
+    private String hint;
 
     @JsonManagedReference
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "question", cascade = CascadeType.ALL)
