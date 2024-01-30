@@ -23,6 +23,7 @@ public class Question {
 
     @Enumerated(EnumType.STRING)
     private QuestionType questionType;
+
     private String description;
 
     private String questionLevel;

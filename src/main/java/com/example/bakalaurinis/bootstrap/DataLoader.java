@@ -29,33 +29,36 @@ public class DataLoader implements CommandLineRunner  {
     @Override
     public void run(String... args) throws Exception {
 
-        // ObjectMapper klase yra Jackson bibliotekos dalis
-        //Naudojama serializuoti ir deserelizuoti JSON i Java objektus
+        if (!questionService.hasQuestions()) { //nes nereikia per nauja krauti jei jau uzkrautas, todel tikrinu ar is viso yra klausimu
+            // ObjectMapper klase yra Jackson bibliotekos dalis
+            //Naudojama serializuoti ir deserelizuoti JSON i Java objektus
 
-        ObjectMapper objectMapper = new ObjectMapper();
-
-
-        //TypeReference is a class provided by the Jackson library, and
-        // it is used in scenarios where you need to provide generic type information
-        // for JSON parsing in Java. Due to Java's type erasure mechanism, generic type
-        // information is not available at runtime.
-        // This is where TypeReference comes into play
+            ObjectMapper objectMapper = new ObjectMapper();
 
 
-        TypeReference<List<Question>> typeReference = new TypeReference<List<Question>>(){};
-        InputStream inputStream = TypeReference.class.getResourceAsStream("/json/questions.json");
+            //TypeReference is a class provided by the Jackson library, and
+            // it is used in scenarios where you need to provide generic type information
+            // for JSON parsing in Java. Due to Java's type erasure mechanism, generic type
+            // information is not available at runtime.
+            // This is where TypeReference comes into play
 
-        try {
-            List<Question> questions = objectMapper.readValue(inputStream,typeReference);
-            questionService.saveQuestions(questions);
-            System.out.println("Questions Saved!");
-        } catch (IOException e){
-            System.out.println("Unable to save questions: " + e.getMessage());
+
+            TypeReference<List<Question>> typeReference = new TypeReference<>() {
+            };
+            InputStream inputStream = TypeReference.class.getResourceAsStream("/json/questions.json");
+
+            try {
+                List<Question> questions = objectMapper.readValue(inputStream, typeReference);
+                questionService.saveQuestions(questions);
+                System.out.println("Questions Saved!");
+            } catch (IOException e) {
+                System.out.println("Unable to save questions: " + e.getMessage());
+            }
         }
-    };
+        ;
 
 
-
+    }
 
 
 //        User user = new User("Justyna", "just2@gmail.com", "123", UserRole.USER);

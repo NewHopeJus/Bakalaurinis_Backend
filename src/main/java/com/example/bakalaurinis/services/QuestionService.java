@@ -48,4 +48,16 @@ public class QuestionService {
         }
         return questionRepository.saveAll(questions);
     }
+
+    public boolean hasQuestions(){ //nes bootstrape reikia patikrinti ar yra klausimu, jei ne tai uzkrauti
+        return questionRepository.count()>0;
+    }
+
+
+    //Sitoj vietoj kai turesiu useri reikes prideti userio id ir tikrina ar neatsakes
+    public Optional<Question> getQuestionByLevelAndTopic(String level, String topic) {
+        return questionRepository.findTopByQuestionLevelAndQuestionTopic(level, topic);
+    }
+
+
 }

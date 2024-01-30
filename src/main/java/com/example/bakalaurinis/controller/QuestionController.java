@@ -5,6 +5,8 @@ import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.services.QuestionService;
 import com.example.bakalaurinis.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Collection;
@@ -21,17 +23,37 @@ public class QuestionController {
         this.questionService = questionService;
     }
 
+    //Response entity is a wrapper that can contain both the data (Quesion)
+    // and HTTP status information
+    //If the Opional<Question> is empty it creates a Response entity
+    // with 404 Not found status
     @GetMapping("/{id}")
-    public Optional<Question> getQuestionById(@PathVariable Long id) {
-        return questionService.getQuestionById(id);
+    public ResponseEntity <Question> getQuestionById(@PathVariable Long id) {
+        Optional<Question> question = questionService.getQuestionById(id);
+        if (question.isPresent()) {
+
+            //returnina http status 200 ir questiona
+            return ResponseEntity.ok(question.get());
+        }
+        //jei nesurado returnina 404 not found
+        return ResponseEntity.notFound().build();
     }
 
-    @GetMapping("/all")
-    public Collection<Question> getAllUsers() {
-        return questionService.findAll();
+
+    @GetMapping("/{level}/{topic}")
+    public ResponseEntity<Question> getQuestionByLevelAndTopic(@PathVariable String level, @PathVariable String topic) {
+      Optional<Question> questions = questionService.getQuestionByLevelAndTopic(level, topic);
+      if(questions.isPresent()){
+          return ResponseEntity.ok(questions.get());
+      }
+      return ResponseEntity.notFound().build();
+
     }
+
+
     @PostMapping("/add")
-    public Question addQuestion(@RequestBody Question question) {
-        return questionService.saveQuestion(question);
+    public ResponseEntity<Question> addQuestion(@RequestBody Question question) {
+        Question savedQuestion = questionService.saveQuestion(question);
+        return ResponseEntity.status(HttpStatus.CREATED).body(savedQuestion);
     }
 }
