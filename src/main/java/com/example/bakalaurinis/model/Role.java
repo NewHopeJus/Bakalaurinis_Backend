@@ -1,6 +1,6 @@
 package com.example.bakalaurinis.model;
 
-public enum UserRole {
+public enum Role {
     USER,
     ADMIN
 }

@@ -24,6 +24,7 @@ public class Question {
     @Enumerated(EnumType.STRING)
     private QuestionType questionType;
 
+    @Column(length = 5000)
     private String description;
 
     private String questionLevel;

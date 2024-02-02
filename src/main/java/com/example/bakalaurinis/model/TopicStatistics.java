@@ -1,29 +1,30 @@
 package com.example.bakalaurinis.model;
 
-
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.List;
+
+@Entity
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-@Entity
-@Table(name = "options")
-public class Option {
+public class TopicStatistics {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    private Long correctlyAnswered;
+    private Long incorrectlyAnswered;
+    private Long totalAnswered;
 
-    @JsonBackReference
     @ManyToOne
-    private Question question;
-    private String text;
-    private Boolean isCorrect;
+    @JsonBackReference
+    LevelStatistics levelStatistics;
+
 
 }
