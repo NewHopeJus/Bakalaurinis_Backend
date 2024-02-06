@@ -39,9 +39,9 @@ public class UserService {
 
 
     public User registerUser(LoginRegisterUserRequest input){
-        User user = new User();
-        user.setUsername(input.getUsername());
-        user.setPassword(passwordEncoder.encode(input.getPassword()));
+        User user = new User(input.getUsername(), passwordEncoder.encode(input.getPassword()));
+//        user.setUserCoins(0);
+//        user.setUserExperience(0);
 
 
 //        List<LevelStatistics> levelStatistics =

@@ -41,4 +41,10 @@ public class User {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
     private List<LevelStatistics> levelStatistics;
 
+    public User( String username, String password) {
+        this.username = username;
+        this.password = password;
+        userCoins = 0;
+        userExperience =0;
+    }
 }

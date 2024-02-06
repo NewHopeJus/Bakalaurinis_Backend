@@ -1,15 +1,14 @@
 package com.example.bakalaurinis.controller;
 
 import com.example.bakalaurinis.model.Question;
-import com.example.bakalaurinis.model.User;
+import com.example.bakalaurinis.model.dtos.AnswerSubmitRequest;
+import com.example.bakalaurinis.model.dtos.AnswerSubmitResponse;
 import com.example.bakalaurinis.services.QuestionService;
-import com.example.bakalaurinis.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.Collection;
+import java.util.NoSuchElementException;
 import java.util.Optional;
 
 @RestController
@@ -28,7 +27,7 @@ public class QuestionController {
     //If the Opional<Question> is empty it creates a Response entity
     // with 404 Not found status
     @GetMapping("/{id}")
-    public ResponseEntity <Question> getQuestionById(@PathVariable Long id) {
+    public ResponseEntity <?> getQuestionById(@PathVariable Long id) {
         Optional<Question> question = questionService.getQuestionById(id);
         if (question.isPresent()) {
 
@@ -36,24 +35,40 @@ public class QuestionController {
             return ResponseEntity.ok(question.get());
         }
         //jei nesurado returnina 404 not found
-        return ResponseEntity.notFound().build();
+        return ResponseEntity.badRequest().body("Question not found");
     }
 
 
     @GetMapping("/{level}/{topic}")
-    public ResponseEntity<Question> getQuestionByLevelAndTopic(@PathVariable String level, @PathVariable String topic) {
+    public ResponseEntity<?> getQuestionByLevelAndTopic(@PathVariable String level, @PathVariable String topic) {
       Optional<Question> questions = questionService.getQuestionByLevelAndTopic(level, topic);
       if(questions.isPresent()){
           return ResponseEntity.ok(questions.get());
       }
-      return ResponseEntity.notFound().build();
+      return ResponseEntity.badRequest().body("Question not found");
 
     }
 
 
-    @PostMapping("/add")
-    public ResponseEntity<Question> addQuestion(@RequestBody Question question) {
-        Question savedQuestion = questionService.saveQuestion(question);
-        return ResponseEntity.status(HttpStatus.CREATED).body(savedQuestion);
+//    @PostMapping("/add")
+//    public ResponseEntity<Question> addQuestion(@RequestBody Question question) {
+//        Question savedQuestion = questionService.saveQuestion(question);
+//        return ResponseEntity.status(HttpStatus.CREATED).body(savedQuestion);
+//    }
+//
+
+@PostMapping (value  = "/answerSubmit")
+    public ResponseEntity<?> submitAnswer(@RequestBody AnswerSubmitRequest answerSubmitRequest) {
+       try {
+           AnswerSubmitResponse question = questionService.submitAnswer(answerSubmitRequest);
+               return ResponseEntity.ok(question);
+       }
+       catch (NoSuchElementException e){
+           //jei nesurado returnina 404 not found
+           return ResponseEntity.badRequest().body(e.getMessage());
+       }
+
     }
+
+
 }
