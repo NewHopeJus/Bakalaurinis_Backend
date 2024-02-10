@@ -3,9 +3,11 @@ package com.example.bakalaurinis.services;
 import com.example.bakalaurinis.model.Option;
 import com.example.bakalaurinis.model.Question;
 import com.example.bakalaurinis.model.User;
+import com.example.bakalaurinis.model.UserAnswer;
 import com.example.bakalaurinis.model.dtos.AnswerSubmitRequest;
 import com.example.bakalaurinis.model.dtos.AnswerSubmitResponse;
 import com.example.bakalaurinis.repository.QuestionRepository;
+import com.example.bakalaurinis.repository.UserAnswerRepository;
 import com.example.bakalaurinis.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +15,7 @@ import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.stereotype.Service;
 
+import java.time.LocalDateTime;
 import java.util.Collection;
 import java.util.List;
 import java.util.NoSuchElementException;
@@ -23,11 +26,14 @@ public class QuestionService {
 
     private final QuestionRepository questionRepository;
     private final UserRepository userRepository;
+    private UserAnswerRepository userAnswerRepository;
 
     @Autowired
-    public QuestionService(QuestionRepository questionRepository, UserRepository userRepository) {
+    public QuestionService(QuestionRepository questionRepository, UserRepository userRepository,
+                           UserAnswerRepository userAnswerRepository) {
         this.questionRepository = questionRepository;
         this.userRepository = userRepository;
+        this.userAnswerRepository = userAnswerRepository;
     }
 
     public Optional<Question> getQuestionById(Long id) {
@@ -62,8 +68,12 @@ public class QuestionService {
 
 
     //Sitoj vietoj kai turesiu useri reikes prideti userio id ir tikrina ar neatsakes
-    public Optional<Question> getQuestionByLevelAndTopic(String level, String topic) {
-        return questionRepository.findTopByQuestionLevelAndQuestionTopic(level, topic);
+
+    public Optional<Question> getQuestionForUserByLevelAndTopic(String level, String topic) {
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String username = authentication.getName(); //gaunam username vartotojo prisijungusio
+        User user = userRepository.findByUsername(username);
+        return questionRepository.getQuestionForUserByLevelAndTopic(level, topic, user.getId());
     }
 
     @Transactional
@@ -80,8 +90,7 @@ public class QuestionService {
                 if (option.getIsCorrect()) {
                     correctlyAnswered = true;
                     answerSubmitResponse.setAnswerCorrect(true);
-                }
-                else {
+                } else {
                     answerSubmitResponse.setAnswerCorrect(false);
                 }
                 break;
@@ -89,15 +98,28 @@ public class QuestionService {
         }
 
 
-
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
         User user = userRepository.findByUsername(username);
-        user.setUserExperience(user.getUserExperience() + question.getExperience());
-        if(correctlyAnswered){
-            user.setUserCoins(user.getUserCoins() + question.getCoins());
+        Integer experience = user.getUserExperience() + question.getExperience();
+        user.setUserExperience(experience);
+        Integer coins = user.getUserCoins() + question.getCoins();
+        if (correctlyAnswered) {
+            user.setUserCoins(coins);
+            //user.addCorrectlyAnsweredQuestion(question.getId());
         }
         userRepository.save(user);
+
+        answerSubmitResponse.setUpdatedCoins(coins);
+        answerSubmitResponse.setUpdatedExperience(experience);
+        answerSubmitResponse.setCorrectAnswerText(question.getCorrectOptionText());
+
+        UserAnswer userAnswer = new UserAnswer();
+        userAnswer.setAnsweredQuestion(question);
+        userAnswer.setAnsweringUser(user);
+        userAnswer.setCorrectlyAnswered(correctlyAnswered);
+        userAnswer.setDateTimeAnswered(LocalDateTime.now());
+        userAnswerRepository.save(userAnswer);
 
 
         return answerSubmitResponse;

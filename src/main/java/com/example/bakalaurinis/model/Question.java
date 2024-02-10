@@ -1,5 +1,6 @@
 package com.example.bakalaurinis.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -34,8 +35,21 @@ public class Question {
     private Integer coins;
     private String hint;
 
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeredQuestion", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private List<UserAnswer> userAnswers;
+
     @JsonManagedReference
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "question", cascade = CascadeType.ALL)
     private List<Option> options;
+
+    public String getCorrectOptionText(){
+        for (Option o: options){
+            if (o.getIsCorrect()){
+                return o.getText();
+            }
+        }
+        return "";
+    }
 
 }

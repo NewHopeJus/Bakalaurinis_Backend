@@ -1,5 +1,6 @@
 package com.example.bakalaurinis.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -34,8 +35,13 @@ public class User {
 
     private Integer userExperience;
     private Integer userCoins;
-    @ElementCollection
-    private Set<Long> correctAnswers = new HashSet<>();
+//    @ElementCollection
+//    private Set<Long> correctAnswers;
+
+
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeringUser", cascade = CascadeType.ALL)
+    @JsonIgnore
+    private List<UserAnswer> userAnswers;
 
     @JsonManagedReference
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
@@ -45,6 +51,14 @@ public class User {
         this.username = username;
         this.password = password;
         userCoins = 0;
-        userExperience =0;
+        userExperience = 0;
+        //correctAnswers = new HashSet<>();
     }
+
+//    public void addCorrectlyAnsweredQuestion(Long id){
+//        correctAnswers.add(id);
+//    }
+
+
+
 }

@@ -2,6 +2,7 @@ package com.example.bakalaurinis.model;
 
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import com.fasterxml.jackson.annotation.JsonProperty;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -24,6 +25,15 @@ public class Option {
     @ManyToOne
     private Question question;
     private String text;
-    private Boolean isCorrect;
+    private Boolean isCorrect; //nes del saugumo nesiunciamas i frontenda
 
+    @JsonIgnore
+    public Boolean getCorrect() {
+        return isCorrect;
+    }
+
+    @JsonProperty
+    public void setCorrect(Boolean correct) {
+        isCorrect = correct;
+    }
 }

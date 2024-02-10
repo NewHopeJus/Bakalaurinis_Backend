@@ -13,4 +13,5 @@ public class AnswerSubmitResponse {
     private Boolean answerCorrect;
     private Integer updatedExperience;
     private Integer updatedCoins;
+    private String correctAnswerText;
 }

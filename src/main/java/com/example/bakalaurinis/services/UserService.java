@@ -25,23 +25,9 @@ public class UserService {
     }
 
 
-//    public User saveUser(User user ){
-//       List<LevelStatistics> levelStatistics = user.getLevelStatistics();
-//        for (LevelStatistics level: levelStatistics) {
-//            level.setUser(user);
-//            List<TopicStatistics> topicStatistics = level.getTopicStatistics();
-//            for (TopicStatistics topic: topicStatistics){
-//                topic.setLevelStatistics(level);
-//            }
-//        }
-//        return userRepository.save(user);
-//    }
-
-
     public User registerUser(LoginRegisterUserRequest input){
         User user = new User(input.getUsername(), passwordEncoder.encode(input.getPassword()));
-//        user.setUserCoins(0);
-//        user.setUserExperience(0);
+
 
 
 //        List<LevelStatistics> levelStatistics =

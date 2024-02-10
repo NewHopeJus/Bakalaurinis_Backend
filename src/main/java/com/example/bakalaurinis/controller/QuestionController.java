@@ -40,8 +40,8 @@ public class QuestionController {
 
 
     @GetMapping("/{level}/{topic}")
-    public ResponseEntity<?> getQuestionByLevelAndTopic(@PathVariable String level, @PathVariable String topic) {
-      Optional<Question> questions = questionService.getQuestionByLevelAndTopic(level, topic);
+    public ResponseEntity<?> getQuestionForUserByLevelAndTopic(@PathVariable String level, @PathVariable String topic) {
+      Optional<Question> questions = questionService.getQuestionForUserByLevelAndTopic(level, topic);
       if(questions.isPresent()){
           return ResponseEntity.ok(questions.get());
       }
@@ -57,7 +57,7 @@ public class QuestionController {
 //    }
 //
 
-@PostMapping (value  = "/answerSubmit")
+@PostMapping ( "/answerSubmit")
     public ResponseEntity<?> submitAnswer(@RequestBody AnswerSubmitRequest answerSubmitRequest) {
        try {
            AnswerSubmitResponse question = questionService.submitAnswer(answerSubmitRequest);
