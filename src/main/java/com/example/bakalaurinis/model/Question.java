@@ -24,16 +24,14 @@ public class Question {
 
     @Enumerated(EnumType.STRING)
     private QuestionType questionType;
-
     @Column(length = 5000)
     private String description;
-
     private String questionLevel;
     private String questionTopic;
-
     private Integer experience;
     private Integer coins;
     private String hint;
+    private String imagePath;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeredQuestion", cascade = CascadeType.ALL)
     @JsonIgnore

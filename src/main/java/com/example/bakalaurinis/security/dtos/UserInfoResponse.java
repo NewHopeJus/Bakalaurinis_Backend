@@ -9,9 +9,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class LoginResponse {
-
-    //mano tokenas kuri siusiu
-    private String jwt;
-
+public class UserInfoResponse {
+    private Integer userExperience;
+    private Integer userCoins;
+    private String username;
 }

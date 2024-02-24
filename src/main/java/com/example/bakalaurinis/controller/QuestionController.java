@@ -40,8 +40,8 @@ public class QuestionController {
 
 
     @GetMapping("/{level}/{topic}")
-    public ResponseEntity<?> getQuestionForUserByLevelAndTopic(@PathVariable String level, @PathVariable String topic) {
-      Optional<Question> questions = questionService.getQuestionForUserByLevelAndTopic(level, topic);
+    public ResponseEntity<?> getQuestionForUserByLevelAndTopic(@PathVariable String level, @PathVariable String topic) throws InterruptedException {
+        Optional<Question> questions = questionService.getQuestionForUserByLevelAndTopic(level, topic);
       if(questions.isPresent()){
           return ResponseEntity.ok(questions.get());
       }

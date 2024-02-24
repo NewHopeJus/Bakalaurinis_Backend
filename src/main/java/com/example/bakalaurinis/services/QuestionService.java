@@ -82,22 +82,34 @@ public class QuestionService {
         Question question = questionRepository.findById(answerSubmitRequest.getQuestionId()).orElseThrow(() -> new NoSuchElementException("Question not found"));
 
         boolean correctlyAnswered = false;
-
         AnswerSubmitResponse answerSubmitResponse = new AnswerSubmitResponse();
         List<Option> options = question.getOptions();
-        for (Option option : options) {
-            if (option.getId().equals(answerSubmitRequest.getSelectedOptionId())) {
-                if (option.getIsCorrect()) {
-                    correctlyAnswered = true;
-                    answerSubmitResponse.setAnswerCorrect(true);
-                } else {
-                    answerSubmitResponse.setAnswerCorrect(false);
+        switch (question.getQuestionType().toString()) {
+            case "ONE_ANSWER":
+                for (Option option : options) {
+                    if (option.getId().equals(answerSubmitRequest.getSelectedOptionId())) {
+                        if (option.getIsCorrect()) {
+                            correctlyAnswered = true;
+                        }
+                        break;
+                    }
                 }
                 break;
-            }
+            case "OPEN_ANSWER":
+                String userAnswer = answerSubmitRequest.getUserAnswer();
+                if (userAnswer.equalsIgnoreCase(options.get(0).getText())) {
+                    correctlyAnswered = true;
+                }
+                break;
+
         }
 
+        if (correctlyAnswered) {
+            answerSubmitResponse.setAnswerCorrect(true);
 
+        } else {
+            answerSubmitResponse.setAnswerCorrect(false);
+        }
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
         User user = userRepository.findByUsername(username);

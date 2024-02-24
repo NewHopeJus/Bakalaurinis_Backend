@@ -1,13 +1,18 @@
 package com.example.bakalaurinis.services;
 
-import com.example.bakalaurinis.security.dtos.LoginRegisterUserRequest;
 import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.repository.UserRepository;
+import com.example.bakalaurinis.security.dtos.LoginRegisterUserRequest;
+import com.example.bakalaurinis.security.dtos.UserInfoResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
+import org.springframework.security.core.Authentication;
+import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
+
+import java.util.Optional;
 
 // @Autowired is used to inject the UserRepository dependency into the UserService class.
 @Service
@@ -53,4 +58,14 @@ public class UserService {
 
         return userRepository.findByUsername(input.getUsername());
     }
+
+    public Optional<UserInfoResponse> getUserInfo(){
+        Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
+        String username = authentication.getName(); //gaunam username vartotojo prisijungusio
+        User user = userRepository.findByUsername(username);
+        return Optional.of(new UserInfoResponse(user.getUserExperience(), user.getUserCoins(),
+                user.getUsername()));
+    }
+
+
 }

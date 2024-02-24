@@ -4,16 +4,16 @@ import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.security.JwtUtil;
 import com.example.bakalaurinis.security.dtos.LoginRegisterUserRequest;
 import com.example.bakalaurinis.security.dtos.LoginResponse;
+import com.example.bakalaurinis.security.dtos.UserInfoResponse;
 import com.example.bakalaurinis.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.userdetails.UserDetailsService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.Optional;
 
 /**
  * The controller handles the HTTP requests and responses and manages
@@ -57,7 +57,15 @@ public class UserController {
         catch (BadCredentialsException e){
             return ResponseEntity.badRequest().body(e.getMessage());
         }
-
     }
 
+    @GetMapping("/userInfo")
+    public ResponseEntity<?> getUserInfo(){
+        Optional<UserInfoResponse> userInfoResponse = userService.getUserInfo();
+        if(userInfoResponse.isPresent()){
+            return ResponseEntity.ok(userInfoResponse.get());
+        }
+        return ResponseEntity.badRequest().body("User info not found");
+
+    }
 }

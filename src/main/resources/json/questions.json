@@ -7,6 +7,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"3 + 2 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-1K",
         "options": [
             {
                 "text": "5",
@@ -34,6 +35,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"4 + 2 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-2K",
         "options": [
             {
                 "text": "5",
@@ -61,6 +63,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"7 + 1 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-3K",
         "options": [
             {
                 "text": "7",
@@ -88,6 +91,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"4 + 3 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-4K",
         "options": [
             {
                 "text": "7",
@@ -115,6 +119,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"10 + 5 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-5K",
         "options": [
             {
                 "text": "16",
@@ -142,6 +147,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"6 - 1 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-1K",
         "options": [
             {
                 "text": "7",
@@ -169,6 +175,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"8 - 3 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-2K",
         "options": [
             {
                 "text": "7",
@@ -197,6 +204,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"11 - 5 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-3K",
         "options": [
             {
                 "text": "7",
@@ -224,6 +232,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"7 - 4 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-4K",
         "options": [
             {
                 "text": "3",
@@ -252,6 +261,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"13 - 5 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-5K",
         "options": [
             {
                 "text": "7",
@@ -280,6 +290,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"4 × 2 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-1K",
         "options": [
             {
                 "text": "12",
@@ -307,6 +318,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"5 × 4 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-2K",
         "options": [
             {
                 "text": "20",
@@ -335,6 +347,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"4 × 7 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-3K",
         "options": [
             {
                 "text": "11",
@@ -362,6 +375,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"5 × 6 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-4K",
         "options": [
             {
                 "text": "11",
@@ -389,6 +403,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"8 × 2 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-5K",
         "options": [
             {
                 "text": "16",
@@ -417,6 +432,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"24 ÷ 4 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-1K",
         "options": [
             {
                 "text": "28",
@@ -445,6 +461,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"18 ÷ 6 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-2K",
         "options": [
             {
                 "text": "9",
@@ -472,6 +489,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"12 ÷ 3 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-3K",
         "options": [
             {
                 "text": "9",
@@ -499,6 +517,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"36 ÷ 4 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-4K",
         "options": [
             {
                 "text": "9",
@@ -526,6 +545,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"20 ÷ 5 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-5K",
         "options": [
             {
                 "text": "25",
@@ -554,6 +574,7 @@
         "experience": "10",
         "coins": "1",
         "hint":"35 ÷ 7 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-6K",
         "options": [
             {
                 "text": "42",
@@ -582,6 +603,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -609,6 +631,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -636,6 +659,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -663,6 +687,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -691,6 +716,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -718,6 +744,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -746,6 +773,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -773,6 +801,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -801,6 +830,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -829,6 +859,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -856,6 +887,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "<",
@@ -884,6 +916,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "7370",
@@ -899,6 +932,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4530",
@@ -914,6 +948,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "81570",
@@ -929,6 +964,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5900",
@@ -944,6 +980,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "31750",
@@ -959,6 +996,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "7400",
@@ -974,6 +1012,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4500",
@@ -989,6 +1028,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "81600",
@@ -1004,6 +1044,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5900",
@@ -1019,6 +1060,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "31800",
@@ -1034,6 +1076,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "7000",
@@ -1049,6 +1092,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5000",
@@ -1064,6 +1108,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "82000",
@@ -1079,6 +1124,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "6000",
@@ -1094,6 +1140,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "32000",
@@ -1109,6 +1156,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4",
@@ -1124,6 +1172,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5",
@@ -1139,6 +1188,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "3",
@@ -1155,6 +1205,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "6",
@@ -1170,6 +1221,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4",
@@ -1185,6 +1237,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "2",
@@ -1200,6 +1253,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4",
@@ -1215,6 +1269,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4",
@@ -1230,6 +1285,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "3",
@@ -1245,6 +1301,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "3",
@@ -1260,6 +1317,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "3",
@@ -1275,6 +1333,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "2",
@@ -1302,6 +1361,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "8",
@@ -1329,6 +1389,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "1",
@@ -1356,6 +1417,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "20",
@@ -1383,6 +1445,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5",
@@ -1410,6 +1473,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "-157",
@@ -1437,6 +1501,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "-50",
@@ -1464,6 +1529,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "0.25",
@@ -1491,6 +1557,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "-0.2",
@@ -1518,6 +1585,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "-0.65",
@@ -1545,6 +1613,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "75",
@@ -1560,6 +1629,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "445",
@@ -1575,6 +1645,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "150",
@@ -1590,6 +1661,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "150",
@@ -1605,6 +1677,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "122",
@@ -1620,6 +1693,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "472",
@@ -1635,6 +1709,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "733",
@@ -1650,6 +1725,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "650",
@@ -1665,6 +1741,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "500",
@@ -1680,6 +1757,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "950",
@@ -1695,6 +1773,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "285",
@@ -1710,6 +1789,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "119",
@@ -1725,6 +1805,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "25",
@@ -1740,6 +1821,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "1",
@@ -1755,6 +1837,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "45",
@@ -1771,6 +1854,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "30.4",
@@ -1786,6 +1870,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "20",
@@ -1801,6 +1886,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "10.71",
@@ -1816,6 +1902,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "21.8",
@@ -1831,6 +1918,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "18.75",
@@ -1846,6 +1934,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "8",
@@ -1861,6 +1950,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "8",
@@ -1876,6 +1966,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "7",
@@ -1891,6 +1982,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "16",
@@ -1906,6 +1998,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "6",
@@ -1921,6 +2014,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5",
@@ -1936,6 +2030,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4",
@@ -1951,6 +2046,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "22",
@@ -1966,6 +2062,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "12",
@@ -1981,6 +2078,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "16",
@@ -1996,6 +2094,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "151.8",
@@ -2011,6 +2110,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "262.5",
@@ -2026,6 +2126,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "600",
@@ -2041,6 +2142,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "42.5",
@@ -2056,6 +2158,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "400",
@@ -2071,6 +2174,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "200",
@@ -2086,6 +2190,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "255",
@@ -2101,6 +2206,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "20",
@@ -2116,6 +2222,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "20",
@@ -2131,6 +2238,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "96",
@@ -2146,6 +2254,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4",
@@ -2161,6 +2270,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "3",
@@ -2176,6 +2286,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5",
@@ -2191,6 +2302,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "4",
@@ -2206,6 +2318,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "5",
@@ -2221,6 +2334,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "1",
@@ -2236,6 +2350,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "0.5",
@@ -2251,6 +2366,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "3",
@@ -2266,6 +2382,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
+        "imagePath": "",
         "options": [
             {
                 "text": "-7",
