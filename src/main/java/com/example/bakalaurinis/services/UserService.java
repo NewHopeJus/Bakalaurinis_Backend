@@ -1,5 +1,6 @@
 package com.example.bakalaurinis.services;
 
+import com.example.bakalaurinis.model.Kingdom;
 import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.repository.UserRepository;
 import com.example.bakalaurinis.security.dtos.LoginRegisterUserRequest;
@@ -18,13 +19,16 @@ import java.util.Optional;
 @Service
 public class UserService {
     private final UserRepository userRepository;
+    private final KingdomService kingdomService;
+
     private PasswordEncoder passwordEncoder;
 
     private final AuthenticationManager authenticationManager;
 
     @Autowired
-    public UserService( UserRepository userRepository, PasswordEncoder passwordEncoder,AuthenticationManager authenticationManager) {
+    public UserService(UserRepository userRepository, KingdomService kingdomService, PasswordEncoder passwordEncoder, AuthenticationManager authenticationManager) {
         this.userRepository = userRepository;
+        this.kingdomService = kingdomService;
         this.passwordEncoder = passwordEncoder;
         this.authenticationManager = authenticationManager;
     }
@@ -32,9 +36,17 @@ public class UserService {
 
     public User registerUser(LoginRegisterUserRequest input){
         User user = new User(input.getUsername(), passwordEncoder.encode(input.getPassword()));
+        Optional<Kingdom> kingdom = kingdomService.getKingdomById(1L);
+       //veliau pakeisit!!! teistavimui tik kolkas
+        Optional<Kingdom> kingdom1 = kingdomService.getKingdomById(2L);
+        Optional<Kingdom> kingdom2 = kingdomService.getKingdomById(3L);
 
+        if(kingdom.isPresent()){
+            user.getOpenedKingdoms().add(kingdom.get());
+            user.getOpenedKingdoms().add(kingdom1.get());
+            user.getOpenedKingdoms().add(kingdom2.get());
 
-
+        }
 //        List<LevelStatistics> levelStatistics =
 //
 //                user.getLevelStatistics();
@@ -66,6 +78,8 @@ public class UserService {
         return Optional.of(new UserInfoResponse(user.getUserExperience(), user.getUserCoins(),
                 user.getUsername()));
     }
+
+
 
 
 }

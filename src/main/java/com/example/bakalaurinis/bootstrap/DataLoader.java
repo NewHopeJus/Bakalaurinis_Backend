@@ -1,8 +1,9 @@
 package com.example.bakalaurinis.bootstrap;
 
-import com.example.bakalaurinis.model.*;
-import com.example.bakalaurinis.repository.QuestionRepository;
-import com.example.bakalaurinis.repository.UserRepository;
+import com.example.bakalaurinis.model.Kingdom;
+import com.example.bakalaurinis.model.Question;
+import com.example.bakalaurinis.model.ShopItem;
+import com.example.bakalaurinis.services.KingdomService;
 import com.example.bakalaurinis.services.QuestionService;
 import com.example.bakalaurinis.services.UserService;
 import com.fasterxml.jackson.core.type.TypeReference;
@@ -13,17 +14,21 @@ import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.Arrays;
+import java.util.ArrayList;
 import java.util.List;
 
 @Component
 public class DataLoader implements CommandLineRunner  {
-    UserService userService;
-    QuestionService questionService;
+    private UserService userService;
+    private QuestionService questionService;
+
+    private KingdomService kingdomService;
     @Autowired
-    public DataLoader(UserService userService, QuestionService questionService) {
+    public DataLoader(UserService userService, QuestionService questionService,
+                      KingdomService kingdomService) {
         this.userService = userService;
         this.questionService = questionService;
+        this.kingdomService = kingdomService;
     }
 
     @Override
@@ -55,7 +60,46 @@ public class DataLoader implements CommandLineRunner  {
                 System.out.println("Unable to save questions: " + e.getMessage());
             }
         }
-        ;
+
+        if(!kingdomService.hasKingdoms()){
+
+            List<ShopItem> items = new ArrayList<>();
+
+            List<ShopItem> itemListEmpty = new ArrayList<>();
+
+            ShopItem drakonas = new ShopItem(null, "Drakonas", "drakonas", 10, null);
+            ShopItem elfas = new ShopItem(null, "Elfas Jonas", "elfas", 10, null);
+            ShopItem elfuPilis = new ShopItem(null, "Elfų pilis", "elf_home", 10, null);
+            items.add(drakonas);
+            items.add(elfas);
+            items.add(elfuPilis);
+
+            List<Kingdom> kingdomList = new ArrayList<>();
+
+
+
+            Kingdom kingdom0 = new Kingdom(null, "Mano pilis", "mano_pilis", itemListEmpty);
+            Kingdom kingdom1 = new Kingdom(null, "Gėlių karalystė", "geliu_karalyste", itemListEmpty);
+            Kingdom kingdom4 = new Kingdom(null, "Povandeninė karalystė", "povandenine_karalyste", itemListEmpty);
+            Kingdom kingdom3 = new Kingdom(null, "Grybų karalystė", "grybu_karalyste", itemListEmpty);
+            Kingdom kingdom2 = new Kingdom(null, "Elfų karalystė", "elfu_karalyste", items);
+            Kingdom kingdom5 = new Kingdom(null, "Saldumynų karalystė", "saldumynu_karalyste", itemListEmpty);
+            Kingdom kingdom6 = new Kingdom(null, "Nykštukų karalystė", "nykstuku_karalyste", itemListEmpty);
+
+            kingdomList.add(kingdom0);
+            kingdomList.add(kingdom1);
+            kingdomList.add(kingdom2);
+            kingdomList.add(kingdom3);
+            kingdomList.add(kingdom4);
+            kingdomList.add(kingdom5);
+            kingdomList.add(kingdom6);
+
+            kingdomService.saveKingdoms(kingdomList);
+            System.out.println("Kingdoms Saved!");
+
+
+
+        }
 
 
     }

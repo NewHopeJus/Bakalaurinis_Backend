@@ -8,6 +8,7 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
@@ -35,9 +36,6 @@ public class User {
 
     private Integer userExperience;
     private Integer userCoins;
-//    @ElementCollection
-//    private Set<Long> correctAnswers;
-
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeringUser", cascade = CascadeType.ALL)
     @JsonIgnore
@@ -52,13 +50,13 @@ public class User {
         this.password = password;
         userCoins = 0;
         userExperience = 0;
-        //correctAnswers = new HashSet<>();
+        openedKingdoms = new ArrayList<>();
+        boughItems = new ArrayList<>();
     }
 
-//    public void addCorrectlyAnsweredQuestion(Long id){
-//        correctAnswers.add(id);
-//    }
-
-
+    @ManyToMany(cascade = CascadeType.ALL)
+    private List<Kingdom> openedKingdoms;
+    @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
+    private List<ShopItem> boughItems;
 
 }
