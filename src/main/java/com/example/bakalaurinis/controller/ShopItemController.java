@@ -1,13 +1,11 @@
 package com.example.bakalaurinis.controller;
 
-import com.example.bakalaurinis.security.dtos.ShopItemListDto;
+import com.example.bakalaurinis.model.dtos.BuyItemResponse;
+import com.example.bakalaurinis.model.dtos.ShopItemListDto;
 import com.example.bakalaurinis.services.ShopItemService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/api/items")
@@ -29,4 +27,28 @@ public class ShopItemController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    @PostMapping("/buy/{id}")
+    public ResponseEntity<?> buyItem(@PathVariable Long id) {
+        BuyItemResponse buyItemResponse = shopItemService.buyItem(id);
+        if (buyItemResponse != null) {
+            return ResponseEntity.ok(buyItemResponse);
+        } else {
+            // Jeigu nerado grazina HTTP status 404 (Not Found)
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+    @GetMapping("/getBoughtItems/{id}")
+    public ResponseEntity<?> getBoughtItemsByKingdomIdById(@PathVariable Long id) {
+        ShopItemListDto shopItems = shopItemService.getBoughtItemsByKingdomId(id);
+        if (shopItems != null) {
+            return ResponseEntity.ok(shopItems);
+        } else {
+            // Jeigu nerado grazina HTTP status 404 (Not Found)
+            return ResponseEntity.notFound().build();
+        }
+    }
+
+
 }

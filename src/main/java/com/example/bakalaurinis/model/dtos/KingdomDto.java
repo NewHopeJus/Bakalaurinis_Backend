@@ -1,4 +1,4 @@
-package com.example.bakalaurinis.security.dtos;
+package com.example.bakalaurinis.model.dtos;
 
 import com.example.bakalaurinis.model.Kingdom;
 import lombok.Getter;

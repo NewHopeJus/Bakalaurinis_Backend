@@ -18,7 +18,8 @@ public class ShopItem {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String name;
-    private String imgName;
+    private String imgViewId;
+    private  String imgName;
     private Integer price;
     @ManyToOne
     @JsonIgnore

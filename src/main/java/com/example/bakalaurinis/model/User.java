@@ -51,12 +51,24 @@ public class User {
         userCoins = 0;
         userExperience = 0;
         openedKingdoms = new ArrayList<>();
-        boughItems = new ArrayList<>();
+        boughtItems = new ArrayList<>();
     }
 
     @ManyToMany(cascade = CascadeType.ALL)
     private List<Kingdom> openedKingdoms;
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
-    private List<ShopItem> boughItems;
+    private List<ShopItem> boughtItems;
 
+
+    public boolean isItemBought(ShopItem item) {
+        return boughtItems.contains(item);
+    }
+
+    public void addBoughtItem(ShopItem item) {
+        boughtItems.add(item);
+    }
+
+    public void subtractCoins(Integer coins){
+        userCoins-=coins;
+    }
 }

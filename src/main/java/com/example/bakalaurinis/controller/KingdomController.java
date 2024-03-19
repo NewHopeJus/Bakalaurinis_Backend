@@ -1,6 +1,6 @@
 package com.example.bakalaurinis.controller;
 
-import com.example.bakalaurinis.security.dtos.KingdomsResponse;
+import com.example.bakalaurinis.model.dtos.KingdomsResponse;
 import com.example.bakalaurinis.services.KingdomService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

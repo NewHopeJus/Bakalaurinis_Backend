@@ -18,11 +18,12 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Component
-public class DataLoader implements CommandLineRunner  {
+public class DataLoader implements CommandLineRunner {
     private UserService userService;
     private QuestionService questionService;
 
     private KingdomService kingdomService;
+
     @Autowired
     public DataLoader(UserService userService, QuestionService questionService,
                       KingdomService kingdomService) {
@@ -61,28 +62,66 @@ public class DataLoader implements CommandLineRunner  {
             }
         }
 
-        if(!kingdomService.hasKingdoms()){
+        if (!kingdomService.hasKingdoms()) {
 
-            List<ShopItem> items = new ArrayList<>();
+            List<ShopItem> elfKingdomItems = new ArrayList<>();
+            List<ShopItem> mushroomKingdomItems = new ArrayList<>();
+            List<ShopItem> flowerKingdomItems = new ArrayList<>();
+
 
             List<ShopItem> itemListEmpty = new ArrayList<>();
 
-            ShopItem drakonas = new ShopItem(null, "Drakonas", "drakonas", 10, null);
-            ShopItem elfas = new ShopItem(null, "Elfas Jonas", "elfas", 10, null);
-            ShopItem elfuPilis = new ShopItem(null, "Elfų pilis", "elf_home", 10, null);
-            items.add(drakonas);
-            items.add(elfas);
-            items.add(elfuPilis);
+            ShopItem drakonas = new ShopItem(null, "Drakonas", "imageViewDrakonasElfuKaralyste", "drakonas", 1, null);
+            ShopItem elfas = new ShopItem(null, "Elfas Jonas",  "imageViewElfasJonasElfuKaralyste", "elfas", 1, null);
+            ShopItem elfuNamas = new ShopItem(null, "Elfų namas", "imageViewElfuNamasElfuKaralyste", "elf_home", 1, null);
+            elfKingdomItems.add(drakonas);
+            elfKingdomItems.add(elfas);
+            elfKingdomItems.add(elfuNamas);
+
+
+            ShopItem grybejaDidzioji = new ShopItem(null, "Grybėja Didžioji", "imageViewgrybejaDidziojiGrybuKaralyste", "grybeja_didzioji", 1, null);
+            ShopItem zaliojiGudryte = new ShopItem(null, "Žalioji Gudrytė", "imageViewzaliojiGudryteGrybuKaralyste","zalioji_gudryte", 1, null);
+            ShopItem linksmasisRaudonikis = new ShopItem(null, "Linksmasis Raudonikis", "imageViewlinksmasisRaudonikisGrybuKaralyste", "linksmasis_raudonikis",1, null);
+            ShopItem voveryte = new ShopItem(null, "Voverytė", "imageViewVoveryteGrybuKaralyste", "voveryte",1, null );
+            ShopItem stirnyte = new ShopItem(null, "Stirnytė", "imageViewStirnyteGrybuKaralyste", "stirnyte",1, null);
+            ShopItem gyvenamasisGrybas = new ShopItem(null, "Gyvenamasis Grybas", "imageViewGyvenamasisGrybasGrybuKaralyste","gyvenamasis_grybas", 1, null);
+            ShopItem pauksciukasSpalvingas = new ShopItem(null, "Paukščiukas Spalvingas", "imageViewPauksciukasSpalvingasGrybuKaralyste", "pauksciukas_spalvingas",1, null);
+            ShopItem pauksciukasDziugeselis = new ShopItem(null, "Paukščiukas Džiugesėlis", "imageViewPauksciukasDziugeselisGrybuKaralyste", "pauksciukas_dziugeselis",1, null);
+            ShopItem pauksciukasSviesele = new ShopItem(null, "Paukščiukas Švieselė", "imageViewPauksciukasSvieseleGrybuKaralyste","pauksciukas_sviesele", 1, null);
+
+            mushroomKingdomItems.add(grybejaDidzioji);
+            mushroomKingdomItems.add(zaliojiGudryte);
+            mushroomKingdomItems.add(linksmasisRaudonikis);
+            mushroomKingdomItems.add(voveryte);
+            mushroomKingdomItems.add(stirnyte);
+            mushroomKingdomItems.add(pauksciukasSpalvingas);
+            mushroomKingdomItems.add(pauksciukasDziugeselis);
+            mushroomKingdomItems.add(gyvenamasisGrybas);
+            mushroomKingdomItems.add(pauksciukasSviesele);
+
+
+            ShopItem princeseRozyte = new ShopItem(null, "Princesė Rožytė", "imageViewPrinceseRozyteGeliuKaralyste", "princese_rozyte", 10, null);
+            ShopItem sviesiojiPilis = new ShopItem(null, "Šviesioji Pilis", "imageViewSviesiojiPilisGeliuKaralyste","sviesioji_pilis", 10, null);
+            ShopItem fontanas = new ShopItem(null, "Fontanas", "imageViewFontanasGeliuKaralyste","fontanas", 10, null);
+            ShopItem zydintisMedis = new ShopItem(null, "Žydintis Medis", "imageViewZydintisMedisGeliuKaralyste","zydintis_medis", 10, null);
+            ShopItem pauksciukasSvelnute = new ShopItem(null, "Paukščiukas Švelnutė", "imageViewPauksciukasSvelnuteGeliuKaralyste","pauksciukas_svelnute", 10, null);
+
+            flowerKingdomItems.add(princeseRozyte);
+            flowerKingdomItems.add(sviesiojiPilis);
+            flowerKingdomItems.add(fontanas);
+            flowerKingdomItems.add(zydintisMedis);
+            flowerKingdomItems.add(pauksciukasSvelnute);
+
+
 
             List<Kingdom> kingdomList = new ArrayList<>();
 
 
-
             Kingdom kingdom0 = new Kingdom(null, "Mano pilis", "mano_pilis", itemListEmpty);
-            Kingdom kingdom1 = new Kingdom(null, "Gėlių karalystė", "geliu_karalyste", itemListEmpty);
+            Kingdom kingdom1 = new Kingdom(null, "Gėlių karalystė", "geliu_karalyste", flowerKingdomItems);
             Kingdom kingdom4 = new Kingdom(null, "Povandeninė karalystė", "povandenine_karalyste", itemListEmpty);
-            Kingdom kingdom3 = new Kingdom(null, "Grybų karalystė", "grybu_karalyste", itemListEmpty);
-            Kingdom kingdom2 = new Kingdom(null, "Elfų karalystė", "elfu_karalyste", items);
+            Kingdom kingdom3 = new Kingdom(null, "Grybų karalystė", "grybu_karalyste", mushroomKingdomItems);
+            Kingdom kingdom2 = new Kingdom(null, "Elfų karalystė", "elfu_karalyste", elfKingdomItems);
             Kingdom kingdom5 = new Kingdom(null, "Saldumynų karalystė", "saldumynu_karalyste", itemListEmpty);
             Kingdom kingdom6 = new Kingdom(null, "Nykštukų karalystė", "nykstuku_karalyste", itemListEmpty);
 
@@ -96,7 +135,6 @@ public class DataLoader implements CommandLineRunner  {
 
             kingdomService.saveKingdoms(kingdomList);
             System.out.println("Kingdoms Saved!");
-
 
 
         }
@@ -122,8 +160,6 @@ public class DataLoader implements CommandLineRunner  {
 //        question.setOptions(options);
 //
 //        questionRepository.save(question);
-
-
 
 
 }
