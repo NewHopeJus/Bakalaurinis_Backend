@@ -37,12 +37,12 @@ public class User {
     private Integer userExperience;
     private Integer userCoins;
 
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeringUser", cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeringUser", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonIgnore
     private List<UserAnswer> userAnswers;
 
     @JsonManagedReference
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL)
+    @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<LevelStatistics> levelStatistics;
 
     public User( String username, String password) {

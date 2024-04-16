@@ -139,6 +139,430 @@
             }
         ]
     },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": " Būrėjų mokykloje, pasislėpusioje už debesų, mokėsi 8 jauni burėjai. Vieną dieną prisijungė dar 3 nauji mokiniai. Kiek iš viso būrėjų dabar mokosi mokykloje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"8 + 3 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-6K",
+        "options": [
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "11",
+                "isCorrect": 1
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Jonukas Grybų Karalystėje po senoviniu ąžuolu surado trys baravykus ir keturias voveraites. Kiek iš viso grybų surinko Jonukas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"3 + 4 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-7K",
+        "options": [
+            {
+                "text": "8",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 1
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "7",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukai Čiaudalius ir Gudruolis rinko uogas. Čiaudalius surado 4, o Gudruolis 12. Kiek uogų kartu surinko nykštukai? ",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 + 12 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-8K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "16",
+                "isCorrect": 1
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Princese Rimutė rinko gėles pilies soduose. Ji surinko puokšte iš 9 rožių ir 8 tulpių. Kiek iš viso gėliu yra puokštėje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"9 + 8 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-9K",
+        "options": [
+            {
+                "text": "17",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kačiukas Pūkis Grybų Karalystėje prie senojo ąžuolo pamatė penkias antis o prie magiškojo beržo šešis žvirblius. Kiek iš viso paukščių pamatė kačiukas Pūkis?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 + 6 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-10K",
+        "options": [
+            {
+                "text": "11",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfų sode augo 7 žydinčios magnolijos ir 4 kvapnūs jazminų krūmai. Kiek iš viso augalų auga sode?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 + 4 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-11K",
+        "options": [
+            {
+                "text": "11",
+                "isCorrect": 1
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "13",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų karalystės fėja iškėpė 12 karamelinių ir 8 šokoladinių tortų. Kiek iš viso tortų iškėpė fėja?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"12 + 8 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-12K",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Darželyje nykštukai užaugino 7 morkas, 4 ridikėlius ir 6 pomidorus. Kiek iš viso daržovių išaugino nykštukai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 + 4 + 6 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-13K",
+        "options": [
+            {
+                "text": "14",
+                "isCorrect": 0
+            },
+            {
+                "text": "17",
+                "isCorrect": 1
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Vandens karalystėje vyko lenktynės kuriose dalyvavo 9 povandeniniai arkliukai, 5 žuvytės ir 1 undinė. Kiek iš viso dalyvių varžėsi lenktynėse? ",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"9 + 5 + 1 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-14K",
+        "options": [
+            {
+                "text": "14",
+                "isCorrect": 0
+            },
+            {
+                "text": "17",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Undinė surinko 5 gintarus ir 7 kriaukles ir 1 perlą. Kiek iš viso vertybių surado undinė?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 + 7 + 1 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-15K",
+        "options": [
+            {
+                "text": "14",
+                "isCorrect": 0
+            },
+            {
+                "text": "13",
+                "isCorrect": 1
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Darželyje, šalia nykštukų namų, užaugo 9 cukinijos, 7 baklažanai ir 2 žali agurkai. Kiek iš viso daržovių išaugo šiame darželyje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"9 + 7 + 2 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-16K",
+        "options": [
+            {
+                "text": "14",
+                "isCorrect": 0
+            },
+            {
+                "text": "13",
+                "isCorrect": 0
+            },
+            {
+                "text": "18",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Gėlių karalystėje, zuikis Smalsuolis surado 5 ramunėlės, o zuikis Lauko Tykotojas tik 2. Kiek ramunėlių zuikiai surado kartu?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 + 2 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-17K",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 1
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfė Liepa, tvenkinyje skaičiavo vandens lelijas. Suskaičiavo 5 baltas ir 5 violetines žydinčias lelijas. Kiek iš viso lelijų žydi Elfų tvenkinyje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 + 5 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-18K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Linksmoji voverytė pusryčiams suvalgė 2 kazlėkus, pietums 3 baravykus, o vakarienei tik vieną raudonviršį grybą. Kiek grybų voverytė suvalge per visą dieną?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"2 + 3 + 1 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-19K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 1
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": " Stirnytė, po senoviniais medžiais Grybų Karalystėje, surado 7 obuolius ir 5 kriaušes, o vėliau aptiko dar 3 lazdynų riešutus. Kiek iš viso vaisių ir riešutų surado Stirnytė?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Sudėtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 + 5 + 3 = ?",
+        "imagePath": "1-lygis/sudetis/1L-1T-20K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 1
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 0
+            }
+        ]
+    },
     {
         "questionType": "ONE_ANSWER",
         "description": "Ant pilies viršūnės plevėsavo 6 raudonos vėliavėlės. Tačiau per audrą vėjas nuplėšė vieną vėliavėlę. Kiek dabar vėliavų ant pilies viršūnės?",
@@ -284,6 +708,455 @@
 
     {
         "questionType": "ONE_ANSWER",
+        "description": "Nykštukas Linksmuolis miške rinko uogas. Jis surinko 10 aviečių bet suvalgė 3. Kiek uogų liko nykštukui Linksmuoliui?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"10 - 3 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-6K",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 1
+            },
+            {
+                "text": "18",
+                "isCorrect": 0
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfų karalystėje ant didelio ąžuolo gyveno 15 varnų. Kai šalia pradėjo tykoti plėšrūnas, 4 varnos nuskrido ieškoti saugesnės vietos. Kiek varnų liko ant ąžuolo?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"15 - 4 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-7K",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "11",
+                "isCorrect": 1
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Miško karalystėje augo 18 baravykų. Grybėja Didžioji surinko 5 grybus, kad išsivirtų sriubą. Kiek grybų liko miške?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"18 - 5 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-8K",
+        "options": [
+            {
+                "text": "14",
+                "isCorrect": 0
+            },
+            {
+                "text": "18",
+                "isCorrect": 0
+            },
+            {
+                "text": "13",
+                "isCorrect": 1
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Vėžliukas Tutis skaičiavo savo gimtadienio svečius. Jo šventėje dalyvavo 20 draugų. Po žaidimų, 9 draugai išėjo namo. Kiek draugų liko švęsti su Vėžliukui Tučiui?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"20 - 9 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-9K",
+        "options": [
+            {
+                "text": "14",
+                "isCorrect": 0
+            },
+            {
+                "text": "18",
+                "isCorrect": 0
+            },
+            {
+                "text": "11",
+                "isCorrect": 1
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfas Jonas nusprendė pagaminti skanią uogienę savo draugams. Jis surinko 18 mėlynių, tačiau pakeliui namo 4 mėlynės iškrito iš jo pintinės. Kiek mėlynių liko Elfo Jono pintinėje? ",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"18 - 4 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-10K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "14",
+                "isCorrect": 1
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukas Išminčius savo darže užaugino 15 morkų. 4 morkas suvalgė zuikiai. Kiek morkų liko nykštuko darže?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"15 - 4 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-11K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "11",
+                "isCorrect": 1
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Paukščiukas Cvirpukas rinko kirmėles savo vaikams. Baloje surado net 6 kirmėles, tačiau skrisdamas pametė 3. Kiek kirmėlių liko Cvirpuko vaikams?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"6 - 3 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-12K",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfas Jonas rado 9 stebuklingas gėles savo slaptoje sodo dalyje, bet 3 iš jų nunešė kaip dovaną Elfų karalienei. Kiek gėlių liko Jono sode?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"9 - 3 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-13K",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 1
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Voverytė sukaupė 14 riešutų žiemos atsargoms, tačiau 3 riešutus pavogė kiti miško gyventojai. Kiek riešutų liko voverytei?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"14 - 5 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-14K",
+        "options": [
+            {
+                "text": "9",
+                "isCorrect": 1
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pilies sargyboje buvo 25 riteriai, bet po didelio mūšio 10 riterių buvo išsiųsta atstatyti gynybos kituose regionuose. Kiek riterių liko pilyje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"25 - 10 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-15K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 1
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukai surinko 40 obuolių savo soduose, tačiau 20 iš jų buvo išsiųsti kaip dovana į gretimą karalystę. Kiek obuolių liko nykštukams?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"40 - 20 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-16K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "60",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukai surinko 40 obuolių savo soduose, tačiau 20 iš jų buvo išsiųsti kaip dovana į gretimą karalystę. Kiek obuolių liko nykštukams?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"40 - 20 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-16K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "60",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfų sodas gyveno 22 spalvoti drugeliai, tačiau 7 nuskrido į kaimyninę gėlių karalystę. Kiek drugelių liko Elfų Karalystėje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"22 - 7 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-17K",
+        "options": [
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 1
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Žalioji Gudrytė rado 30 grybų miške, tačiau 5 iš jų buvo nuodingi ir ji juos paliko. Kiek valgomų grybų liko Gudrytei?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"30 - 5 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-18K",
+        "options": [
+            {
+                "text": "25",
+                "isCorrect": 1
+            },
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Miesto aikštėje šoko 18 elfų. Po šokio spektaklio 6 elfai išėjo ilsėtis. Kiek elfų liko šokti aikštėje?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"18 - 6 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-19K",
+        "options": [
+            {
+                "text": "13",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Povandeniniame teatre 7 žuvytės žiūrėjo filmą. 3 žuvytėms filmas nepatiko ir jos nuplaukė namo. Kiek žuvyčių liko teatre?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Atimtis",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 - 3 = ?",
+        "imagePath": "1-lygis/atimtis/1L-2T-20K",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 1
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
         "description": "Povandeninėje karalystėje 4 žuvys rado po 2 perlus. Kiek perlų jos surado visos kartu?",
         "questionLevel": "1 lygis",
         "questionTopic": "Daugyba",
@@ -419,6 +1292,457 @@
             },
             {
                 "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Grybų Karalystėje 7 nykštukai surinko po 4 grybus kiekvienas. Kiek iš viso grybų surinko nykštukai? ",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 × 4 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-6K",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 1
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų Karalystėje 2 konditeriai pagamino po 12 tortų kiekvienas. Kiek tortų pagamino abu konditeriai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"2 × 12 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-7K",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukų karalystės 9 nykštukai pagamino po 5 kirvius kiekvienas savo dirbtuvėse. Kiek kirvių iš viso pagamino nykštukai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"9 × 5 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-8K",
+        "options": [
+            {
+                "text": "40",
+                "isCorrect": 0
+            },
+            {
+                "text": "45",
+                "isCorrect": 1
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pilyje yra 10 kambarių, o kiekviename iš jų 4 didžiuliai paveikslai. Kiek paveikslų yra visuose kambariuose kartu?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 × 10 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-9K",
+        "options": [
+            {
+                "text": "40",
+                "isCorrect": 1
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pilyje vyko turnyras, kuriame dalyvavo 6 komandos po 5 riterius kiekvienoje. Kiek riterių iš viso dalyvavo turnyre?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"6 × 5 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-10K",
+        "options": [
+            {
+                "text": "40",
+                "isCorrect": 0
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 1
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Povandeninėje Karalystėje kiekviena iš 10 žuvų atnešė po 3 brangakmenius undinei. Kiek brangakmenių kartu atnešė žuvys undinei?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"10 × 3 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-11K",
+        "options": [
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 1
+            },
+            {
+                "text": "13",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kiekvienas iš 5 konditerių iškepa po 10 tortų per dieną. Kiek tortų kartu iškepa konditeriai per dieną?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 × 10 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-12K",
+        "options": [
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "50",
+                "isCorrect": 1
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kiekvienas iš 5 konditerių iškepa po 10 tortų per dieną. Kiek tortų kartu iškepa konditeriai per dieną?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"5 × 10 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-12K",
+        "options": [
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "50",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Elfų sode kiekvienas iš 4 sodininkų pasodino po 7 medelius. Kiek medelių iš viso pasodinta?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 × 7 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-13K",
+        "options": [
+            {
+                "text": "40",
+                "isCorrect": 0
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kiekvienas iš 4 nykštukų užaugino po 10 vaismedžių savo sode. Kiek vaismedžių kartu užaugino nykštukai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 × 10 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-14K",
+        "options": [
+            {
+                "text": "40",
+                "isCorrect": 1
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukų dirbtuvėje 3 amatinkai kiekvienas pagamino po 7 stebuklingus žiedus. Kiek žiedų iš viso buvo pagaminta?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"3 × 7 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-15K",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "21",
+                "isCorrect": 1
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "6 elfai mokytojai kiekvienas parengė po 6 užduotis savo mokiniams. Kiek užduočių iš viso parengė elfai mokytojai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"6 × 6 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-16K",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "36",
+                "isCorrect": 1
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Miško takelyje 7 voverės kiekviena užkasė sau po 6 riešutus žiemai. Kiek riešutų iš viso užkasė voverės?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"7 × 6 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-17K",
+        "options": [
+            {
+                "text": "42",
+                "isCorrect": 1
+            },
+            {
+                "text": "36",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštuko Jono sode 8 zuikiai kiekvienas nuskynė po 3 morkas savo pietums. Kiek morkų iš viso surinko zuikiai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"8 × 3 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-18K",
+        "options": [
+            {
+                "text": "24",
+                "isCorrect": 1
+            },
+            {
+                "text": "36",
+                "isCorrect": 0
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "28",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "4 elfai pagamino po 2 batų poras kiekvienas. Kiek batų porų pagamino visi elfai kartu?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"4 × 2 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-19K",
+        "options": [
+            {
+                "text": "24",
+                "isCorrect": 0
+            },
+            {
+                "text": "42",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Grybų karalystėje gyveno 3 paukščiukai. Kiekvienas sukūrė sau dainą pavasario koncertui. Kiek dainų kartu sukūrė paukščiukai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Daugyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"3 × 1 = ?",
+        "imagePath": "1-lygis/daugyba/1L-3T-20K",
+        "options": [
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 1
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "2",
                 "isCorrect": 0
             }
         ]
@@ -594,7 +1918,1022 @@
             }
         ]
     },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Į pilį buvo atvežta 50 skydų, kuriuos reikėjo tolygiai paskirstyti tarp 10 riterių. Kiek skydų gavo kiekvienas riteris?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"50 ÷ 10 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-7K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 0
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            }
+        ]
+    },
 
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukas pasiuvo 20 suknelių ir nori jas išdalinti po lygiai 4 nykštukų karalystės moterims. Po kiek suknelių turėtų gauti kiekviena moteris?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"20 ÷ 4 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-8K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Darželyje nykštukai užaugino 40 kopūstų. Jei jie buvo tolygiai paskirstyti tarp 10 vikšrų, kiek kopūstų gavo kiekvienas vikšras?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"40 ÷ 10 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-9K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 1
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trys Nykštukai pamatė auksinę žuvytę, kuri pažadėjo išpildyti iš viso 9 svajones. Kiek svajonių galės sugalvoti kiekvienas nykštukas, kad jos būtų paskirstytos lygiai ir sąžiningai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"9 ÷ 3 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-10K",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 1
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Karalystėje yra keturi oro balionai, į kuriuos reikia tolygiai paskirstyti 40 riterių. Kiek riterių turėtų būti patalpinta į kiekvieną balioną, kad visi balionai turėtų po lygiai riterių?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"40 ÷ 10 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-11K",
+        "options": [
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 1
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukų karalystėje, 5 vikšrai bandė sąžiningai pasidalinti 50 lapų. Po kiek lapų atiteks kiekvienam vikšrui?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"50 ÷ 5 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-12K",
+        "options": [
+            {
+                "text": "20",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 1
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Paukščiukas Džiugesėlis miške savo 7 vaikams surinko 14 mėlynių. Kiek uogų gaus kiekvienas vaikas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"14 ÷ 7 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-13K",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "2",
+                "isCorrect": 1
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų karalystės fėja atnešė 35 spalvingus guminukus, kuriais norėjo pasidalinti su 7 vaikais, kurie ją aplankė. Kiek guminukų atiteks kiekvienam vaikui?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"35 ÷ 7 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-14K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "1",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Gėlių karalystėje buvo 35 retų gėlių sėklos, kurias karalienė liepė pasodinti šį pavasarį. Jei sėklas pasidalino 5 sodininkai, kiek retų gėlių sėklų gavo kiekvienas sodininkas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"35 ÷ 5 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-15K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "7",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ledų festivaliui saldumynų karalystėje buvo paruošta 120 ledų, skirtų vaikams. Jei atvyko 20 vaikų, kiek ledų gaus kiekvienas vaikas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"120 ÷ 20 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-16K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 1
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Darželyje nykštukai užaugino 21 morką. Jei jos buvo tolygiai paskirstytos tarp 7 zuikių, kiek morkų gavo kiekvienas zuikis?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"21 ÷ 7 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-17K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 0
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ežiukas surinko 30 kankorėžių, kuriuos nori atiduoti savo 5 draugams. Kiek kankorėžių turi duoti ežiukas kiekvienam iš draugų, kad kiekvienas draugas gautų tiek pat?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"30 ÷ 5 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-18K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "6",
+                "isCorrect": 1
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Vėžliukas Tutis paruošė 24 obuolius savo gimtadienio svečiams, kurie sudaryti iš 6 vėžliukų. Kiek obuolių atiteks kiekvienam svečiui, jei visi gaus vienodai?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"24 ÷ 6 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-19K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 1
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Nykštukas Gudrutis sode surinko 42 vyšnias ir norėjo jas tolygiai padalinti tarp 7 karalystės paukščiukų. Kiek vyšnių turėtų gauti kiekvienas paukščiukas?",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Dalyba",
+        "experience": "10",
+        "coins": "1",
+        "hint":"42 ÷ 7 = ?",
+        "imagePath": "1-lygis/dalyba/1L-4T-20K",
+        "options": [
+            {
+                "text": "6",
+                "isCorrect": 1
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trupmena 1<sup>1</sup>/<sub>2</sub> yra lygi",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-1K",
+        "options": [
+            {
+                "text": "1.5",
+                "isCorrect": 1
+            },
+            {
+                "text": "0.2",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.1",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 1</sup>/<sub>3</sub> ir 1</sup>/<sub>4</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-2K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 1</sup>/<sub>2</sub> ir 2</sup>/<sub>3</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-3K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 3</sup>/<sub>4</sub> ir 5</sup>/<sub>8</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-4K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 7</sup>/<sub>8</sub> ir 1</sup>/<sub>6</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-5K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 3</sup>/<sub>5</sub> ir 4</sup>/<sub>7</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-6K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 3</sup>/<sub>5</sub> ir 4</sup>/<sub>7</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-7K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 2</sup>/<sub>3</sub> ir 5</sup>/<sub>8</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-8K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 1
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 1</sup>/<sub>3</sub> ir 1</sup>/<sub>2</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-9K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 1</sup>/<sub>2</sub> ir 2</sup>/<sub>4</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-10K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 1
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 1</sup>/<sub>5</sub> ir 2</sup>/<sub>10</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-11K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 0
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 1
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Palyginkite trupmenas pasirinkdami tinkamą ženklą: 1</sup>/<sub>6</sub> ir 2</sup>/<sub>6</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-12K",
+        "options": [
+            {
+                "text": "<",
+                "isCorrect": 1
+            },
+            {
+                "text": ">",
+                "isCorrect": 0
+            },
+            {
+                "text": "=",
+                "isCorrect": 0
+            },
+            {
+                "text": "Neįmanoma palyginti",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ar teisingas teiginys, kad 3</sup>/<sub>12</sub> yra lygi 1</sup>/<sub>4</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-13K",
+        "options": [
+            {
+                "text": "Taip",
+                "isCorrect": 1
+            },
+            {
+                "text": "Ne",
+                "isCorrect": 0
+            },
+            {
+                "text": "Nežinau",
+                "isCorrect": 0
+            },
+            {
+                "text": "Priklauso nuo konteksto",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ar teisingas teiginys, kad 1</sup>/<sub>2</sub> yra lygi 2</sup>/<sub>4</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-14K",
+        "options": [
+            {
+                "text": "Taip",
+                "isCorrect": 1
+            },
+            {
+                "text": "Ne",
+                "isCorrect": 0
+            },
+            {
+                "text": "Nežinau",
+                "isCorrect": 0
+            },
+            {
+                "text": "Priklauso nuo konteksto",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ar teisingas teiginys, kad 1</sup>/<sub>2</sub> yra lygi 3</sup>/<sub>4</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-1K",
+        "options": [
+            {
+                "text": "Taip",
+                "isCorrect": 0
+            },
+            {
+                "text": "Ne",
+                "isCorrect": 1
+            },
+            {
+                "text": "Nežinau",
+                "isCorrect": 0
+            },
+            {
+                "text": "Priklauso nuo konteksto",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ar teisingas teiginys, kad 1</sup>/<sub>20</sub> yra lygi 4</sup>/<sub>10</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-3K",
+        "options": [
+            {
+                "text": "Taip",
+                "isCorrect": 0
+            },
+            {
+                "text": "Ne",
+                "isCorrect": 1
+            },
+            {
+                "text": "Nežinau",
+                "isCorrect": 0
+            },
+            {
+                "text": "Priklauso nuo konteksto",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ar teisingas teiginys, kad 1</sup>/<sub>2</sub> yra lygi 3</sup>/<sub>4</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-4K",
+        "options": [
+            {
+                "text": "Taip",
+                "isCorrect": 0
+            },
+            {
+                "text": "Ne",
+                "isCorrect": 1
+            },
+            {
+                "text": "Nežinau",
+                "isCorrect": 0
+            },
+            {
+                "text": "Priklauso nuo konteksto",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ar teisingas teiginys, kad 1</sup>/<sub>2</sub> yra lygi 2</sup>/<sub>8</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-6K",
+        "options": [
+            {
+                "text": "Taip",
+                "isCorrect": 0
+            },
+            {
+                "text": "Ne",
+                "isCorrect": 1
+            },
+            {
+                "text": "Nežinau",
+                "isCorrect": 0
+            },
+            {
+                "text": "Priklauso nuo konteksto",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Ar teisingas teiginys, kad 1</sup>/<sub>3</sub> yra lygi 3</sup>/<sub>9</sub>",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-8K",
+        "options": [
+            {
+                "text": "Taip",
+                "isCorrect": 1
+            },
+            {
+                "text": "Ne",
+                "isCorrect": 0
+            },
+            {
+                "text": "Nežinau",
+                "isCorrect": 0
+            },
+            {
+                "text": "Priklauso nuo konteksto",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trupmena 1</sup>/<sub>3</sub> yra lygi",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-10K",
+        "options": [
+            {
+                "text": "0.3333...",
+                "isCorrect": 1
+            },
+            {
+                "text": "0.3",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.25",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.5",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trupmena 3</sup>/<sub>4</sub> yra lygi",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-12K",
+        "options": [
+            {
+                "text": "0.78",
+                "isCorrect": 1
+            },
+            {
+                "text": "0.725",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.75",
+                "isCorrect": 1
+            },
+            {
+                "text": "0.8",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trupmena 2</sup>/<sub>5</sub> yra lygi",
+        "questionLevel": "1 lygis",
+        "questionTopic": "Trupmenos",
+        "experience": "10",
+        "coins": "1",
+        "hint":"",
+        "imagePath": "1-lygis/trupmenos/1L-5T-14K",
+        "options": [
+            {
+                "text": "0.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.4",
+                "isCorrect": 1
+            },
+            {
+                "text": "0.45",
+                "isCorrect": 0
+            },
+            {
+                "text": "0.35",
+                "isCorrect": 0
+            }
+        ]
+    },
     {
         "questionType": "ONE_ANSWER",
         "description": "Palyginkite skaičius pasirinkdami tinkamą ženklą: 1024 ir 1567.",
@@ -603,7 +2942,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-1K",
         "options": [
             {
                 "text": "<",
@@ -631,7 +2970,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-2K",
         "options": [
             {
                 "text": "<",
@@ -659,7 +2998,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-3K",
         "options": [
             {
                 "text": "<",
@@ -687,7 +3026,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-4K",
         "options": [
             {
                 "text": "<",
@@ -716,7 +3055,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-5K",
         "options": [
             {
                 "text": "<",
@@ -744,7 +3083,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-6K",
         "options": [
             {
                 "text": "<",
@@ -773,7 +3112,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-7K",
         "options": [
             {
                 "text": "<",
@@ -801,7 +3140,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-8K",
         "options": [
             {
                 "text": "<",
@@ -830,7 +3169,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-9K",
         "options": [
             {
                 "text": "<",
@@ -859,7 +3198,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-10K",
         "options": [
             {
                 "text": "<",
@@ -887,7 +3226,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-11K",
         "options": [
             {
                 "text": "<",
@@ -916,7 +3255,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-12K",
         "options": [
             {
                 "text": "7370",
@@ -932,7 +3271,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-13K",
         "options": [
             {
                 "text": "4530",
@@ -948,7 +3287,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-14K",
         "options": [
             {
                 "text": "81570",
@@ -964,26 +3303,10 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-15K",
         "options": [
             {
                 "text": "5900",
-                "isCorrect": 1
-            }
-        ]
-    },
-    {
-        "questionType": "OPEN_ANSWER",
-        "description": "Suapvalinkite iki dešimčių skaičių 31753.",
-        "questionLevel": "2 lygis",
-        "questionTopic": "Natūralieji, sveikieji ir trupmeniniai skaičiai",
-        "experience": "20",
-        "coins": "2",
-        "hint":"",
-        "imagePath": "",
-        "options": [
-            {
-                "text": "31750",
                 "isCorrect": 1
             }
         ]
@@ -996,7 +3319,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-17K",
         "options": [
             {
                 "text": "7400",
@@ -1012,7 +3335,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-18K",
         "options": [
             {
                 "text": "4500",
@@ -1028,7 +3351,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-19K",
         "options": [
             {
                 "text": "81600",
@@ -1044,7 +3367,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-20K",
         "options": [
             {
                 "text": "5900",
@@ -1060,7 +3383,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-21K",
         "options": [
             {
                 "text": "31800",
@@ -1076,7 +3399,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-22K",
         "options": [
             {
                 "text": "7000",
@@ -1092,7 +3415,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-23K",
         "options": [
             {
                 "text": "5000",
@@ -1108,7 +3431,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-24K",
         "options": [
             {
                 "text": "82000",
@@ -1124,7 +3447,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-25K",
         "options": [
             {
                 "text": "6000",
@@ -1140,7 +3463,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/skaiciai/2L-1T-16K",
         "options": [
             {
                 "text": "32000",
@@ -1156,7 +3479,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-1K",
         "options": [
             {
                 "text": "4",
@@ -1172,7 +3495,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-2K",
         "options": [
             {
                 "text": "5",
@@ -1188,7 +3511,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-3K",
         "options": [
             {
                 "text": "3",
@@ -1205,7 +3528,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-4K",
         "options": [
             {
                 "text": "6",
@@ -1221,7 +3544,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-5K",
         "options": [
             {
                 "text": "4",
@@ -1237,7 +3560,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-6K",
         "options": [
             {
                 "text": "2",
@@ -1253,7 +3576,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-7K",
         "options": [
             {
                 "text": "4",
@@ -1269,7 +3592,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-8K",
         "options": [
             {
                 "text": "4",
@@ -1285,7 +3608,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-9K",
         "options": [
             {
                 "text": "3",
@@ -1301,23 +3624,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
-        "options": [
-            {
-                "text": "3",
-                "isCorrect": 1
-            }
-        ]
-    },
-    {
-        "questionType": "OPEN_ANSWER",
-        "description": "Duoti skaičiai: -500; 600; -700,5; 800; 0; -900,2; 1000; -1100. Kiek tarp jų yra teigiamų skaičių?",
-        "questionLevel": "2 lygis",
-        "questionTopic": "Teigiamieji ir neigiamieji skaičiai",
-        "experience": "20",
-        "coins": "2",
-        "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-10K",
         "options": [
             {
                 "text": "3",
@@ -1333,7 +3640,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-12K",
         "options": [
             {
                 "text": "2",
@@ -1361,7 +3668,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-13K",
         "options": [
             {
                 "text": "8",
@@ -1389,7 +3696,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-14K",
         "options": [
             {
                 "text": "1",
@@ -1417,7 +3724,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-15K",
         "options": [
             {
                 "text": "20",
@@ -1445,7 +3752,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-16K",
         "options": [
             {
                 "text": "5",
@@ -1473,7 +3780,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-17K",
         "options": [
             {
                 "text": "-157",
@@ -1501,7 +3808,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-18K",
         "options": [
             {
                 "text": "-50",
@@ -1529,7 +3836,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-19K",
         "options": [
             {
                 "text": "0.25",
@@ -1557,7 +3864,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-20K",
         "options": [
             {
                 "text": "-0.2",
@@ -1585,7 +3892,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/teigiami_neigiami/2L-2T-11K",
         "options": [
             {
                 "text": "-0.65",
@@ -1613,7 +3920,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-1K",
         "options": [
             {
                 "text": "75",
@@ -1629,7 +3936,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-2K",
         "options": [
             {
                 "text": "445",
@@ -1645,7 +3952,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-3K",
         "options": [
             {
                 "text": "150",
@@ -1661,7 +3968,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-4K",
         "options": [
             {
                 "text": "150",
@@ -1677,7 +3984,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-5K",
         "options": [
             {
                 "text": "122",
@@ -1693,7 +4000,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-6K",
         "options": [
             {
                 "text": "472",
@@ -1709,7 +4016,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-7K",
         "options": [
             {
                 "text": "733",
@@ -1725,7 +4032,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-8K",
         "options": [
             {
                 "text": "650",
@@ -1741,7 +4048,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-9K",
         "options": [
             {
                 "text": "500",
@@ -1757,7 +4064,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-10K",
         "options": [
             {
                 "text": "950",
@@ -1773,7 +4080,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-11K",
         "options": [
             {
                 "text": "285",
@@ -1789,7 +4096,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-12K",
         "options": [
             {
                 "text": "119",
@@ -1805,7 +4112,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-13K",
         "options": [
             {
                 "text": "25",
@@ -1821,7 +4128,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-14K",
         "options": [
             {
                 "text": "1",
@@ -1837,7 +4144,7 @@
         "experience": "20",
         "coins": "2",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "2-lygis/lygtys/2L-3T-15K",
         "options": [
             {
                 "text": "45",
@@ -1845,7 +4152,709 @@
             }
         ]
     },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite figūros perimetrą",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-1K",
+        "options": [
+            {
+                "text": "47 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "72 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "69 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "94 cm",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Figūrą sudaro 5 kvadratai. Apskaičiuokite figūros plotą (atsakymas pateikiamas kvadratiniais centimetrais).",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-2K",
+        "options": [
+            {
+                "text": "8",
+                "isCorrect": 0
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 1
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kam lygi trikampio kampų suma (laipsniais)?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-3K",
+        "options": [
+            {
+                "text": "120",
+                "isCorrect": 0
+            },
+            {
+                "text": "360",
+                "isCorrect": 0
+            },
+            {
+                "text": "180",
+                "isCorrect": 1
+            },
+            {
+                "text": "270",
+                "isCorrect": 0
+            }
+        ]
+    },
 
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite trikampio perimetrą kai AB=7, AC = 8, BC = 12",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-4K",
+        "options": [
+            {
+                "text": "27",
+                "isCorrect": 1
+            },
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "672",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kam lygi keturkampio kampų suma?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-5K",
+        "options": [
+            {
+                "text": "180",
+                "isCorrect": 0
+            },
+            {
+                "text": "230",
+                "isCorrect": 0
+            },
+            {
+                "text": "360",
+                "isCorrect": 1
+            },
+            {
+                "text": "260",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Stačiakampio perimetras lygūs 28 cm, o dvi kraštinės lygios po 8 cm. Kam bus lygios kitos dvi kraštinės?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-6K",
+        "options": [
+            {
+                "text": "6 cm",
+                "isCorrect": 1
+            },
+            {
+                "text": "8 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "12 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "4 cm",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Jei stačiakampio ilgis 14 cm, o plotis 90 cm. Tai perimetras lygus?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-7K",
+        "options": [
+            {
+                "text": "125 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "208 cm",
+                "isCorrect": 1
+            },
+            {
+                "text": "46 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "58 cm",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trikampio kurio kraštinės 2 cm, 3 cm ir 2 cm perimetras lygus?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-8K",
+        "options": [
+            {
+                "text": "8 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "25 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "40 cm",
+                "isCorrect": 0
+            },
+            {
+                "text": "7 cm",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trikampio kurio visi kampai lygūs, vieno kampo dydis yra? (Laipsniais)",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-9K",
+        "options": [
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "60",
+                "isCorrect": 1
+            },
+            {
+                "text": "90",
+                "isCorrect": 0
+            },
+            {
+                "text": "45",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kuris teiginys neteisingas?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-10K",
+        "options": [
+            {
+                "text": "Stačiakampio visi kampai yra lygūs",
+                "isCorrect": 0
+            },
+            {
+                "text": "Stačiakampio priešingos kraštinės lygios",
+                "isCorrect": 0
+            },
+            {
+                "text": "Stačiakampio įstrižainės lygios",
+                "isCorrect": 0
+            },
+            {
+                "text": "Stačiakampio du kampai bukieji, o du smailieji",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kvadrato kraštinės ilgis yra 5 cm. Koks kvadrato perimetras (centimetrais)?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-11K",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "25",
+                "isCorrect": 0
+            },
+            {
+                "text": "20",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kvadrato kraštinės ilgis yra 7 cm. Koks kvadrato perimetras?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-12K",
+        "options": [
+            {
+                "text": "28",
+                "isCorrect": 1
+            },
+            {
+                "text": "24",
+                "isCorrect": 0
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "18",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trikampio viena kraštinė 5 cm, antra - 7 cm, trečia -12 cm. Koks trikampio perimetras?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-13K",
+        "options": [
+            {
+                "text": "24",
+                "isCorrect": 1
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "22",
+                "isCorrect": 0
+            },
+            {
+                "text": "18",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Koks kampas atvaizduotas paveikslėlyje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-14K",
+        "options": [
+            {
+                "text": "Smailusis",
+                "isCorrect": 0
+            },
+            {
+                "text": "Bukasis",
+                "isCorrect": 0
+            },
+            {
+                "text": "Statusis",
+                "isCorrect": 1
+            },
+            {
+                "text": "Ištiestinis",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Koks kampas atvaizduotas paveikslėlyje?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Plokščiosios figūros",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/figuros/2L-4T-15K",
+        "options": [
+            {
+                "text": "Smailusis",
+                "isCorrect": 1
+            },
+            {
+                "text": "Bukasis",
+                "isCorrect": 0
+            },
+            {
+                "text": "Statusis",
+                "isCorrect": 0
+            },
+            {
+                "text": "Ištiestinis",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite kvadrato plotą, jei jo kraštinė yra 4 cm.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-1K",
+        "options": [
+            {
+                "text": "12 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "16 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "8 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "20 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Raskite stačiakampio plotą, kurio ilgis yra 8 cm, o plotis – 3 cm.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-2K",
+        "options": [
+            {
+                "text": "24 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "11 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "14 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "18 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Koks yra trikampio plotas, jei jo pagrindas yra 6 cm, o aukštis – 4 cm?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-3K",
+        "options": [
+            {
+                "text": "8 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "12 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "24 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "20 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Jei apskritimo skersmuo yra 10 cm, kokio dydžio yra jo plotas? (Naudokite pi ≈ 3.14)",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-4K",
+        "options": [
+            {
+                "text": "78.5 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "31.4 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "62.8 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "100 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Turite kvadratą su perimetru 20 cm. Koks yra kvadrato plotas?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-5K",
+        "options": [
+            {
+                "text": " 25 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "30 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "50 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "100 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Stačiakampis yra du kartus ilgesnis nei platesnis. Jei jo plotis yra 5 cm, koks yra jo plotas?",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-6K",
+        "options": [
+            {
+                "text": " 50 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "15 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "75 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "25 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Trapecijos aukštinė yra 5 cm, o pagrindai yra 6 cm ir 4 cm. Apskaičiuokite trapecijos plotą.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-7K",
+        "options": [
+            {
+                "text": " 25 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "30 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "20 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "50 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite lygiagretainio plotą, kurio viena kraštinė yra 7 cm, o atitinkama aukštis kraštinei yra 3 cm.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-8K",
+        "options": [
+            {
+                "text": " 21 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "24 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "28 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "10 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite lygiakraščio trikampio plotą, kurio kraštinė yra 6 cm.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-9K",
+        "options": [
+            {
+                "text": "9√3 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "18 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "36 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "12√3 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": " Raskite apskritime įbrėžto kvadrato plotą, jei apskritimo spindulys yra 5 cm.",
+        "questionLevel": "2 lygis",
+        "questionTopic": "Figūrų plotai",
+        "experience": "20",
+        "coins": "2",
+        "hint":"",
+        "imagePath": "2-lygis/plotai/2L-5T-10K",
+        "options": [
+            {
+                "text": "50 cm²",
+                "isCorrect": 1
+            },
+            {
+                "text": "100 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "25 cm²",
+                "isCorrect": 0
+            },
+            {
+                "text": "75 cm²",
+                "isCorrect": 0
+            }
+        ]
+    },
     {
         "questionType": "OPEN_ANSWER",
         "description": "Saldumynų karalystės kepykloje kiekvieną dieną iškepa šokoladinių pyragaičių. Per pastarąsias dešimt dienų buvo iškepti šie pyragaičių kiekiai: 30, 28, 32, 31, 29, 30, 28, 33, 32, 31. Apskaičiuokite vidurkį, kiek pyragaičių buvo iškepta per dieną (atsakymą pateikite atskirta tašku). ",
@@ -1854,7 +4863,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u1",
         "options": [
             {
                 "text": "30.4",
@@ -1870,7 +4879,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u2",
         "options": [
             {
                 "text": "20",
@@ -1886,7 +4895,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u3",
         "options": [
             {
                 "text": "10.71",
@@ -1902,7 +4911,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u4",
         "options": [
             {
                 "text": "21.8",
@@ -1918,7 +4927,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u5",
         "options": [
             {
                 "text": "18.75",
@@ -1934,7 +4943,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u6",
         "options": [
             {
                 "text": "8",
@@ -1950,7 +4959,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u7",
         "options": [
             {
                 "text": "8",
@@ -1966,7 +4975,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u8",
         "options": [
             {
                 "text": "7",
@@ -1982,7 +4991,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u9",
         "options": [
             {
                 "text": "16",
@@ -1998,7 +5007,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u10",
         "options": [
             {
                 "text": "6",
@@ -2014,7 +5023,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u11",
         "options": [
             {
                 "text": "5",
@@ -2030,7 +5039,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u12",
         "options": [
             {
                 "text": "4",
@@ -2046,7 +5055,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u13",
         "options": [
             {
                 "text": "22",
@@ -2062,7 +5071,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u14",
         "options": [
             {
                 "text": "12",
@@ -2078,7 +5087,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u15",
         "options": [
             {
                 "text": "16",
@@ -2094,7 +5103,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u16",
         "options": [
             {
                 "text": "151.8",
@@ -2110,7 +5119,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u17",
         "options": [
             {
                 "text": "262.5",
@@ -2126,7 +5135,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u18",
         "options": [
             {
                 "text": "600",
@@ -2142,7 +5151,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u19",
         "options": [
             {
                 "text": "42.5",
@@ -2158,7 +5167,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u20",
         "options": [
             {
                 "text": "400",
@@ -2174,7 +5183,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u21",
         "options": [
             {
                 "text": "200",
@@ -2190,7 +5199,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u22",
         "options": [
             {
                 "text": "255",
@@ -2206,7 +5215,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u23",
         "options": [
             {
                 "text": "20",
@@ -2222,7 +5231,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u24",
         "options": [
             {
                 "text": "20",
@@ -2238,7 +5247,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u25",
         "options": [
             {
                 "text": "96",
@@ -2254,7 +5263,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u26",
         "options": [
             {
                 "text": "4",
@@ -2270,7 +5279,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u27",
         "options": [
             {
                 "text": "3",
@@ -2286,7 +5295,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u28",
         "options": [
             {
                 "text": "5",
@@ -2302,7 +5311,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u29",
         "options": [
             {
                 "text": "4",
@@ -2318,7 +5327,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u30",
         "options": [
             {
                 "text": "5",
@@ -2334,7 +5343,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u31",
         "options": [
             {
                 "text": "1",
@@ -2350,7 +5359,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u32",
         "options": [
             {
                 "text": "0.5",
@@ -2366,7 +5375,7 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u33",
         "options": [
             {
                 "text": "3",
@@ -2382,12 +5391,1908 @@
         "experience": "30",
         "coins": "3",
         "hint":"",
-        "imagePath": "",
+        "imagePath": "visiems/u34",
         "options": [
             {
                 "text": "-7",
                 "isCorrect": 1
             }
         ]
+    },
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 2(x + 3) = 12 + x",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "visiems/u35",
+        "options": [
+            {
+                "text": "6",
+                "isCorrect": 1
+            }
+        ]
     }
+,
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 3(2 - x) + 2 = 3 - 13(x + 1)",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "visiems/u36",
+        "options": [
+            {
+                "text": "2",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 5(x - 1) + 8 + 2(x + 8) - 4(x - 2) = 0",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "visiems/u37",
+        "options": [
+            {
+                "text": "-9",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x - 35 = x - 53.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "visiems/u38",
+        "options": [
+            {
+                "text": "8",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 2(x + 4) = x - 14.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "visiems/u39",
+        "options": [
+            {
+                "text": "-22",
+                "isCorrect": 1
+            }
+        ]
+    }
+
+,
+    {
+        "questionType": "OPEN_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 3(x + 5) + 14 + 2(x - 3) - 8(x + 1) = 0.",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "visiems/u40",
+        "options": [
+            {
+                "text": "5",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendima:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-1K",
+        "options": [
+            {
+                "text": "√29",
+                "isCorrect": 1
+            },
+            {
+                "text": "29",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√5",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite stačiakampio perimetrą:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-2K",
+        "options": [
+            {
+                "text": "30",
+                "isCorrect": 0
+            },
+            {
+                "text": "42",
+                "isCorrect": 1
+            },
+            {
+                "text": "38",
+                "isCorrect": 0
+            },
+            {
+                "text": "36",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite apskritimo spindulį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-3K",
+        "options": [
+            {
+                "text": "√72",
+                "isCorrect": 0
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "6√5",
+                "isCorrect": 1
+            },
+            {
+                "text": "5√6",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite trikampio aukštį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-4K",
+        "options": [
+            {
+                "text": "96",
+                "isCorrect": 0
+            },
+            {
+                "text": "146",
+                "isCorrect": 0
+            },
+            {
+                "text": "√146",
+                "isCorrect": 0
+            },
+            {
+                "text": "√96",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite x:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-5K",
+        "options": [
+            {
+                "text": "21",
+                "isCorrect": 0
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 1
+            },
+            {
+                "text": "3√7",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite x:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-6K",
+        "options": [
+            {
+                "text": "7.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "√65",
+                "isCorrect": 1
+            },
+            {
+                "text": "√97",
+                "isCorrect": 0
+            },
+            {
+                "text": "13",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite QR ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-7K",
+        "options": [
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√8",
+                "isCorrect": 0
+            },
+            {
+                "text": "8√3",
+                "isCorrect": 1
+            },
+            {
+                "text": "8√5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": " Apskaičiuokite CD ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-8K",
+        "options": [
+            {
+                "text": "13.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√7",
+                "isCorrect": 0
+            },
+            {
+                "text": "√389",
+                "isCorrect": 1
+            },
+            {
+                "text": "3√21",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite AM ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-9K",
+        "options": [
+            {
+                "text": "√15",
+                "isCorrect": 0
+            },
+            {
+                "text": "√33",
+                "isCorrect": 0
+            },
+            {
+                "text": "√65",
+                "isCorrect": 1
+            },
+            {
+                "text": "√113",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite AB ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-10K",
+        "options": [
+            {
+                "text": "3√5",
+                "isCorrect": 1
+            },
+            {
+                "text": "5√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√13",
+                "isCorrect": 0
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite BC ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-11K",
+        "options": [
+            {
+                "text": "5√10",
+                "isCorrect": 0
+            },
+            {
+                "text": "10√5",
+                "isCorrect": 1
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "10√3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite BC ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-12K",
+        "options": [
+            {
+                "text": "√181",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√34",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 1
+            },
+            {
+                "text": "√19",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite x ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-13K",
+        "options": [
+            {
+                "text": "√527",
+                "isCorrect": 0
+            },
+            {
+                "text": "√674",
+                "isCorrect": 0
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite y ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-14K",
+        "options": [
+            {
+                "text": "31",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√161",
+                "isCorrect": 0
+            },
+            {
+                "text": "34",
+                "isCorrect": 1
+            },
+            {
+                "text": "23",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite L ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-15K",
+        "options": [
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 1
+            },
+            {
+                "text": "2√7",
+                "isCorrect": 0
+            },
+            {
+                "text": "7",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite b ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-16K",
+        "options": [
+            {
+                "text": "2√22",
+                "isCorrect": 1
+            },
+            {
+                "text": "11",
+                "isCorrect": 0
+            },
+            {
+                "text": "5√10",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite AD ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-17K",
+        "options": [
+            {
+                "text": "√194",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 1
+            },
+            {
+                "text": "√105",
+                "isCorrect": 0
+            },
+            {
+                "text": "5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite BC ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-18K",
+        "options": [
+            {
+                "text": "√145",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 1
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite AC ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-19K",
+        "options": [
+            {
+                "text": "19",
+                "isCorrect": 0
+            },
+            {
+                "text": "12.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            },
+            {
+                "text": "√353",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Apskaičiuokite BC ilgį:",
+        "questionLevel": "3 lygis",
+        "questionTopic": "Pitagoro teorema",
+        "experience": "30",
+        "coins": "3",
+        "hint":"",
+        "imagePath": "3-lygis/pitagoras/3L-4T-19K",
+        "options": [
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√58",
+                "isCorrect": 0
+            },
+            {
+                "text": "10",
+                "isCorrect": 0
+            },
+            {
+                "text": "4√10",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: 3√3 − √27 + √12 − √3",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u1",
+        "options": [
+            {
+                "text": "√3",
+                "isCorrect": 1
+            },
+            {
+                "text": "√9",
+                "isCorrect": 0
+            },
+            {
+                "text": "−√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "-√9",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: ∛8",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u3",
+        "options": [
+            {
+                "text": "-2",
+                "isCorrect": 1
+            },
+            {
+                "text": "2",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√2",
+                "isCorrect": 0
+            },
+            {
+                "text": "√2",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √64",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u5",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "-8",
+                "isCorrect": 0
+            },
+            {
+                "text": "8",
+                "isCorrect": 1
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: ∛(-16)³",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u7",
+        "options": [
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "-4",
+                "isCorrect": 0
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "-16",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: -√4²",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u9",
+        "options": [
+            {
+                "text": "-2",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "-4",
+                "isCorrect": 1
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √12",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u11",
+        "options": [
+            {
+                "text": "3√4",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√3",
+                "isCorrect": 1
+            },
+            {
+                "text": "3√2",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√4",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √(4² + 5²)",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u12",
+        "options": [
+            {
+                "text": "√41",
+                "isCorrect": 1
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √5 * √3",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u12",
+        "options": [
+            {
+                "text": "5√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "√15",
+                "isCorrect": 1
+            },
+            {
+                "text": "3√5",
+                "isCorrect": 0
+            },
+            {
+                "text": "√53",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: 8√6 - 5√6",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u14",
+        "options": [
+            {
+                "text": "5√6",
+                "isCorrect": 0
+            },
+            {
+                "text": "7√6",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√6",
+                "isCorrect": 1
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √700 + 8√7",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u16",
+        "options": [
+            {
+                "text": "10√7",
+                "isCorrect": 0
+            },
+            {
+                "text": "708√7",
+                "isCorrect": 0
+            },
+            {
+                "text": "√7",
+                "isCorrect": 0
+            },
+            {
+                "text": "18√7",
+                "isCorrect": 1
+            }
+        ]
+    }
+
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √144",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u18",
+        "options": [
+            {
+                "text": "14√4",
+                "isCorrect": 0
+            },
+            {
+                "text": "13",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 1
+            },
+            {
+                "text": "14",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą:  ∛-27",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u18",
+        "options": [
+            {
+                "text": "-9",
+                "isCorrect": 0
+            },
+            {
+                "text": "-3",
+                "isCorrect": 1
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "9",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: ∛8 * ∛64",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u19",
+        "options": [
+            {
+                "text": "8",
+                "isCorrect": 1
+            },
+            {
+                "text": "16",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "32",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą:  4√3 * 2√2 * √3",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u20",
+        "options": [
+            {
+                "text": "18√2",
+                "isCorrect": 0
+            },
+            {
+                "text": "24√2",
+                "isCorrect": 1
+            },
+            {
+                "text": "18√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "28√2",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą:  √(4 * 81)",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u22",
+        "options": [
+            {
+                "text": "9√2",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√9",
+                "isCorrect": 0
+            },
+            {
+                "text": "18",
+                "isCorrect": 1
+            },
+            {
+                "text": "2√81",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą:  √2 * √72",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u24",
+        "options": [
+            {
+                "text": "144",
+                "isCorrect": 0
+            },
+            {
+                "text": "72√2",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√72",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √18",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u26",
+        "options": [
+            {
+                "text": "4√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√2",
+                "isCorrect": 1
+            },
+            {
+                "text": "2√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√9",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √18",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u28",
+        "options": [
+            {
+                "text": "4√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√2",
+                "isCorrect": 1
+            },
+            {
+                "text": "2√3",
+                "isCorrect": 0
+            },
+            {
+                "text": "2√9",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: ∛32",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u30",
+        "options": [
+            {
+                "text": "2∛4",
+                "isCorrect": 1
+            },
+            {
+                "text": "4∛2",
+                "isCorrect": 0
+            },
+            {
+                "text": "2∛8",
+                "isCorrect": 0
+            },
+            {
+                "text": "32",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √108",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u32",
+        "options": [
+            {
+                "text": "3√6",
+                "isCorrect": 0
+            },
+            {
+                "text": "6√3",
+                "isCorrect": 1
+            },
+            {
+                "text": "9√6",
+                "isCorrect": 0
+            },
+            {
+                "text": "3√9",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pasirinkite teisingą sprendimą: √28 * √63",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Šaknys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u34",
+        "options": [
+            {
+                "text": "63√28",
+                "isCorrect": 0
+            },
+            {
+                "text": "28√63",
+                "isCorrect": 0
+            },
+            {
+                "text": "42",
+                "isCorrect": 1
+            },
+            {
+                "text": "40√2",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-1K",
+        "options": [
+            {
+                "text": "x = 5, y = 2",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -5, y = 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 5, y = -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -5, y = -2",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-2K",
+        "options": [
+            {
+                "text": "x = 2, y = 29",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 2, y = -29",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -2, y = -29",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -2, y = 29",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-3K",
+        "options": [
+            {
+                "text": "x = -3, y = -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 3, y = -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 3, y = 1",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -3, y = 1",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-4K",
+        "options": [
+            {
+                "text": "x = -13, y = -33",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -13, y = -33",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 13, y = 33",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -13, y = 33",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-5K",
+        "options": [
+            {
+                "text": "x = 1, y = -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -1, y = -3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-6K",
+        "options": [
+            {
+                "text": "x = -34, y = -69",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -34, y = 69",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = 34, y = 69",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 34, y = -69",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-7K",
+        "options": [
+            {
+                "text": "x = 10, y = 25",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -10, y = 25",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -10, y = -25",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 10, y = -25",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-8K",
+        "options": [
+            {
+                "text": "x = -2, y = 5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 2, y = 5",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -2, y = -5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 2, y = -5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-9K",
+        "options": [
+            {
+                "text": "x = -2, y = 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 3, y = -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -3, y = 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -3, y = -3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-10K",
+        "options": [
+            {
+                "text": "x = 1, y = 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = –2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = 2",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-11K",
+        "options": [
+            {
+                "text": "x = 3, y = 4",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -3, y = 4",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 3, y = -4",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -3, y = -4",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-12K",
+        "options": [
+            {
+                "text": "x = -1, y = -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = 1",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -1, y = 1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = -1",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-13K",
+        "options": [
+            {
+                "text": "x = 1, y = 1",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -1, y = -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = 1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = -1",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-14K",
+        "options": [
+            {
+                "text": "x = 4, y = 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -4, y = -3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = 4, y = -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -4, y = 3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-15K",
+        "options": [
+            {
+                "text": "x = -1, y =-79",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = 79",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = -79",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -1, y = -79",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-16K",
+        "options": [
+            {
+                "text": "x = 0.5, y = -6",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -0.5, y = -6",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -0.5, y = 6",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 0.5, y = 6",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-17K",
+        "options": [
+            {
+                "text": "x = -3, y = -13",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 3, y = 13",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -3, y = 13",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = 3, y = -13",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-18K",
+        "options": [
+            {
+                "text": "x = -1, y = -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = 1, y = 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = -3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-18K",
+        "options": [
+            {
+                "text": "x = -1, y = -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = 1, y = 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 1, y = -3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-19K",
+        "options": [
+            {
+                "text": "x = 3, y = -5",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = -3, y = -5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = 3, y = 5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -3, y = 5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygčių sistemos sprendimą:",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Lygčių sistemos",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "4-lygis/lygciu_sistemos/4L-2T-20K",
+        "options": [
+            {
+                "text": "x = 1, y = 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x = 1, y = -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x = -1, y = -3",
+                "isCorrect": 0
+            }
+        ]
+    }
+
 ]

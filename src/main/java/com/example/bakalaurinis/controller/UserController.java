@@ -1,12 +1,16 @@
 package com.example.bakalaurinis.controller;
 
+import com.example.bakalaurinis.exceptions.CustomValidationException;
 import com.example.bakalaurinis.model.User;
+import com.example.bakalaurinis.model.dtos.AccountDeleteRequest;
+import com.example.bakalaurinis.model.dtos.PasswordChangeRequest;
 import com.example.bakalaurinis.security.JwtUtil;
 import com.example.bakalaurinis.security.dtos.LoginRegisterUserRequest;
 import com.example.bakalaurinis.security.dtos.LoginResponse;
 import com.example.bakalaurinis.security.dtos.UserInfoResponse;
 import com.example.bakalaurinis.services.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
@@ -66,6 +70,41 @@ public class UserController {
             return ResponseEntity.ok(userInfoResponse.get());
         }
         return ResponseEntity.badRequest().body("User info not found");
+
+    }
+
+    @PostMapping("/update/username")
+    public ResponseEntity<?> updateUsername(@RequestBody LoginRegisterUserRequest loginRegisterUserRequest) {
+        try {
+            User authenticatedUser = userService.updateUsername(loginRegisterUserRequest);
+            String jwtToken = jwtUtil.generateToken(authenticatedUser);
+            return ResponseEntity.ok(new LoginResponse(jwtToken));
+
+        } catch (CustomValidationException e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+    @PostMapping("/update/password")
+    public ResponseEntity<?> updatePassword(@RequestBody PasswordChangeRequest passwordChangeRequest) {
+        try {
+            User authenticatedUser = userService.updatePassword(passwordChangeRequest);
+            String jwtToken = jwtUtil.generateToken(authenticatedUser);
+            return ResponseEntity.ok(new LoginResponse(jwtToken));
+
+        } catch (CustomValidationException e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+
+    @PostMapping("/delete")
+    public ResponseEntity<?> deleteUser(@RequestBody AccountDeleteRequest accountDeleteRequest) {
+        try {
+            userService.deleteUser(accountDeleteRequest);
+            return ResponseEntity.ok("User account deleted successfully.");
+        }
+        catch (CustomValidationException e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
 
     }
 }
