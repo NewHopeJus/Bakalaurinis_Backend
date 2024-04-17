@@ -7294,5 +7294,1880 @@
             }
         ]
     }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 2(x² - 5) + 6x = x² + 3x + 8",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u1",
+        "options": [
+            {
+                "text": "-3, 6",
+                "isCorrect": 0
+            },
+            {
+                "text": "-6, 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "-2, 5",
+                "isCorrect": 0
+            },
+            {
+                "text": "3, 6",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 2(x² - 7) + 4x = x² + 2x + 10",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u2",
+        "options": [
+            {
+                "text": "-6, 4",
+                "isCorrect": 1
+            },
+            {
+                "text": "6, -4",
+                "isCorrect": 0
+            },
+            {
+                "text": "6, 4",
+                "isCorrect": 0
+            },
+            {
+                "text": "-6, -4",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 2(x² - 9) + x = x² - 2x + 10",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u3",
+        "options": [
+            {
+                "text": "4, 7",
+                "isCorrect": 0
+            },
+            {
+                "text": "-4, -7",
+                "isCorrect": 0
+            },
+            {
+                "text": "4, -7",
+                "isCorrect": 1
+            },
+            {
+                "text": "-4, 7",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 2x² -12x = 9 - x² - 6x",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u4",
+        "options": [
+            {
+                "text": "-1, -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "1, -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "-1, -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "-1, 3",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 4x² -9x + 2 = 0",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u5",
+        "options": [
+            {
+                "text": "-2, 14",
+                "isCorrect": 0
+            },
+            {
+                "text": "2, -14",
+                "isCorrect": 0
+            },
+            {
+                "text": "2, 14",
+                "isCorrect": 1
+            },
+            {
+                "text": "-2, - 14",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 4(x + 2)² - 16 = 0",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u6",
+        "options": [
+            {
+                "text": "0, 4",
+                "isCorrect": 0
+            },
+            {
+                "text": "-1, -4",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, -4",
+                "isCorrect": 1
+            },
+            {
+                "text": "1, -4",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 3x² = 8 - 5x",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u7",
+        "options": [
+            {
+                "text": "1, -223",
+                "isCorrect": 1
+            },
+            {
+                "text": "-1, -223",
+                "isCorrect": 0
+            },
+            {
+                "text": "1, 223",
+                "isCorrect": 0
+            },
+            {
+                "text": "-1, -223",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: (3x - 2)² + 2x - 12 = 4 + 9x²",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u8",
+        "options": [
+            {
+                "text": "115",
+                "isCorrect": 0
+            },
+            {
+                "text": "-115",
+                "isCorrect": 1
+            },
+            {
+                "text": "-15",
+                "isCorrect": 0
+            },
+            {
+                "text": "15",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: (6x + 2)² = (9x - 1)(4x + 1)",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u9",
+        "options": [
+            {
+                "text": "-519",
+                "isCorrect": 1
+            },
+            {
+                "text": "519",
+                "isCorrect": 0
+            },
+            {
+                "text": "-195",
+                "isCorrect": 0
+            },
+            {
+                "text": "195",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x(x - 2) = 0",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Kvadratinės lygtys",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "-2, 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "2, 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, 2",
+                "isCorrect": 1
+            },
+            {
+                "text": "0, 1",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2x - 38 + x + 24 < 1",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x < 47",
+                "isCorrect": 1
+            },
+            {
+                "text": "x > 47",
+                "isCorrect": 0
+            },
+            {
+                "text": "x <-47",
+                "isCorrect": 0
+            },
+            {
+                "text": "x >-47",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2 + x3 + x -36 > 1",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x < 53",
+                "isCorrect": 1
+            },
+            {
+                "text": "x > 53",
+                "isCorrect": 0
+            },
+            {
+                "text": "x > -53",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -53",
+                "isCorrect": 0
+            }
+        ]
+    }
+
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: x  ≤  0.2x + 1.6",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x ≥ -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 2",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≥ 2",
+                "isCorrect": 0
+            }
+        ]
+    }
+
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 0.08x + 0.09(2x + 3) ≥ 130.27",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x ≤ -500",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 500",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≥ -500",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≥ 500",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 8x – 5 < x – 3(x – 1)",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x >-45",
+                "isCorrect": 0
+            },
+            {
+                "text": "x > 45",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 45",
+                "isCorrect": 1
+            },
+            {
+                "text": "x < -45",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 4x ≤ -4",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x ≥-1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -1",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ 1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x  ≥ 1",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 3(x + 2) + 4 < x + 14 – 2x.",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x > 1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 1",
+                "isCorrect": 1
+            },
+            {
+                "text": "x > -1",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2(z – 4) < 5(z – 1)",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "z < -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "z < 1",
+                "isCorrect": 0
+            },
+            {
+                "text": "z > 1",
+                "isCorrect": 0
+            },
+            {
+                "text": "z > -1",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 3(x – 2) – 5(2x – 1) ≥ 0",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x ≥ 17",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≥ -17",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -17",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ 17",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą:  16(x + 3) + 18(x + 1) ≤ 15",
+        "questionLevel": "4 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "40",
+        "coins": "4",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "x ≥ 32",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -32",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ 32",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≥ -32",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x² + (x - 2)(x + 3) = 2(x² - 5x + 8).",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u2",
+        "options": [
+            {
+                "text": "2",
+                "isCorrect": 1
+            },
+            {
+                "text": "-2",
+                "isCorrect": 0
+            },
+            {
+                "text": "0",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 7x² - (5 + x)(5 + 7x) = 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u4",
+        "options": [
+            {
+                "text": "58",
+                "isCorrect": 0
+            },
+            {
+                "text": "-58",
+                "isCorrect": 1
+            },
+            {
+                "text": "85",
+                "isCorrect": 0
+            },
+            {
+                "text": "-85",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: (x - 3)(8x + 1) - 7x = (2x - 5)(4x + 2)",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u6",
+        "options": [
+            {
+                "text": "13",
+                "isCorrect": 0
+            },
+            {
+                "text": "-13",
+                "isCorrect": 0
+            },
+            {
+                "text": "12",
+                "isCorrect": 1
+            },
+            {
+                "text": "-12",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x² + (x - 3)(x + 2) = 2(x² + 4x + 15)",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u8",
+        "options": [
+            {
+                "text": "-3",
+                "isCorrect": 0
+            },
+            {
+                "text": "3",
+                "isCorrect": 0
+            },
+            {
+                "text": "4",
+                "isCorrect": 0
+            },
+            {
+                "text": "-4",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 5x² - (3 + x)(6 + 5x) = 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "-76",
+                "isCorrect": 0
+            },
+            {
+                "text": "76",
+                "isCorrect": 0
+            },
+            {
+                "text": "-67",
+                "isCorrect": 1
+            },
+            {
+                "text": "67",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x(x² - 25) = 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u12",
+        "options": [
+            {
+                "text": "-5, 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, 5",
+                "isCorrect": 0
+            },
+            {
+                "text": "-5, 5",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, -5, 5",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x(x² - 6x + 9) = 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u14",
+        "options": [
+            {
+                "text": "0",
+                "isCorrect": 0
+            },
+            {
+                "text": "3, -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "0, -3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: x³ + 5x² + 6x = 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u16",
+        "options": [
+            {
+                "text": "0, 2, -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, -2, -3",
+                "isCorrect": 1
+            },
+            {
+                "text": "0, 2, 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, -2, 3",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: 6x³ - 9x² - 6x = 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u18",
+        "options": [
+            {
+                "text": "0, -12, 2",
+                "isCorrect": 1
+            },
+            {
+                "text": "0, 12, 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, 12, -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "0, -12, -2",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą lygties sprendimą: (x + 3)(x + 7)(x - 11) = 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Lygtys",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u20",
+        "options": [
+            {
+                "text": "-3, 7, 11",
+                "isCorrect": 0
+            },
+            {
+                "text": "-3, -7, 11",
+                "isCorrect": 1
+            },
+            {
+                "text": "3, 7, 11",
+                "isCorrect": 0
+            },
+            {
+                "text": "-3, -7, -11",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius -4.2",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u1",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius 9",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u2",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius 12",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u3",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius -65",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u4",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u5",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius 1",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u6",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius 4",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u7",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius 0.(3)",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u8",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius π",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u9",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kokiai skaičių aibei priklauso skaičius 63",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Skaičių aibės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u10",
+        "options": [
+            {
+                "text": "N - natūraliųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Z - sveikųjų",
+                "isCorrect": 0
+            },
+            {
+                "text": "Q - racionaliųjų",
+                "isCorrect": 1
+            },
+            {
+                "text": "R - realiųjų",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą:  x² + 16 > 8x.",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u11",
+        "options": [
+            {
+                "text": "x < 4, x > 4",
+                "isCorrect": 1
+            },
+            {
+                "text": "x < 4, x > -4",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 4, x < -4",
+                "isCorrect": 0
+            },
+            {
+                "text": "x > 4, x < -4",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą:  -3x² - 2x + 1 ≤ 0.",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u12",
+        "options": [
+            {
+                "text": "x ≤ 1, x ≥ 13",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -1, x ≥ 13",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ -1, x ≥ -13",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 1, x ≥ 13",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 6x² + 3x ≥ 0.",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u13",
+        "options": [
+            {
+                "text": "x ≥ -12, x ≥ 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 12, x ≥ 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -12, x ≥ 0",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≥ -12, x ≤ 0",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 3(x - 1)(x - 5) ≤ 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u14",
+        "options": [
+            {
+                "text": "x ≤ -5, x ≥ -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -5, x ≥ 1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 5, x ≥ -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 5, x ≥ 1",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: (x - 2)(x + 3) ≥ 0.",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u15",
+        "options": [
+            {
+                "text": "x ≤ -3, x ≥ -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 3, x ≥ -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -3, x ≥ 2",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ 3, x ≥ 2",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: (x + 1)(x - 3) > 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u16",
+        "options": [
+            {
+                "text": "x < 1, x > -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -1, x > 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x < -1, x > -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 1, x > 3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 3x² - 16x + 16 > 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u17",
+        "options": [
+            {
+                "text": "x < 43, x > 4",
+                "isCorrect": 1
+            },
+            {
+                "text": "x < 43, x > -4",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -43, x > 4",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -43, x > -4",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2x² - 3x > 5",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u18",
+        "options": [
+            {
+                "text": "x < -1, x > -2.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -1, x > 2.5",
+                "isCorrect": 1
+            },
+            {
+                "text": "x < 1, x > 2.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 1, x > -2.5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 8x² - 72x ≤ 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u19",
+        "options": [
+            {
+                "text": "x ≥ 9 , x ≤ 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -9 , x ≥ 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 9 , x ≥ 0",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≥ -9 , x ≤ 0",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2x² - 4x > 3x² - 6x",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u20",
+        "options": [
+            {
+                "text": "x > 2 , x < 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "x > -2 , x < 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -2 , x > 0",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 2 , x > 0",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2x² + 5x - 3 > 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u21",
+        "options": [
+            {
+                "text": "x > -3 , x < 0.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 3 , x > 0.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -3 , x > 0.5",
+                "isCorrect": 1
+            },
+            {
+                "text": "x < -3 , x > -0.5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2x² - 4x > (x + 3)(x - 2)",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u22",
+        "options": [
+            {
+                "text": "x < 2 , x > -3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 2 , x > 3",
+                "isCorrect": 1
+            },
+            {
+                "text": "x > 2 , x < 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -2 , x > -3",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2x² - 4x ≥ x - 2",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u23",
+        "options": [
+            {
+                "text": "x ≤ 0.5 , x ≥ 2",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ -0.5 , x ≥ 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 0.5 , x ≥ -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≥ 0.5 , x ≤ 2",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: 2x² - 7x + 5 ≥ 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u24",
+        "options": [
+            {
+                "text": "x ≤ -1 , x ≥ 2.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 1 , x ≥ 2.5",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ 1 , x ≥ -2.5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -1 , x ≥ -2.5",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: x² - 8x + 7 ≥ 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u25",
+        "options": [
+            {
+                "text": "x ≤ -1 , x ≥ 7",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≥ 1 , x ≤ 7",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 1 , x ≥ 7",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ 1 , x ≥ -7",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: x² - 3x - 10 < 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u26",
+        "options": [
+            {
+                "text": "x < 5 , x > 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < -5 , x > 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x > 5 , x < -2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 5 , x > -2",
+                "isCorrect": 1
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: x² - 8x + 15 > 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u27",
+        "options": [
+            {
+                "text": "x < -3 , x > -5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 5 , x > 3",
+                "isCorrect": 0
+            },
+            {
+                "text": "x < 3 , x > 5",
+                "isCorrect": 1
+            },
+            {
+                "text": "x < -3 , x > 5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: x² + 11x + 30 ≤ 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u28",
+        "options": [
+            {
+                "text": "x ≤ 6 , x ≥ 5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -5 , x ≥ -6",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ -6 , x ≥ -5",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 5 , x ≥ 6",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: x² - 3x + 2 ≤ 0",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u29",
+        "options": [
+            {
+                "text": "x ≤ 2 , x ≥ 1",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ 1 , x ≥ 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -2 , x ≥ -1",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ -1 , x ≥ -2",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Pateikite teisingą nelygybes sprendimą: (2x - 1)³ ≤ 8x³ - 13x² + 6x + 3",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Nelygybės",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u30",
+        "options": [
+            {
+                "text": "x ≤ -2 , x ≥ 2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ 2 , x ≥ -2",
+                "isCorrect": 1
+            },
+            {
+                "text": "x ≤ -√2 , x ≥ √2",
+                "isCorrect": 0
+            },
+            {
+                "text": "x ≤ √2 , x ≥ -√2",
+                "isCorrect": 0
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kiek skirtingų penkių raidžių žodžių galima sudaryti iš raidžių A, B, C, D, jei kiekviena raidė gali būti naudojama daugiau nei vieną kartą?",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Kombinatorika, tikimybių teorija ir statistika",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u31",
+        "options": [
+            {
+                "text": "625",
+                "isCorrect": 0
+            },
+            {
+                "text": "120",
+                "isCorrect": 0
+            },
+            {
+                "text": "512",
+                "isCorrect": 0
+            },
+            {
+                "text": "1024",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kiek skirtingų keturių raidžių žodžių galima sudaryti iš raidžių A, B, C, D, jei kiekviena raidė gali būti naudojama tik vieną kartą kiekviename žodyje?",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Kombinatorika, tikimybių teorija ir statistika",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u32",
+        "options": [
+            {
+                "text": "625",
+                "isCorrect": 1
+            },
+            {
+                "text": "120",
+                "isCorrect": 0
+            },
+            {
+                "text": "512",
+                "isCorrect": 0
+            },
+            {
+                "text": "24",
+                "isCorrect": 1
+            }
+        ]
+    },
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Kiek yra skirtingų būdų išdėlioti 5 knygas ant lentynos vieną šalia kitos?",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Kombinatorika, tikimybių teorija ir statistika",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u33",
+        "options": [
+            {
+                "text": "25",
+                "isCorrect": 0
+            },
+            {
+                "text": "120",
+                "isCorrect": 1
+            },
+            {
+                "text": "60",
+                "isCorrect": 0
+            },
+            {
+                "text": "100",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Maišelyje yra 4 balti ir 6 juodi kamuoliai. Atsitiktinai traukiamas vienas kamuolys. Kokia tikimybė, kad jis bus baltas?",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Kombinatorika, tikimybių teorija ir statistika",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u34",
+        "options": [
+            {
+                "text": "1/5",
+                "isCorrect": 0
+            },
+            {
+                "text": "1/2",
+                "isCorrect": 0
+            },
+            {
+                "text": "2/5",
+                "isCorrect": 1
+            },
+            {
+                "text": "3/5",
+                "isCorrect": 0
+            }
+        ]
+    }
+,
+    {
+        "questionType": "ONE_ANSWER",
+        "description": "Saldumynų karalystės fėja spintoje saugo 7 raudonus ir 5 mėlynus saldainius. Atsitiktinai, kol niekas nemato iš spintos traukia vieną saldainį. Kokia tikimybė, kad jis bus mėlynas?",
+        "questionLevel": "5 lygis",
+        "questionTopic": "Kombinatorika, tikimybių teorija ir statistika",
+        "experience": "50",
+        "coins": "5",
+        "hint":"",
+        "imagePath": "visiems/u35",
+        "options": [
+            {
+                "text": "5/12",
+                "isCorrect": 1
+            },
+            {
+                "text": "7/12",
+                "isCorrect": 0
+            },
+            {
+                "text": "1/7",
+                "isCorrect": 0
+            },
+            {
+                "text": "2/5",
+                "isCorrect": 0
+            }
+        ]
+    }
 
 ]

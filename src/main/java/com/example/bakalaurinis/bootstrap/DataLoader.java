@@ -77,13 +77,13 @@ public class DataLoader implements CommandLineRunner {
 
             List<ShopItem> itemListEmpty = new ArrayList<>();
 
-            ShopItem elfuNamas = new ShopItem(null, "Elfų namas", "imageViewElfuNamasElfuKaralyste", "elf_home", 1, null);
-            ShopItem drakonas = new ShopItem(null, "Drakonas", "imageViewDrakonasElfuKaralyste", "drakonas", 1, null);
-            ShopItem elfas = new ShopItem(null, "Elfas Jonas",  "imageViewElfasJonasElfuKaralyste", "elfas", 1, null);
-            ShopItem elfeLiepa = new ShopItem(null, "Elfė Liepa", "imageViewElfeLiepa", "elf_girl", 1, null);
-            ShopItem stebuklingasPaukstis = new ShopItem(null, "Stebuklingas Paukštis", "imageViewStebuklingasPaukstis", "bird_magestic", 1, null);
-            ShopItem VandensLelija = new ShopItem(null, "Vandens Lelija", "imageViewVandensLelija", "vandens_lelija", 1, null);
-            ShopItem magiskaGele = new ShopItem(null, "Magiška gėlė", "imageViewMagiskaGele", "gele_elfu_karalyste", 1, null);
+            ShopItem elfuNamas = new ShopItem(null, "Elfų namas", "imageViewElfuNamasElfuKaralyste", "elf_home", 20, null);
+            ShopItem drakonas = new ShopItem(null, "Drakonas", "imageViewDrakonasElfuKaralyste", "drakonas", 10, null);
+            ShopItem elfas = new ShopItem(null, "Elfas Jonas",  "imageViewElfasJonasElfuKaralyste", "elfas", 10, null);
+            ShopItem elfeLiepa = new ShopItem(null, "Elfė Liepa", "imageViewElfeLiepa", "elf_girl", 10, null);
+            ShopItem stebuklingasPaukstis = new ShopItem(null, "Stebuklingas Paukštis", "imageViewStebuklingasPaukstis", "bird_magestic", 10, null);
+            ShopItem VandensLelija = new ShopItem(null, "Vandens Lelija", "imageViewVandensLelija", "vandens_lelija", 5, null);
+            ShopItem magiskaGele = new ShopItem(null, "Magiška Gėlė", "imageViewMagiskaGele", "gele_elfu_karalyste", 5, null);
 
 
             elfKingdomItems.add(drakonas);
@@ -95,15 +95,15 @@ public class DataLoader implements CommandLineRunner {
             elfKingdomItems.add(magiskaGele);
 
 
-            ShopItem gyvenamasisGrybas = new ShopItem(null, "Gyvenamasis Grybas", "imageViewGyvenamasisGrybasGrybuKaralyste","gyvenamasis_grybas", 1, null);
-            ShopItem grybejaDidzioji = new ShopItem(null, "Grybėja Didžioji", "imageViewgrybejaDidziojiGrybuKaralyste", "grybeja_didzioji", 1, null);
-            ShopItem zaliojiGudryte = new ShopItem(null, "Žalioji Gudrytė", "imageViewzaliojiGudryteGrybuKaralyste","zalioji_gudryte", 1, null);
-            ShopItem linksmasisRaudonikis = new ShopItem(null, "Linksmasis Raudonikis", "imageViewlinksmasisRaudonikisGrybuKaralyste", "linksmasis_raudonikis",1, null);
-            ShopItem voveryte = new ShopItem(null, "Voverytė", "imageViewVoveryteGrybuKaralyste", "voveryte",1, null );
-            ShopItem stirnyte = new ShopItem(null, "Stirnytė", "imageViewStirnyteGrybuKaralyste", "stirnyte",1, null);
-            ShopItem pauksciukasSpalvingas = new ShopItem(null, "Paukščiukas Spalvingas", "imageViewPauksciukasSpalvingasGrybuKaralyste", "pauksciukas_spalvingas",1, null);
-            ShopItem pauksciukasDziugeselis = new ShopItem(null, "Paukščiukas Džiugesėlis", "imageViewPauksciukasDziugeselisGrybuKaralyste", "pauksciukas_dziugeselis",1, null);
-            ShopItem pauksciukasSviesele = new ShopItem(null, "Paukščiukas Švieselė", "imageViewPauksciukasSvieseleGrybuKaralyste","pauksciukas_sviesele", 1, null);
+            ShopItem gyvenamasisGrybas = new ShopItem(null, "Gyvenamasis Grybas", "imageViewGyvenamasisGrybasGrybuKaralyste","gyvenamasis_grybas", 15, null);
+            ShopItem grybejaDidzioji = new ShopItem(null, "Grybėja Didžioji", "imageViewgrybejaDidziojiGrybuKaralyste", "grybeja_didzioji", 20, null);
+            ShopItem zaliojiGudryte = new ShopItem(null, "Žalioji Gudrytė", "imageViewzaliojiGudryteGrybuKaralyste","zalioji_gudryte", 20, null);
+            ShopItem linksmasisRaudonikis = new ShopItem(null, "Linksmasis Raudonikis", "imageViewlinksmasisRaudonikisGrybuKaralyste", "linksmasis_raudonikis",20, null);
+            ShopItem voveryte = new ShopItem(null, "Voverytė", "imageViewVoveryteGrybuKaralyste", "voveryte",5, null );
+            ShopItem stirnyte = new ShopItem(null, "Stirnytė", "imageViewStirnyteGrybuKaralyste", "stirnyte",5, null);
+            ShopItem pauksciukasSpalvingas = new ShopItem(null, "Paukščiukas Spalvingas", "imageViewPauksciukasSpalvingasGrybuKaralyste", "pauksciukas_spalvingas",5, null);
+            ShopItem pauksciukasDziugeselis = new ShopItem(null, "Paukščiukas Džiugesėlis", "imageViewPauksciukasDziugeselisGrybuKaralyste", "pauksciukas_dziugeselis",5, null);
+            ShopItem pauksciukasSviesele = new ShopItem(null, "Paukščiukas Švieselė", "imageViewPauksciukasSvieseleGrybuKaralyste","pauksciukas_sviesele", 5, null);
 
             mushroomKingdomItems.add(grybejaDidzioji);
             mushroomKingdomItems.add(zaliojiGudryte);
@@ -117,17 +117,17 @@ public class DataLoader implements CommandLineRunner {
 
 
             ShopItem sviesiojiPilis = new ShopItem(null, "Šviesioji Pilis", "imageViewSviesiojiPilisGeliuKaralyste","sviesioji_pilis", 10, null);
-            ShopItem princeseRozyte = new ShopItem(null, "Princesė Rožytė", "imageViewPrinceseRozyteGeliuKaralyste", "princese_rozyte", 10, null);
-            ShopItem pauksciukasSvelnute = new ShopItem(null, "Paukščiukas Švelnutė", "imageViewPauksciukasSvelnuteGeliuKaralyste","pauksciukas_svelnute", 10, null);
-            ShopItem kiskisPukuotasSmalsuolis = new ShopItem(null, "Pūkuotas Smalsuolis", "imageViewPukuotasSmalsuolis","bunny_flower_kingdom", 10, null);
-            ShopItem kiskisLaukoTykotojas = new ShopItem(null, "Lauko Tykotojas", "imageViewLaukoTykotojas","bunny_2_flower_kingdom", 10, null);
-            ShopItem ziedai = new ShopItem(null, "Medžio žiedai", "imageViewZiedai","blossom_flower_kingdom", 10, null);
-            ShopItem pauksciukasMelsvasisDziaugsmas = new ShopItem(null, "Paukščiukas melsvasis džiaugsmas", "imageViewPauksciukasMelsvasisDziaugsmas","bird_2_flower_kingdom", 10, null);
-            ShopItem suoliukas = new ShopItem(null, "Suoliukas", "imageViewSuoliukas","suoliukas_flower_kingdom", 10, null);
-            ShopItem zydintisMedis = new ShopItem(null, "Žydintis medis", "imageViewZydintisMedis","tree_flower_kingdom", 10, null);
-            ShopItem elnias = new ShopItem(null, "Elnias", "imageViewElnias","dear_flower_kingdom", 10, null);
-            ShopItem roze = new ShopItem(null, "Rožė", "imageViewRoze","rose_flower_kingdom", 10, null);
-            ShopItem drugelis = new ShopItem(null, "Drugelis", "imageViewDrugelis","butterfly_flower_kingdom", 10, null);
+            ShopItem princeseRozyte = new ShopItem(null, "Princesė Rožytė", "imageViewPrinceseRozyteGeliuKaralyste", "princese_rozyte", 5, null);
+            ShopItem pauksciukasSvelnute = new ShopItem(null, "Paukščiukas Švelnutė", "imageViewPauksciukasSvelnuteGeliuKaralyste","pauksciukas_svelnute", 3, null);
+            ShopItem kiskisPukuotasSmalsuolis = new ShopItem(null, "Pūkuotas Smalsuolis", "imageViewPukuotasSmalsuolis","bunny_flower_kingdom", 3, null);
+            ShopItem kiskisLaukoTykotojas = new ShopItem(null, "Lauko Tykotojas", "imageViewLaukoTykotojas","bunny_2_flower_kingdom", 3, null);
+            ShopItem ziedai = new ShopItem(null, "Medžio žiedai", "imageViewZiedai","blossom_flower_kingdom", 3, null);
+            ShopItem pauksciukasMelsvasisDziaugsmas = new ShopItem(null, "Melsvasis Džiaugsmas", "imageViewPauksciukasMelsvasisDziaugsmas","bird_2_flower_kingdom", 3, null);
+            ShopItem suoliukas = new ShopItem(null, "Suoliukas", "imageViewSuoliukas","suoliukas_flower_kingdom", 2, null);
+            ShopItem zydintisMedis = new ShopItem(null, "Žydintis medis", "imageViewZydintisMedis","tree_flower_kingdom", 3, null);
+            ShopItem elnias = new ShopItem(null, "Elnias", "imageViewElnias","dear_flower_kingdom", 5, null);
+            ShopItem roze = new ShopItem(null, "Rožė", "imageViewRoze","rose_flower_kingdom", 5, null);
+            ShopItem drugelis = new ShopItem(null, "Drugelis", "imageViewDrugelis","butterfly_flower_kingdom", 5, null);
 
 
 
@@ -147,15 +147,15 @@ public class DataLoader implements CommandLineRunner {
 
 
             ShopItem pilis = new ShopItem(null, "Pilis", "imageViewPagrinidinePilis", "pilis", 10, null);
-            ShopItem manoPilisDrakonas = new ShopItem(null, "Drakonas Debesų Raitelis", "imageViewFlyingDragon", "flying_dragon", 10, null);
-            ShopItem oroBalionas = new ShopItem(null, "Oro balionas", "imageViewBaloon", "baloon", 10, null);
-            ShopItem vejoKariai= new ShopItem(null, "Vėjo Kariai", "imageViewVejoKariai", "army", 10, null);
-            ShopItem melynujuSarvuRiteriai = new ShopItem(null, "Mėlynųjų Šarvų Riteriai", "imageViewMelynujuSarvuRiteriai", "army_bigger", 10, null);
-            ShopItem draugiskasisDivdyris = new ShopItem(null, "Draugiškasis Didvyris", "imageViewDraugiskasisDidvyris", "kinght_second", 10, null);
-            ShopItem garsusisPabaisuNugaletojas = new ShopItem(null, "Garsusis Pabaisų Nugalėtojas", "imageViewGarsusisPabaisuNugaletojas", "knight_cute", 10, null);
-            ShopItem laivasSuGinkluote = new ShopItem(null, "Laivas su ginkluote", "imageViewLaivasSuGinkluote", "ship", 10, null);
-            ShopItem patranka = new ShopItem(null, "Patranka", "imageViewPatranka", "cannon", 10, null);
-            ShopItem katapulta = new ShopItem(null, "Katapulta", "imageViewKatapulta", "catapult", 10, null);
+            ShopItem manoPilisDrakonas = new ShopItem(null, "Drakonas Debesų Raitelis", "imageViewFlyingDragon", "flying_dragon", 5, null);
+            ShopItem oroBalionas = new ShopItem(null, "Oro balionas", "imageViewBaloon", "baloon", 5, null);
+            ShopItem vejoKariai= new ShopItem(null, "Vėjo Kariai", "imageViewVejoKariai", "army", 5, null);
+            ShopItem melynujuSarvuRiteriai = new ShopItem(null, "Mėlynųjų Šarvų Riteriai", "imageViewMelynujuSarvuRiteriai", "army_bigger", 5, null);
+            ShopItem draugiskasisDivdyris = new ShopItem(null, "Draugiškasis Didvyris", "imageViewDraugiskasisDidvyris", "kinght_second", 2, null);
+            ShopItem garsusisPabaisuNugaletojas = new ShopItem(null, "Garsusis Pabaisų Nugalėtojas", "imageViewGarsusisPabaisuNugaletojas", "knight_cute", 2, null);
+            ShopItem laivasSuGinkluote = new ShopItem(null, "Laivas su ginkluote", "imageViewLaivasSuGinkluote", "ship", 6, null);
+            ShopItem patranka = new ShopItem(null, "Patranka", "imageViewPatranka", "cannon", 5, null);
+            ShopItem katapulta = new ShopItem(null, "Katapulta", "imageViewKatapulta", "catapult", 5, null);
 
 
             myCastleItems.add(pilis);
@@ -170,19 +170,19 @@ public class DataLoader implements CommandLineRunner {
             myCastleItems.add(katapulta);
 
 
-            ShopItem pilisPovandenineKaralyste = new ShopItem(null, "Povandeninė Pilis", "imageViewPilisPovandenineKaralyste", "castle_povandenine_karalyste_6", 1, null);
-            ShopItem undine = new ShopItem(null, "Undinė", "imageViewUndine", "mermaid_little", 1, null);
-            ShopItem juruArkliukas = new ShopItem(null, "Jūrų arkliukas", "imageViewJuruArkliukas", "sea_horse", 1, null);
-            ShopItem moliuskas = new ShopItem(null, "Moliuskas", "imageViewMoliuskas", "shell", 1, null);
-            ShopItem krabas = new ShopItem(null, "Krabas", "imageViewKrabas", "crab", 1, null);
-            ShopItem zuvyteRaudonasisNeonas = new ShopItem(null, "Žuvytė Raudonasis Neonas", "imageViewZuvyteRaudonasisNeonas", "orange_colorful_fish", 1, null);
-            ShopItem zuvyteMelynojiGupija = new ShopItem(null, "Žuvytė Mėlynoji Gupija", "imageViewZuvyteMelynojiGupija", "blue_purple_fish", 1, null);
-            ShopItem auksineZuvele = new ShopItem(null, "Auksinė Žuvelė", "imageViewAuksineZuvele", "golden_fish", 1, null);
-            ShopItem zuvytePurpurineTetra = new ShopItem(null, "Žuvytė Purpurinė Tetra", "imageViewZuvytePurpurineTetra", "colorful_fish", 1, null);
-            ShopItem astuonkojis = new ShopItem(null, "Aštunkojis", "imageViewAstunkojis", "cute_creature_povandenine_karalyste", 1, null);
-            ShopItem jurosGeles = new ShopItem(null, "Jūros Gėlės", "imageViewJurosGeles", "colorful_plant", 1, null);
-            ShopItem anacharisAugalas = new ShopItem(null, "Anacharis Augalas", "imageViewAnacharisAugalas", "papartis", 1, null);
-            ShopItem gorgonaceaAugalas = new ShopItem(null, "Gorgonacea Augalas", "imageViewGorgonaceaAugalas", "purple_sea_plant", 1, null);
+            ShopItem pilisPovandenineKaralyste = new ShopItem(null, "Povandeninė Pilis", "imageViewPilisPovandenineKaralyste", "castle_povandenine_karalyste_6", 30, null);
+            ShopItem undine = new ShopItem(null, "Undinė", "imageViewUndine", "mermaid_little", 30, null);
+            ShopItem juruArkliukas = new ShopItem(null, "Jūrų arkliukas", "imageViewJuruArkliukas", "sea_horse", 20, null);
+            ShopItem moliuskas = new ShopItem(null, "Moliuskas", "imageViewMoliuskas", "shell", 10, null);
+            ShopItem krabas = new ShopItem(null, "Krabas", "imageViewKrabas", "crab", 20, null);
+            ShopItem zuvyteRaudonasisNeonas = new ShopItem(null, "Žuvytė Raudonasis Neonas", "imageViewZuvyteRaudonasisNeonas", "orange_colorful_fish", 10, null);
+            ShopItem zuvyteMelynojiGupija = new ShopItem(null, "Žuvytė Mėlynoji Gupija", "imageViewZuvyteMelynojiGupija", "blue_purple_fish", 10, null);
+            ShopItem auksineZuvele = new ShopItem(null, "Auksinė Žuvelė", "imageViewAuksineZuvele", "golden_fish", 10, null);
+            ShopItem zuvytePurpurineTetra = new ShopItem(null, "Žuvytė Purpurinė Tetra", "imageViewZuvytePurpurineTetra", "colorful_fish", 10, null);
+            ShopItem astuonkojis = new ShopItem(null, "Aštunkojis", "imageViewAstunkojis", "cute_creature_povandenine_karalyste", 15, null);
+            ShopItem jurosGeles = new ShopItem(null, "Jūros Gėlės", "imageViewJurosGeles", "colorful_plant", 5, null);
+            ShopItem anacharisAugalas = new ShopItem(null, "Anacharis Augalas", "imageViewAnacharisAugalas", "papartis", 5, null);
+            ShopItem gorgonaceaAugalas = new ShopItem(null, "Gorgonacea Augalas", "imageViewGorgonaceaAugalas", "purple_sea_plant", 5, null);
 
 
             underwaterKingdomItems.add(undine);
@@ -200,21 +200,21 @@ public class DataLoader implements CommandLineRunner {
             underwaterKingdomItems.add(pilisPovandenineKaralyste);
 
 
-            ShopItem saldumynuPilis = new ShopItem(null, "Saldumynų pilis", "imageViewSaldumynuPilis", "candy_kingdom_castle", 1, null);
-            ShopItem saldainiuPaukstis = new ShopItem(null, "Saldainių paukštis", "imageViewSaldainiuPaukstis", "sweets_bird", 1, null);
-            ShopItem ledinukas = new ShopItem(null, "Ledinukas", "imageViewLedinukas", "lolipop", 1, null);
-            ShopItem saldumynuFeja = new ShopItem(null, "Saldumynų fėja", "imageViewSaldumynuFeja", "feja", 1, null);
-            ShopItem saldainis = new ShopItem(null, "Saldainis", "imageViewSaldainis", "candy", 1, null);
-            ShopItem cukrausDrugelis = new ShopItem(null, "Cukraus Drugelis", "imageViewCukrausDrugelis", "drugelis", 1, null);
-            ShopItem spalvotiLedai = new ShopItem(null, "Spalvoti Ledai", "imageViewSpalvotiLedai", "ice_cream", 1, null);
-            ShopItem ledinukasSirdute = new ShopItem(null, "Ledinukas Širdutė", "imageViewLedinukasSirdute", "lolipop_heart", 1, null);
-            ShopItem vaikstantisSausainis = new ShopItem(null, "Vaikštantis Sausainis", "imageViewSausainis", "cookie", 1, null);
-            ShopItem saldainiuTriusiukas = new ShopItem(null, "Saldainių Triušiukas", "imageViewSaldainiuTriusiukas", "bunny", 1, null);
-            ShopItem vaikstantisPyragas= new ShopItem(null, "Vaikštantis Pyragas", "imageViewVaikstantisPyragas", "pyragas", 1, null);
-            ShopItem katinas = new ShopItem(null, "Katinas", "imageViewKatinas", "cat", 1, null);
-            ShopItem katinoKaruna = new ShopItem(null, "Katino šokoladinė karūna", "imageViewKaruna", "crown", 1, null);
-            ShopItem keksiukas = new ShopItem(null, "Keksiukas", "imageViewKeksiukas", "cupcake", 1, null);
-            ShopItem bitute = new ShopItem(null, "Bitutė", "imageViewBitute", "bee_saldumynu", 1, null);
+            ShopItem saldumynuPilis = new ShopItem(null, "Saldumynų pilis", "imageViewSaldumynuPilis", "candy_kingdom_castle", 40, null);
+            ShopItem saldainiuPaukstis = new ShopItem(null, "Saldainių paukštis", "imageViewSaldainiuPaukstis", "sweets_bird", 20, null);
+            ShopItem ledinukas = new ShopItem(null, "Ledinukas", "imageViewLedinukas", "lolipop", 10, null);
+            ShopItem saldumynuFeja = new ShopItem(null, "Saldumynų fėja", "imageViewSaldumynuFeja", "feja", 30, null);
+            ShopItem saldainis = new ShopItem(null, "Saldainis", "imageViewSaldainis", "candy", 10, null);
+            ShopItem cukrausDrugelis = new ShopItem(null, "Cukraus Drugelis", "imageViewCukrausDrugelis", "drugelis", 20, null);
+            ShopItem spalvotiLedai = new ShopItem(null, "Spalvoti Ledai", "imageViewSpalvotiLedai", "ice_cream", 10, null);
+            ShopItem ledinukasSirdute = new ShopItem(null, "Ledinukas Širdutė", "imageViewLedinukasSirdute", "lolipop_heart", 10, null);
+            ShopItem vaikstantisSausainis = new ShopItem(null, "Vaikštantis Sausainis", "imageViewSausainis", "cookie", 10, null);
+            ShopItem saldainiuTriusiukas = new ShopItem(null, "Saldainių Triušiukas", "imageViewSaldainiuTriusiukas", "bunny", 20, null);
+            ShopItem vaikstantisPyragas= new ShopItem(null, "Vaikštantis Pyragas", "imageViewVaikstantisPyragas", "pyragas", 10, null);
+            ShopItem katinas = new ShopItem(null, "Katinas", "imageViewKatinas", "cat", 20, null);
+            ShopItem katinoKaruna = new ShopItem(null, "Katino šokoladinė karūna", "imageViewKaruna", "crown", 10, null);
+            ShopItem keksiukas = new ShopItem(null, "Keksiukas", "imageViewKeksiukas", "cupcake", 10, null);
+            ShopItem bitute = new ShopItem(null, "Bitutė", "imageViewBitute", "bee_saldumynu", 10, null);
 
             sweetsKingdomItems.add(saldumynuPilis);
             sweetsKingdomItems.add(saldainiuPaukstis);
@@ -232,19 +232,19 @@ public class DataLoader implements CommandLineRunner {
             sweetsKingdomItems.add(keksiukas);
             sweetsKingdomItems.add(bitute);
 
-            ShopItem nykstukuNamas = new ShopItem(null, "Nykštukų Namas", "imageViewNykstukuNamas", "nykstuku_namas", 1, null);
-            ShopItem boruzele = new ShopItem(null, "Boružėlė", "imageViewBoruzele", "boruzele", 1, null);
-            ShopItem viksras = new ShopItem(null, "Vikšras", "imageViewViksras", "cetepillar", 1, null);
-            ShopItem zaliasisPukutis = new ShopItem(null, "Žaliasis Pūkutis", "imageViewZaliasisPukutis", "cute_creature", 1, null);
-            ShopItem raudonasVabzdys = new ShopItem(null, "Raudonas Vabzdys", "imageViewRaudonasVabzdys", "bug", 1, null);
-            ShopItem laukineBitute = new ShopItem(null, "Laukinė Bitutė", "imageViewLaukineBitute", "bee", 1, null);
-            ShopItem pauksciukasCvirpukas = new ShopItem(null, "Paukščiukas Cvirpukas", "imageViewPauksciukasCvirpukas", "bird_gnom_kingdom", 1, null);
-            ShopItem nykstukasBasutis = new ShopItem(null, "Nykštukas Basutis", "imageViewNykstukasBasutis", "nykstukas_naujas", 1, null);
-            ShopItem nykstukasIsmincius = new ShopItem(null, "Nykštukas Išminčius", "imageViewNykstukasIsmincius", "nykstykas_didesnis", 1, null);
-            ShopItem isminciausDarzoves = new ShopItem(null, "Išminčiaus užaugintos daržovės", "imageViewDarzoves", "darzoves", 1, null);
-            ShopItem varlyte = new ShopItem(null, "Varlytė", "imageViewVarlyte", "frog", 1, null);
-            ShopItem stebuklingaZuvyte = new ShopItem(null, "Stebuklinga Žuvytė", "imageViewStebuklingaZuvyte", "goldfish_little", 1, null);
-            ShopItem linksmasisVabaliukas = new ShopItem(null, "Linksmasis Vabaliukas", "imageViewLinksmasisVabaliukas", "cute_bug", 1, null);
+            ShopItem nykstukuNamas = new ShopItem(null, "Nykštukų Namas", "imageViewNykstukuNamas", "nykstuku_namas", 25, null);
+            ShopItem boruzele = new ShopItem(null, "Boružėlė", "imageViewBoruzele", "boruzele", 10, null);
+            ShopItem viksras = new ShopItem(null, "Vikšras", "imageViewViksras", "cetepillar", 10, null);
+            ShopItem zaliasisPukutis = new ShopItem(null, "Žaliasis Pūkutis", "imageViewZaliasisPukutis", "cute_creature", 20, null);
+            ShopItem raudonasVabzdys = new ShopItem(null, "Raudonas Vabzdys", "imageViewRaudonasVabzdys", "bug", 10, null);
+            ShopItem laukineBitute = new ShopItem(null, "Laukinė Bitutė", "imageViewLaukineBitute", "bee", 10, null);
+            ShopItem pauksciukasCvirpukas = new ShopItem(null, "Paukščiukas Cvirpukas", "imageViewPauksciukasCvirpukas", "bird_gnom_kingdom", 20, null);
+            ShopItem nykstukasBasutis = new ShopItem(null, "Nykštukas Basutis", "imageViewNykstukasBasutis", "nykstukas_naujas", 20, null);
+            ShopItem nykstukasIsmincius = new ShopItem(null, "Nykštukas Išminčius", "imageViewNykstukasIsmincius", "nykstykas_didesnis", 20, null);
+            ShopItem isminciausDarzoves = new ShopItem(null, "Išminčiaus užaugintos daržovės", "imageViewDarzoves", "darzoves", 20, null);
+            ShopItem varlyte = new ShopItem(null, "Varlytė", "imageViewVarlyte", "frog", 20, null);
+            ShopItem stebuklingaZuvyte = new ShopItem(null, "Stebuklinga Žuvytė", "imageViewStebuklingaZuvyte", "goldfish_little", 20, null);
+            ShopItem linksmasisVabaliukas = new ShopItem(null, "Linksmasis Vabaliukas", "imageViewLinksmasisVabaliukas", "cute_bug", 20, null);
 
             dwarfKingdomItems.add(nykstukuNamas);
             dwarfKingdomItems.add(boruzele);

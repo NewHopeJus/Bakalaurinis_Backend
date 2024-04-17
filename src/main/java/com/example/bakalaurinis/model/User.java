@@ -69,6 +69,6 @@ public class User {
     }
 
     public void subtractCoins(Integer coins){
-        userCoins-=coins;
+        this.userCoins-=coins;
     }
 }

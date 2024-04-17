@@ -44,7 +44,7 @@ public class ShopItemService {
         if (user.getUserCoins() < shopItem.getPrice()) {
             return new BuyItemResponse(false, "Nepakankamas monetų skaičius");
         } else if (user.isItemBought(shopItem)) {
-            return new BuyItemResponse(false, "Šis karalystės elemntas jau yra nupirktas");
+            return new BuyItemResponse(false, "Šis karalystės elementas jau yra nupirktas");
         }
 
         user.addBoughtItem(shopItem);
