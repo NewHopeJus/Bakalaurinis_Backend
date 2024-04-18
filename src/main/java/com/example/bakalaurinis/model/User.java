@@ -52,6 +52,7 @@ public class User {
         userExperience = 0;
         openedKingdoms = new ArrayList<>();
         boughtItems = new ArrayList<>();
+        levelStatistics = new ArrayList<>();
     }
 
     @ManyToMany(cascade = CascadeType.ALL)
@@ -71,4 +72,5 @@ public class User {
     public void subtractCoins(Integer coins){
         this.userCoins-=coins;
     }
+
 }

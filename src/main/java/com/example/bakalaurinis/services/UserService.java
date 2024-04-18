@@ -1,7 +1,6 @@
 package com.example.bakalaurinis.services;
 
 import com.example.bakalaurinis.exceptions.CustomValidationException;
-import com.example.bakalaurinis.model.Kingdom;
 import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.model.dtos.AccountDeleteRequest;
 import com.example.bakalaurinis.model.dtos.PasswordChangeRequest;
@@ -51,27 +50,6 @@ public class UserService {
 
     public User registerUser(LoginRegisterUserRequest input) {
         User user = new User(input.getUsername(), passwordEncoder.encode(input.getPassword()));
-        Optional<Kingdom> kingdom = kingdomService.getKingdomById(1L);
-        //veliau pakeisit!!! teistavimui tik kolkas
-        Optional<Kingdom> kingdom1 = kingdomService.getKingdomById(2L);
-        Optional<Kingdom> kingdom2 = kingdomService.getKingdomById(3L);
-
-        if (kingdom.isPresent()) {
-            user.getOpenedKingdoms().add(kingdom.get());
-            user.getOpenedKingdoms().add(kingdom1.get());
-            user.getOpenedKingdoms().add(kingdom2.get());
-
-        }
-//        List<LevelStatistics> levelStatistics =
-//
-//                user.getLevelStatistics();
-//        for (LevelStatistics level: levelStatistics) {
-//            level.setUser(user);
-//            List<TopicStatistics> topicStatistics = level.getTopicStatistics();
-//            for (TopicStatistics topic: topicStatistics){
-//                topic.setLevelStatistics(level);
-//            }
-//        }
         return userRepository.save(user);
     }
 
@@ -134,5 +112,9 @@ public class UserService {
         } else {
             throw new CustomValidationException("User not found.");
         }
+    }
+
+    public User findUserByUsername(String username){
+        return userRepository.findByUsername(username);
     }
 }

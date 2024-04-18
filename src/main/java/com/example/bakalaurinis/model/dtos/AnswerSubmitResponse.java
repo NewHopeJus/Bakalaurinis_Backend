@@ -14,4 +14,6 @@ public class AnswerSubmitResponse {
     private Integer updatedExperience;
     private Integer updatedCoins;
     private String correctAnswerText;
+    private Boolean hasOpenedKingdom;
+    private String openedKingdomText;
 }

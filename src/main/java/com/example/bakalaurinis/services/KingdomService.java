@@ -50,11 +50,9 @@ public class KingdomService {
         List<Kingdom> closedKingdoms = kingdomRepository.getClosedKingdoms(user.getId());
         if (openedKingdoms != null && closedKingdoms != null) {
             for (Kingdom k : openedKingdoms) {
-                //kingdomsResponse.getOpenedKingdoms().put(k, true);
                 kingdomsResponse.getOpenedKingdoms().add(new KingdomDto(k, true));
             }
             for (Kingdom k : closedKingdoms) {
-                //kingdomsResponse.getClosedKingdoms().put(k, false);
                 kingdomsResponse.getClosedKingdoms().add(new KingdomDto(k, false));
 
             }

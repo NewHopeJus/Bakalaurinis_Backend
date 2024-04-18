@@ -9,9 +9,8 @@ import lombok.Setter;
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
-public class AnswerSubmitRequest {
-    private Long questionId;
-    private String userAnswer;
-    private Long selectedOptionId;
+public class LevelStatisticsDto {
     private String levelName;
+    private Integer levelCorrectAnswered;
+    private Integer totalAnswered;
 }

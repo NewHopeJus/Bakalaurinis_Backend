@@ -1,14 +1,11 @@
 package com.example.bakalaurinis.model;
 
 import com.fasterxml.jackson.annotation.JsonBackReference;
-import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-
-import java.util.List;
 
 @Getter
 @Setter
@@ -25,16 +22,8 @@ public class LevelStatistics {
     private Integer totalAnswered;
 
     private Integer correctlyAnswered;
-
-    @JsonManagedReference
-    @OneToMany(fetch = FetchType.LAZY, mappedBy = "levelStatistics", cascade = CascadeType.ALL)
-    private List<TopicStatistics> topicStatistics;
-
     @ManyToOne
     @JsonBackReference
     private User user;
-
-
-
 
 }

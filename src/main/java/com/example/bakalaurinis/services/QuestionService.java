@@ -1,9 +1,6 @@
 package com.example.bakalaurinis.services;
 
-import com.example.bakalaurinis.model.Option;
-import com.example.bakalaurinis.model.Question;
-import com.example.bakalaurinis.model.User;
-import com.example.bakalaurinis.model.UserAnswer;
+import com.example.bakalaurinis.model.*;
 import com.example.bakalaurinis.model.dtos.AnswerSubmitRequest;
 import com.example.bakalaurinis.model.dtos.AnswerSubmitResponse;
 import com.example.bakalaurinis.repository.QuestionRepository;
@@ -27,13 +24,19 @@ public class QuestionService {
     private final QuestionRepository questionRepository;
     private final UserRepository userRepository;
     private UserAnswerRepository userAnswerRepository;
+    private KingdomService kingdomService;
+    private StatisticsService statisticsService;
+
 
     @Autowired
     public QuestionService(QuestionRepository questionRepository, UserRepository userRepository,
-                           UserAnswerRepository userAnswerRepository) {
+                           UserAnswerRepository userAnswerRepository, KingdomService kingdomService,
+                           StatisticsService statisticsService) {
         this.questionRepository = questionRepository;
         this.userRepository = userRepository;
         this.userAnswerRepository = userAnswerRepository;
+        this.kingdomService = kingdomService;
+        this.statisticsService = statisticsService;
     }
 
     public Optional<Question> getQuestionById(Long id) {
@@ -66,8 +69,6 @@ public class QuestionService {
         return questionRepository.count() > 0;
     }
 
-
-    //Sitoj vietoj kai turesiu useri reikes prideti userio id ir tikrina ar neatsakes
 
     public Optional<Question> getQuestionForUserByLevelAndTopic(String level, String topic) {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
@@ -116,9 +117,89 @@ public class QuestionService {
         Integer experience = user.getUserExperience() + question.getExperience();
         user.setUserExperience(experience);
         Integer coins = user.getUserCoins() + question.getCoins();
+
+        int openedKingdomsSize = user.getOpenedKingdoms().size();
+        if (experience >= 250 && experience <= 500 && openedKingdomsSize < 1) {
+            Optional<Kingdom> myCastle = kingdomService.getKingdomById(1L);
+
+            if (myCastle.isPresent()) {
+                user.getOpenedKingdoms().add(myCastle.get());
+                answerSubmitResponse.setHasOpenedKingdom(true);
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir nuo Monstro pabaisos išlaisvinote savo Pilį!");
+            }
+        } else if (experience >= 500 && experience <= 1425 && openedKingdomsSize < 2) {
+            Optional<Kingdom> flowerKingdom = kingdomService.getKingdomById(2L);
+
+            if (flowerKingdom.isPresent()) {
+                user.getOpenedKingdoms().add(flowerKingdom.get());
+                answerSubmitResponse.setHasOpenedKingdom(true);
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Gėlių karalystę!");
+            }
+        } else if (experience >= 1425 && experience <= 1850 && openedKingdomsSize < 3) {
+            Optional<Kingdom> elfKingdom = kingdomService.getKingdomById(3L);
+
+            if (elfKingdom.isPresent()) {
+                user.getOpenedKingdoms().add(elfKingdom.get());
+                answerSubmitResponse.setHasOpenedKingdom(true);
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Elfų karalystę!");
+            }
+        } else if (experience >= 1850 && experience <= 3600 && openedKingdomsSize < 4) {
+            Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(4L);
+
+            if (mushroomKingdom.isPresent()) {
+                user.getOpenedKingdoms().add(mushroomKingdom.get());
+                answerSubmitResponse.setHasOpenedKingdom(true);
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Grybų karalystę!");
+            }
+        } else if (experience >= 3600 && experience <= 5700 && openedKingdomsSize < 5) {
+            Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(5L);
+
+            if (mushroomKingdom.isPresent()) {
+                user.getOpenedKingdoms().add(mushroomKingdom.get());
+                answerSubmitResponse.setHasOpenedKingdom(true);
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Povandeninę karalystę!");
+            }
+        } else if (experience >= 5700 && experience <= 8025 && openedKingdomsSize < 6) {
+            Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(6L);
+
+            if (mushroomKingdom.isPresent()) {
+                user.getOpenedKingdoms().add(mushroomKingdom.get());
+                answerSubmitResponse.setHasOpenedKingdom(true);
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Saldumynų karalystę!");
+            }
+        } else if (experience >= 8025 && experience <= 9150 && openedKingdomsSize < 7) {
+            Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(7L);
+
+            if (mushroomKingdom.isPresent()) {
+                user.getOpenedKingdoms().add(mushroomKingdom.get());
+                answerSubmitResponse.setHasOpenedKingdom(true);
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Nykštukų karalystę!");
+            }
+        } else {
+            answerSubmitResponse.setHasOpenedKingdom(false);
+            answerSubmitResponse.setOpenedKingdomText("");
+        }
+
+
         if (correctlyAnswered) {
             user.setUserCoins(coins);
-            //user.addCorrectlyAnsweredQuestion(question.getId());
+        }
+
+        LevelStatistics existingStat = null;
+
+        for (LevelStatistics l : user.getLevelStatistics()) {
+            if (l.getLevelName().equals(answerSubmitRequest.getLevelName())) {
+                existingStat = l;
+            }
+        }
+        if (existingStat == null) {
+            existingStat = new LevelStatistics(null, answerSubmitRequest.getLevelName(), 0, 0, user);
+            user.getLevelStatistics().add(existingStat);
+        }
+
+        existingStat.setTotalAnswered(existingStat.getTotalAnswered() + 1);
+        if (correctlyAnswered) {
+            existingStat.setCorrectlyAnswered(existingStat.getCorrectlyAnswered() + 1);
         }
         userRepository.save(user);
 
