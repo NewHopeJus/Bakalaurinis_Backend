@@ -18,7 +18,7 @@ public class ShopItemController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<?> getItemsByKingdomIdById(@PathVariable Long id) {
+    public ResponseEntity<?> getItemsByKingdomId(@PathVariable Long id) {
         ShopItemListDto shopItems = shopItemService.getItemsByKingdomId(id);
         if (shopItems != null) {
             return ResponseEntity.ok(shopItems);
@@ -26,6 +26,7 @@ public class ShopItemController {
             // Jeigu nerado grazina HTTP status 404 (Not Found)
             return ResponseEntity.notFound().build();
         }
+
     }
 
     @PostMapping("/buy/{id}")
@@ -40,9 +41,10 @@ public class ShopItemController {
     }
 
     @GetMapping("/getBoughtItems/{id}")
-    public ResponseEntity<?> getBoughtItemsByKingdomIdById(@PathVariable Long id) {
+    public ResponseEntity<?> getBoughtItemsByKingdomId(@PathVariable Long id) {
         ShopItemListDto shopItems = shopItemService.getBoughtItemsByKingdomId(id);
         if (shopItems != null) {
+
             return ResponseEntity.ok(shopItems);
         } else {
             // Jeigu nerado grazina HTTP status 404 (Not Found)

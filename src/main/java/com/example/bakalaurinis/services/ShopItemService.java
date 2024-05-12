@@ -3,9 +3,8 @@ package com.example.bakalaurinis.services;
 import com.example.bakalaurinis.model.ShopItem;
 import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.model.dtos.BuyItemResponse;
-import com.example.bakalaurinis.repository.ItemRepository;
 import com.example.bakalaurinis.model.dtos.ShopItemListDto;
-import com.example.bakalaurinis.repository.UserRepository;
+import com.example.bakalaurinis.repository.ItemRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -14,13 +13,13 @@ import org.springframework.stereotype.Service;
 @Service
 public class ShopItemService {
     private final ItemRepository itemRepository;
-    private final UserRepository userRepository;
+    private final UserService userService;
 
 
     @Autowired
-    public ShopItemService(ItemRepository itemRepository, UserRepository userRepository) {
+    public ShopItemService(ItemRepository itemRepository, UserService userService) {
         this.itemRepository = itemRepository;
-        this.userRepository = userRepository;
+        this.userService = userService;
     }
 
     public ShopItemListDto getItemsByKingdomId(Long id) {
@@ -38,7 +37,7 @@ public class ShopItemService {
 
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
-        User user = userRepository.findByUsername(username);
+        User user = userService.findUserByUsername(username);
 
 
         if (user.getUserCoins() < shopItem.getPrice()) {
@@ -49,7 +48,7 @@ public class ShopItemService {
 
         user.addBoughtItem(shopItem);
         user.subtractCoins(shopItem.getPrice());
-        userRepository.save(user);
+        userService.saveUser(user);
         return new BuyItemResponse(true, "Elementas sėkmingai pridėtas į karalystę");
 
     }
@@ -58,7 +57,7 @@ public class ShopItemService {
 
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
-        User user = userRepository.findByUsername(username);
+        User user = userService.findUserByUsername(username);
 
         ShopItemListDto shopItemListDto = new ShopItemListDto();
         shopItemListDto.setShopItems(itemRepository.getBoughtShopItemsForUser(user.getId(), kingdomId));

@@ -3,10 +3,9 @@ package com.example.bakalaurinis.services;
 import com.example.bakalaurinis.model.Kingdom;
 import com.example.bakalaurinis.model.ShopItem;
 import com.example.bakalaurinis.model.User;
-import com.example.bakalaurinis.repository.KingdomRepository;
-import com.example.bakalaurinis.repository.UserRepository;
 import com.example.bakalaurinis.model.dtos.KingdomDto;
 import com.example.bakalaurinis.model.dtos.KingdomsResponse;
+import com.example.bakalaurinis.repository.KingdomRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -18,12 +17,12 @@ import java.util.Optional;
 @Service
 public class KingdomService {
     private KingdomRepository kingdomRepository;
-    private UserRepository userRepository;
+    private UserService userService;
 
     @Autowired
-    public KingdomService(KingdomRepository kingdomRepository, UserRepository userRepository) {
+    public KingdomService(KingdomRepository kingdomRepository, UserService userService) {
         this.kingdomRepository = kingdomRepository;
-        this.userRepository = userRepository;
+        this.userService = userService;
     }
 
     public boolean hasKingdoms() { //nes bootstrape reikia patikrinti ar yra klausimu, jei ne tai uzkrauti
@@ -44,7 +43,7 @@ public class KingdomService {
     public KingdomsResponse getKingdomsForUser() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
-        User user = userRepository.findByUsername(username);
+        User user = userService.findUserByUsername(username);
         KingdomsResponse kingdomsResponse = new KingdomsResponse();
         List<Kingdom> openedKingdoms = kingdomRepository.getOpenedKingdoms(user.getId());
         List<Kingdom> closedKingdoms = kingdomRepository.getClosedKingdoms(user.getId());

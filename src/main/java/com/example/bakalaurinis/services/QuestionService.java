@@ -5,7 +5,6 @@ import com.example.bakalaurinis.model.dtos.AnswerSubmitRequest;
 import com.example.bakalaurinis.model.dtos.AnswerSubmitResponse;
 import com.example.bakalaurinis.repository.QuestionRepository;
 import com.example.bakalaurinis.repository.UserAnswerRepository;
-import com.example.bakalaurinis.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -22,18 +21,19 @@ import java.util.Optional;
 public class QuestionService {
 
     private final QuestionRepository questionRepository;
-    private final UserRepository userRepository;
+    private final UserService userService;
+
     private UserAnswerRepository userAnswerRepository;
     private KingdomService kingdomService;
     private StatisticsService statisticsService;
 
 
     @Autowired
-    public QuestionService(QuestionRepository questionRepository, UserRepository userRepository,
+    public QuestionService(QuestionRepository questionRepository, UserService userService,
                            UserAnswerRepository userAnswerRepository, KingdomService kingdomService,
                            StatisticsService statisticsService) {
         this.questionRepository = questionRepository;
-        this.userRepository = userRepository;
+        this.userService = userService;
         this.userAnswerRepository = userAnswerRepository;
         this.kingdomService = kingdomService;
         this.statisticsService = statisticsService;
@@ -73,7 +73,7 @@ public class QuestionService {
     public Optional<Question> getQuestionForUserByLevelAndTopic(String level, String topic) {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
-        User user = userRepository.findByUsername(username);
+        User user = userService.findUserByUsername(username);
         return questionRepository.getQuestionForUserByLevelAndTopic(level, topic, user.getId());
     }
 
@@ -113,7 +113,7 @@ public class QuestionService {
         }
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
-        User user = userRepository.findByUsername(username);
+        User user = userService.findUserByUsername(username);
         Integer experience = user.getUserExperience() + question.getExperience();
         user.setUserExperience(experience);
         Integer coins = user.getUserCoins() + question.getCoins();
@@ -133,7 +133,7 @@ public class QuestionService {
             if (flowerKingdom.isPresent()) {
                 user.getOpenedKingdoms().add(flowerKingdom.get());
                 answerSubmitResponse.setHasOpenedKingdom(true);
-                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Gėlių karalystę!");
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir nuo Monstro pabaisos išlaisvinote Gėlių karalystę!");
             }
         } else if (experience >= 1425 && experience <= 1850 && openedKingdomsSize < 3) {
             Optional<Kingdom> elfKingdom = kingdomService.getKingdomById(3L);
@@ -141,7 +141,7 @@ public class QuestionService {
             if (elfKingdom.isPresent()) {
                 user.getOpenedKingdoms().add(elfKingdom.get());
                 answerSubmitResponse.setHasOpenedKingdom(true);
-                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Elfų karalystę!");
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir nuo Monstro pabaisos išlaisvinote Elfų karalystę!");
             }
         } else if (experience >= 1850 && experience <= 3600 && openedKingdomsSize < 4) {
             Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(4L);
@@ -149,7 +149,7 @@ public class QuestionService {
             if (mushroomKingdom.isPresent()) {
                 user.getOpenedKingdoms().add(mushroomKingdom.get());
                 answerSubmitResponse.setHasOpenedKingdom(true);
-                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Grybų karalystę!");
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir nuo Monstro pabaisos išlaisvinote Grybų karalystę!");
             }
         } else if (experience >= 3600 && experience <= 5700 && openedKingdomsSize < 5) {
             Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(5L);
@@ -157,7 +157,7 @@ public class QuestionService {
             if (mushroomKingdom.isPresent()) {
                 user.getOpenedKingdoms().add(mushroomKingdom.get());
                 answerSubmitResponse.setHasOpenedKingdom(true);
-                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Povandeninę karalystę!");
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir nuo Monstro pabaisos išlaisvinote Povandeninę karalystę!");
             }
         } else if (experience >= 5700 && experience <= 8025 && openedKingdomsSize < 6) {
             Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(6L);
@@ -165,7 +165,7 @@ public class QuestionService {
             if (mushroomKingdom.isPresent()) {
                 user.getOpenedKingdoms().add(mushroomKingdom.get());
                 answerSubmitResponse.setHasOpenedKingdom(true);
-                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Saldumynų karalystę!");
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir nuo Monstro pabaisos išlaisvinote Saldumynų karalystę!");
             }
         } else if (experience >= 8025 && experience <= 9150 && openedKingdomsSize < 7) {
             Optional<Kingdom> mushroomKingdom = kingdomService.getKingdomById(7L);
@@ -173,7 +173,7 @@ public class QuestionService {
             if (mushroomKingdom.isPresent()) {
                 user.getOpenedKingdoms().add(mushroomKingdom.get());
                 answerSubmitResponse.setHasOpenedKingdom(true);
-                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir ir nuo Monstro pabaisos išlaisvinote Nykštukų karalystę!");
+                answerSubmitResponse.setOpenedKingdomText("Sveikiname! Surinkote " + experience + " patirties taškų ir nuo Monstro pabaisos išlaisvinote Nykštukų karalystę!");
             }
         } else {
             answerSubmitResponse.setHasOpenedKingdom(false);
@@ -201,7 +201,7 @@ public class QuestionService {
         if (correctlyAnswered) {
             existingStat.setCorrectlyAnswered(existingStat.getCorrectlyAnswered() + 1);
         }
-        userRepository.save(user);
+        userService.saveUser(user);
 
         answerSubmitResponse.setUpdatedCoins(coins);
         answerSubmitResponse.setUpdatedExperience(experience);

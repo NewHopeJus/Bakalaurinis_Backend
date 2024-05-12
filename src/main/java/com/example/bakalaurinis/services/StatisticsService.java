@@ -4,7 +4,6 @@ import com.example.bakalaurinis.model.LevelStatistics;
 import com.example.bakalaurinis.model.User;
 import com.example.bakalaurinis.model.dtos.LevelStatisticsDto;
 import com.example.bakalaurinis.model.dtos.StatisticsResponse;
-import com.example.bakalaurinis.repository.LevelStatisticsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.core.context.SecurityContextHolder;
@@ -16,12 +15,10 @@ import java.util.Optional;
 
 @Service
 public class StatisticsService {
-    private LevelStatisticsRepository levelStatisticsRepository;
     private UserService userService;
 
     @Autowired
-    public StatisticsService(LevelStatisticsRepository levelStatisticsRepository, UserService userService) {
-        this.levelStatisticsRepository = levelStatisticsRepository;
+    public StatisticsService( UserService userService) {
         this.userService = userService;
     }
         public Optional<StatisticsResponse> getStatisticsForUser() {

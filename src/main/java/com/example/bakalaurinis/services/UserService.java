@@ -21,7 +21,6 @@ import java.util.Optional;
 @Service
 public class UserService {
     private final UserRepository userRepository;
-    private final KingdomService kingdomService;
 
 
     private PasswordEncoder passwordEncoder;
@@ -31,21 +30,13 @@ public class UserService {
 
 
     @Autowired
-    public UserService(UserRepository userRepository, KingdomService kingdomService, PasswordEncoder passwordEncoder, AuthenticationManager authenticationManager) {
+    public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder, AuthenticationManager authenticationManager) {
         this.userRepository = userRepository;
-        this.kingdomService = kingdomService;
+
         this.passwordEncoder = passwordEncoder;
         this.authenticationManager = authenticationManager;
 
     }
-
-//    public boolean validatePassword(String rawPassword, String username) {
-//        User user = userRepository.findByUsername(username);
-//        if (user != null) {
-//            return passwordEncoder.matches(rawPassword, user.getPassword());
-//        }
-//        return false;
-//    }
 
 
     public User registerUser(LoginRegisterUserRequest input) {
@@ -116,5 +107,9 @@ public class UserService {
 
     public User findUserByUsername(String username){
         return userRepository.findByUsername(username);
+    }
+
+    public void saveUser(User user){
+        userRepository.save(user);
     }
 }

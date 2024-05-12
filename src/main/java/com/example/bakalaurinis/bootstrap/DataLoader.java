@@ -35,24 +35,10 @@ public class DataLoader implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
 
-        if (!questionService.hasQuestions()) { //nes nereikia per nauja krauti jei jau uzkrautas, todel tikrinu ar is viso yra klausimu
-            // ObjectMapper klase yra Jackson bibliotekos dalis
-            //Naudojama serializuoti ir deserelizuoti JSON i Java objektus
-
+        if (!questionService.hasQuestions()) {
             ObjectMapper objectMapper = new ObjectMapper();
-
-
-            //TypeReference is a class provided by the Jackson library, and
-            // it is used in scenarios where you need to provide generic type information
-            // for JSON parsing in Java. Due to Java's type erasure mechanism, generic type
-            // information is not available at runtime.
-            // This is where TypeReference comes into play
-
-
-            TypeReference<List<Question>> typeReference = new TypeReference<>() {
-            };
+            TypeReference<List<Question>> typeReference = new TypeReference<>() {};
             InputStream inputStream = TypeReference.class.getResourceAsStream("/json/questions.json");
-
             try {
                 List<Question> questions = objectMapper.readValue(inputStream, typeReference);
                 questionService.saveQuestions(questions);

@@ -96,7 +96,7 @@ public class UserController {
         }
     }
 
-    @PostMapping("/delete")
+    @PostMapping ("/delete")
     public ResponseEntity<?> deleteUser(@RequestBody AccountDeleteRequest accountDeleteRequest) {
         try {
             userService.deleteUser(accountDeleteRequest);
