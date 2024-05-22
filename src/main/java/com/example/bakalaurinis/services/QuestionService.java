@@ -4,7 +4,6 @@ import com.example.bakalaurinis.model.*;
 import com.example.bakalaurinis.model.dtos.AnswerSubmitRequest;
 import com.example.bakalaurinis.model.dtos.AnswerSubmitResponse;
 import com.example.bakalaurinis.repository.QuestionRepository;
-import com.example.bakalaurinis.repository.RankingRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
@@ -23,18 +22,18 @@ public class QuestionService {
     private final QuestionRepository questionRepository;
     private final UserService userService;
 
-    private RankingRepository userAnswerRepository;
+    private RankingService rankingService;
     private KingdomService kingdomService;
     private StatisticsService statisticsService;
 
 
     @Autowired
     public QuestionService(QuestionRepository questionRepository, UserService userService,
-                           RankingRepository userAnswerRepository, KingdomService kingdomService,
+                           RankingService rankingService, KingdomService kingdomService,
                            StatisticsService statisticsService) {
         this.questionRepository = questionRepository;
         this.userService = userService;
-        this.userAnswerRepository = userAnswerRepository;
+        this.rankingService = rankingService;
         this.kingdomService = kingdomService;
         this.statisticsService = statisticsService;
     }
@@ -212,7 +211,7 @@ public class QuestionService {
         userAnswer.setAnsweringUser(user);
         userAnswer.setCorrectlyAnswered(correctlyAnswered);
         userAnswer.setDateTimeAnswered(LocalDateTime.now());
-        userAnswerRepository.save(userAnswer);
+        rankingService.saveUserAnswer(userAnswer);
 
 
         return answerSubmitResponse;

@@ -23,7 +23,7 @@ public class UserDetailsModel implements UserDetails {
     }
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
-        return null;
+        return authorities;
     }
 
     @Override
@@ -55,4 +55,7 @@ public class UserDetailsModel implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
+
+
+
 }

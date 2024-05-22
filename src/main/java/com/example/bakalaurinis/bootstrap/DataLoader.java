@@ -1,8 +1,6 @@
 package com.example.bakalaurinis.bootstrap;
 
-import com.example.bakalaurinis.model.Kingdom;
-import com.example.bakalaurinis.model.Question;
-import com.example.bakalaurinis.model.ShopItem;
+import com.example.bakalaurinis.model.*;
 import com.example.bakalaurinis.services.KingdomService;
 import com.example.bakalaurinis.services.QuestionService;
 import com.example.bakalaurinis.services.UserService;
@@ -10,12 +8,14 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
+import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 @Component
 public class DataLoader implements CommandLineRunner {
@@ -23,13 +23,16 @@ public class DataLoader implements CommandLineRunner {
     private QuestionService questionService;
 
     private KingdomService kingdomService;
+    private PasswordEncoder passwordEncoder;
+
 
     @Autowired
     public DataLoader(UserService userService, QuestionService questionService,
-                      KingdomService kingdomService) {
+                      KingdomService kingdomService, PasswordEncoder passwordEncoder) {
         this.userService = userService;
         this.questionService = questionService;
         this.kingdomService = kingdomService;
+        this.passwordEncoder = passwordEncoder;
     }
 
     @Override
@@ -272,27 +275,17 @@ public class DataLoader implements CommandLineRunner {
 
         }
 
+        if (userService.findUserByUsername("admin")==null) {
+            User admin = new User();
+            admin.setUsername("admin");
+            admin.setUserCoins(0);
+            admin.setUserExperience(0);
+            admin.setPassword(passwordEncoder.encode("admin123"));
+            admin.setRoles(Set.of(Role.ROLE_ADMIN));
+            userService.saveUser(admin);
+        }
+
 
     }
-
-
-//        User user = new User("Justyna", "just2@gmail.com", "123", UserRole.USER);
-//        userRepository.save(user);
-
-
-//        Question question = new Question();
-//        question.setQuestionType(QuestionType.ONE_ANSWER);
-//        question.setDescription("5 – 4 = 1");
-//
-//        Option option1 = new Option(null, question, "3", false);
-//        Option option2 = new Option(null, question, "2", false);
-//        Option option3 = new Option(null, question, "1", true);
-//        Option option4 = new Option(null, question, "9", false);
-//
-//        List<Option> options = Arrays.asList(option1, option2, option3, option4);
-//        question.setOptions(options);
-//
-//        questionRepository.save(question);
-
 
 }

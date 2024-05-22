@@ -37,6 +37,8 @@ public class User {
     private Integer userExperience;
     private Integer userCoins;
 
+    private Boolean isBlocked;
+
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeringUser", cascade = CascadeType.ALL, orphanRemoval = true)
     @JsonIgnore
     private List<UserAnswer> userAnswers;
@@ -53,6 +55,7 @@ public class User {
         openedKingdoms = new ArrayList<>();
         boughtItems = new ArrayList<>();
         levelStatistics = new ArrayList<>();
+        isBlocked = false;
     }
 
     @ManyToMany(cascade = CascadeType.ALL)

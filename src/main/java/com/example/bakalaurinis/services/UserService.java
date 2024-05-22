@@ -15,6 +15,7 @@ import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
 import java.util.Optional;
 
 // @Autowired is used to inject the UserRepository dependency into the UserService class.
@@ -52,7 +53,14 @@ public class UserService {
                 )
         );
 
-        return userRepository.findByUsername(input.getUsername());
+        User user = userRepository.findByUsername(input.getUsername());
+
+        if (user != null && user.getIsBlocked()) {
+            throw new IllegalStateException("User account is blocked.");
+        }
+
+        return user;
+
     }
 
     public Optional<UserInfoResponse> getUserInfo() {
@@ -89,7 +97,16 @@ public class UserService {
         } else {
             throw new CustomValidationException("Password validation failed or user not found.");
         }
-
+    }
+    public User changePassword(Long userId, String newPassword) {
+        Optional<User> userOptional = userRepository.findById(userId);
+        if (userOptional.isPresent()) {
+            User user = userOptional.get();
+            user.setPassword(passwordEncoder.encode(newPassword));
+            return userRepository.save(user);
+        } else {
+            throw new CustomValidationException("User with ID " + userId + " not found.");
+        }
     }
 
     public void deleteUser(AccountDeleteRequest accountDeleteRequest){
@@ -104,12 +121,32 @@ public class UserService {
             throw new CustomValidationException("User not found.");
         }
     }
+    public void deleteUser(Long id){
+        Optional<User> user = userRepository.findById(id);
+        if (user.isPresent()) {
+            user.get().getOpenedKingdoms().clear();
+            userRepository.delete(user.get());
+        } else {
+            throw new CustomValidationException("User not found.");
+        }
+    }
 
     public User findUserByUsername(String username){
         return userRepository.findByUsername(username);
     }
 
     public void saveUser(User user){
+        userRepository.save(user);
+    }
+
+    public List<User> getAllUsers() {
+        return userRepository.findAll();
+    }
+
+    public void blockUser(Long userId) {
+        User user = userRepository.findById(userId)
+                .orElseThrow(() -> new CustomValidationException("User with ID " + userId + " not found."));
+        user.setIsBlocked(true);
         userRepository.save(user);
     }
 }

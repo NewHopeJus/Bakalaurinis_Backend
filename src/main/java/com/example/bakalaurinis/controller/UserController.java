@@ -15,6 +15,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.BadCredentialsException;
 import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
@@ -52,21 +53,27 @@ public class UserController {
 
     @PostMapping("/login")
     public ResponseEntity<?> authenticate(@RequestBody LoginRegisterUserRequest loginRegisterUserRequest) {
-        try{
+        try {
             User authenticatedUser = userService.authenticate(loginRegisterUserRequest);
 
+            if (authenticatedUser == null) {
+                throw new UsernameNotFoundException("User not found.");
+            }
             String jwtToken = jwtUtil.generateToken(authenticatedUser);
             return ResponseEntity.ok(new LoginResponse(jwtToken));
-        }
-        catch (BadCredentialsException e){
-            return ResponseEntity.badRequest().body(e.getMessage());
+        } catch (BadCredentialsException e) {
+            return ResponseEntity.badRequest().body("Invalid username or password.");
+        } catch (IllegalStateException e) {
+            return ResponseEntity.status(HttpStatus.FORBIDDEN).body(e.getMessage());
+        } catch (UsernameNotFoundException e) {
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(e.getMessage());
         }
     }
 
     @GetMapping("/userInfo")
-    public ResponseEntity<?> getUserInfo(){
+    public ResponseEntity<?> getUserInfo() {
         Optional<UserInfoResponse> userInfoResponse = userService.getUserInfo();
-        if(userInfoResponse.isPresent()){
+        if (userInfoResponse.isPresent()) {
             return ResponseEntity.ok(userInfoResponse.get());
         }
         return ResponseEntity.badRequest().body("User info not found");
@@ -84,6 +91,7 @@ public class UserController {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
     }
+
     @PostMapping("/update/password")
     public ResponseEntity<?> updatePassword(@RequestBody PasswordChangeRequest passwordChangeRequest) {
         try {
@@ -96,13 +104,12 @@ public class UserController {
         }
     }
 
-    @PostMapping ("/delete")
+    @PostMapping("/delete")
     public ResponseEntity<?> deleteUser(@RequestBody AccountDeleteRequest accountDeleteRequest) {
         try {
             userService.deleteUser(accountDeleteRequest);
             return ResponseEntity.ok("User account deleted successfully.");
-        }
-        catch (CustomValidationException e) {
+        } catch (CustomValidationException e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
 

@@ -3,7 +3,9 @@ package com.example.bakalaurinis.security;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.core.annotation.Order;
 import org.springframework.security.authentication.AuthenticationManager;
+import org.springframework.security.config.Customizer;
 import org.springframework.security.config.annotation.authentication.builders.AuthenticationManagerBuilder;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
@@ -17,6 +19,7 @@ import org.springframework.security.web.authentication.UsernamePasswordAuthentic
 @Configuration
 @EnableWebSecurity
 public class SecurityConfiguration {
+
     private final MyUserDetailsService myUserDetailsService;
     private final JwtRequestFilter jwtRequestFilter;
 
@@ -26,22 +29,38 @@ public class SecurityConfiguration {
         this.jwtRequestFilter = jwtRequestFilter;
     }
 
-    //Stateless reiskia kad kiekvienas requestas priimamas atskirai (independently) ir mnera sesiju
-    //turi siusti kiekviena karta ir tokena kartu useris
-    //bean yra objektas kuri springas managina
     @Bean
-    public SecurityFilterChain filterChain(HttpSecurity httpSecurity) throws Exception {
-        return httpSecurity
-                .csrf(AbstractHttpConfigurer::disable) // Isjungia crrf protection, nes su restais nebutina sito
+    @Order(1)
+    public SecurityFilterChain apiSecurityFilterChain(HttpSecurity http) throws Exception {
+        return http
+                .csrf(AbstractHttpConfigurer::disable)
+                .securityMatcher("/api/**")
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/api/users/register", "/api/users/login").permitAll()
-                        .anyRequest().authenticated()) // Visi kiti apart pries tai definintu tik prisijungusiems
+                        .anyRequest().authenticated())
                 .sessionManagement(session -> session.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class)
-                .build(); // buildina  SecurityFilterChain instanca
+                .build();
     }
 
-    //sitas metodas konfiguruoja koki userDetails service naudoti ir koki encoderi ir galiausiai grazina authentication manageri
+    @Bean
+    @Order(2)
+    public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
+        http
+                .csrf(AbstractHttpConfigurer::disable)
+                .authorizeHttpRequests(auth -> auth
+                        .requestMatchers("/quizapp/admin/**").hasRole("ADMIN")
+                        .anyRequest().authenticated())
+                .httpBasic(Customizer.withDefaults()) // Configure HTTP Basic auth
+                .formLogin(form -> form
+                        .defaultSuccessUrl("/quizapp/admin", true)
+                        .permitAll());
+
+        return http.build();
+    }
+
+
+
     @Bean
     public AuthenticationManager authenticationManagerBean(HttpSecurity http) throws Exception {
         AuthenticationManagerBuilder authenticationManagerBuilder = http.getSharedObject(AuthenticationManagerBuilder.class);
@@ -51,9 +70,9 @@ public class SecurityConfiguration {
         return authenticationManagerBuilder.build();
     }
 
+
     @Bean
     public PasswordEncoder passwordEncoder() {
         return new BCryptPasswordEncoder();
-
     }
 }

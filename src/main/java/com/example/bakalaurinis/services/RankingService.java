@@ -1,5 +1,6 @@
 package com.example.bakalaurinis.services;
 
+import com.example.bakalaurinis.model.UserAnswer;
 import com.example.bakalaurinis.model.dtos.RankingDto;
 import com.example.bakalaurinis.repository.RankingRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -28,6 +29,10 @@ public class RankingService {
         return results.stream()
                 .map(result -> new RankingDto((String) result[0], ((Number) result[1]).intValue()))
                 .collect(Collectors.toList());
+    }
+
+    public UserAnswer saveUserAnswer(UserAnswer userAnswer){
+        return rankingRepository.save(userAnswer);
     }
 
 }

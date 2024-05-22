@@ -941,7 +941,7 @@
         "imagePath": "1-lygis/atimtis/1L-2T-14K",
         "options": [
             {
-                "text": "9",
+                "text": "11",
                 "isCorrect": 1
             },
             {
@@ -949,11 +949,11 @@
                 "isCorrect": 0
             },
             {
-                "text": "6",
+                "text": "9",
                 "isCorrect": 0
             },
             {
-                "text": "8",
+                "text": "10",
                 "isCorrect": 0
             }
         ]
