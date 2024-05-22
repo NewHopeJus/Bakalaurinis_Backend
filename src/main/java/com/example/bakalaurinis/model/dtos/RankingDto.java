@@ -8,7 +8,6 @@ import lombok.Setter;
 public class RankingDto {
     private String username;
     private Integer correctlyAnsweredCount;
-
     public RankingDto(String username, Integer correctlyAnsweredCount) {
         this.username = username;
         this.correctlyAnsweredCount = correctlyAnsweredCount;

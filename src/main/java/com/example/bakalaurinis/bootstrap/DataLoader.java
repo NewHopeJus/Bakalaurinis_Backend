@@ -21,11 +21,8 @@ import java.util.Set;
 public class DataLoader implements CommandLineRunner {
     private UserService userService;
     private QuestionService questionService;
-
     private KingdomService kingdomService;
     private PasswordEncoder passwordEncoder;
-
-
     @Autowired
     public DataLoader(UserService userService, QuestionService questionService,
                       KingdomService kingdomService, PasswordEncoder passwordEncoder) {
@@ -34,7 +31,6 @@ public class DataLoader implements CommandLineRunner {
         this.kingdomService = kingdomService;
         this.passwordEncoder = passwordEncoder;
     }
-
     @Override
     public void run(String... args) throws Exception {
 
@@ -61,11 +57,6 @@ public class DataLoader implements CommandLineRunner {
             List<ShopItem> sweetsKingdomItems = new ArrayList<>();
             List<ShopItem> dwarfKingdomItems = new ArrayList<>();
 
-
-
-
-            List<ShopItem> itemListEmpty = new ArrayList<>();
-
             ShopItem elfuNamas = new ShopItem(null, "Elfų namas", "imageViewElfuNamasElfuKaralyste", "elf_home", 20, null);
             ShopItem drakonas = new ShopItem(null, "Drakonas", "imageViewDrakonasElfuKaralyste", "drakonas", 10, null);
             ShopItem elfas = new ShopItem(null, "Elfas Jonas",  "imageViewElfasJonasElfuKaralyste", "elfas", 10, null);
@@ -74,7 +65,6 @@ public class DataLoader implements CommandLineRunner {
             ShopItem VandensLelija = new ShopItem(null, "Vandens Lelija", "imageViewVandensLelija", "vandens_lelija", 5, null);
             ShopItem magiskaGele = new ShopItem(null, "Magiška Gėlė", "imageViewMagiskaGele", "gele_elfu_karalyste", 5, null);
 
-
             elfKingdomItems.add(drakonas);
             elfKingdomItems.add(elfas);
             elfKingdomItems.add(elfuNamas);
@@ -82,7 +72,6 @@ public class DataLoader implements CommandLineRunner {
             elfKingdomItems.add(stebuklingasPaukstis);
             elfKingdomItems.add(VandensLelija);
             elfKingdomItems.add(magiskaGele);
-
 
             ShopItem gyvenamasisGrybas = new ShopItem(null, "Gyvenamasis Grybas", "imageViewGyvenamasisGrybasGrybuKaralyste","gyvenamasis_grybas", 15, null);
             ShopItem grybejaDidzioji = new ShopItem(null, "Grybėja Didžioji", "imageViewgrybejaDidziojiGrybuKaralyste", "grybeja_didzioji", 20, null);
@@ -104,7 +93,6 @@ public class DataLoader implements CommandLineRunner {
             mushroomKingdomItems.add(gyvenamasisGrybas);
             mushroomKingdomItems.add(pauksciukasSviesele);
 
-
             ShopItem sviesiojiPilis = new ShopItem(null, "Šviesioji Pilis", "imageViewSviesiojiPilisGeliuKaralyste","sviesioji_pilis", 10, null);
             ShopItem princeseRozyte = new ShopItem(null, "Princesė Rožytė", "imageViewPrinceseRozyteGeliuKaralyste", "princese_rozyte", 5, null);
             ShopItem pauksciukasSvelnute = new ShopItem(null, "Paukščiukas Švelnutė", "imageViewPauksciukasSvelnuteGeliuKaralyste","pauksciukas_svelnute", 3, null);
@@ -117,8 +105,6 @@ public class DataLoader implements CommandLineRunner {
             ShopItem elnias = new ShopItem(null, "Elnias", "imageViewElnias","dear_flower_kingdom", 5, null);
             ShopItem roze = new ShopItem(null, "Rožė", "imageViewRoze","rose_flower_kingdom", 5, null);
             ShopItem drugelis = new ShopItem(null, "Drugelis", "imageViewDrugelis","butterfly_flower_kingdom", 5, null);
-
-
 
             flowerKingdomItems.add(princeseRozyte);
             flowerKingdomItems.add(sviesiojiPilis);
@@ -133,8 +119,6 @@ public class DataLoader implements CommandLineRunner {
             flowerKingdomItems.add(roze);
             flowerKingdomItems.add(drugelis);
 
-
-
             ShopItem pilis = new ShopItem(null, "Pilis", "imageViewPagrinidinePilis", "pilis", 10, null);
             ShopItem manoPilisDrakonas = new ShopItem(null, "Drakonas Debesų Raitelis", "imageViewFlyingDragon", "flying_dragon", 5, null);
             ShopItem oroBalionas = new ShopItem(null, "Oro balionas", "imageViewBaloon", "baloon", 5, null);
@@ -146,7 +130,6 @@ public class DataLoader implements CommandLineRunner {
             ShopItem patranka = new ShopItem(null, "Patranka", "imageViewPatranka", "cannon", 5, null);
             ShopItem katapulta = new ShopItem(null, "Katapulta", "imageViewKatapulta", "catapult", 5, null);
 
-
             myCastleItems.add(pilis);
             myCastleItems.add(manoPilisDrakonas);
             myCastleItems.add(oroBalionas);
@@ -157,7 +140,6 @@ public class DataLoader implements CommandLineRunner {
             myCastleItems.add(laivasSuGinkluote);
             myCastleItems.add(patranka);
             myCastleItems.add(katapulta);
-
 
             ShopItem pilisPovandenineKaralyste = new ShopItem(null, "Povandeninė Pilis", "imageViewPilisPovandenineKaralyste", "castle_povandenine_karalyste_6", 30, null);
             ShopItem undine = new ShopItem(null, "Undinė", "imageViewUndine", "mermaid_little", 30, null);
@@ -173,7 +155,6 @@ public class DataLoader implements CommandLineRunner {
             ShopItem anacharisAugalas = new ShopItem(null, "Anacharis Augalas", "imageViewAnacharisAugalas", "papartis", 5, null);
             ShopItem gorgonaceaAugalas = new ShopItem(null, "Gorgonacea Augalas", "imageViewGorgonaceaAugalas", "purple_sea_plant", 5, null);
 
-
             underwaterKingdomItems.add(undine);
             underwaterKingdomItems.add(juruArkliukas);
             underwaterKingdomItems.add(moliuskas);
@@ -187,7 +168,6 @@ public class DataLoader implements CommandLineRunner {
             underwaterKingdomItems.add(anacharisAugalas);
             underwaterKingdomItems.add(gorgonaceaAugalas);
             underwaterKingdomItems.add(pilisPovandenineKaralyste);
-
 
             ShopItem saldumynuPilis = new ShopItem(null, "Saldumynų pilis", "imageViewSaldumynuPilis", "candy_kingdom_castle", 40, null);
             ShopItem saldainiuPaukstis = new ShopItem(null, "Saldainių paukštis", "imageViewSaldainiuPaukstis", "sweets_bird", 20, null);
@@ -249,9 +229,7 @@ public class DataLoader implements CommandLineRunner {
             dwarfKingdomItems.add(stebuklingaZuvyte);
             dwarfKingdomItems.add(linksmasisVabaliukas);
 
-
             List<Kingdom> kingdomList = new ArrayList<>();
-
 
             Kingdom kingdom0 = new Kingdom(null, "Mano pilis", "mano_pilis", myCastleItems);
             Kingdom kingdom1 = new Kingdom(null, "Gėlių karalystė", "geliu_karalyste", flowerKingdomItems);
@@ -272,9 +250,9 @@ public class DataLoader implements CommandLineRunner {
             kingdomService.saveKingdoms(kingdomList);
             System.out.println("Kingdoms Saved!");
 
-
         }
 
+        //Admin user created for testing purposes
         if (userService.findUserByUsername("admin")==null) {
             User admin = new User();
             admin.setUsername("admin");
@@ -284,7 +262,6 @@ public class DataLoader implements CommandLineRunner {
             admin.setRoles(Set.of(Role.ROLE_ADMIN));
             userService.saveUser(admin);
         }
-
 
     }
 

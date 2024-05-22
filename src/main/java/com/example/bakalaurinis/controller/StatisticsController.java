@@ -13,7 +13,6 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/statistics")
 public class StatisticsController {
-
     private StatisticsService statisticsService;
 
     @Autowired
@@ -24,7 +23,7 @@ public class StatisticsController {
     @GetMapping("")
     public ResponseEntity<?> getUserStatistics() {
         Optional<StatisticsResponse> statisticsResponse = statisticsService.getStatisticsForUser();
-        if(statisticsResponse.isPresent()){
+        if (statisticsResponse.isPresent()) {
             return ResponseEntity.ok(statisticsResponse.get());
         }
         return ResponseEntity.badRequest().body("Statistics not found for user");

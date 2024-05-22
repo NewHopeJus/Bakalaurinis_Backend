@@ -9,15 +9,9 @@ import java.util.List;
 
 @Repository
 public interface ItemRepository extends JpaRepository<ShopItem, Long> {
-
     List<ShopItem> getShopItemsByKingdom_Id(Long kingdomId);
-
     ShopItem getShopItemById(Long id);
-
-
     @Query(value = "SELECT * from items where id IN (SELECT bought_items_id from users_bought_items where user_id = ?) and kingdom_id = ?",
             nativeQuery = true)
     List<ShopItem> getBoughtShopItemsForUser(Long userId, Long kingdomId);
-
-
 }

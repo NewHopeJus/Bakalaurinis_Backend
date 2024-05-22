@@ -18,25 +18,19 @@ import java.util.Set;
 @NoArgsConstructor
 @AllArgsConstructor
 @Entity
-@Table(name="users")
+@Table(name = "users")
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     @Column(nullable = false, unique = true)
     private String username;
-
     @Column(nullable = false)
     private String password;
-
-    //nes adminas turi tureti ir userio ir admino privilegijas
     @Enumerated(EnumType.STRING)
     private Set<Role> roles = new HashSet<>();
-
     private Integer userExperience;
     private Integer userCoins;
-
     private Boolean isBlocked;
 
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "answeringUser", cascade = CascadeType.ALL, orphanRemoval = true)
@@ -47,7 +41,7 @@ public class User {
     @OneToMany(fetch = FetchType.LAZY, mappedBy = "user", cascade = CascadeType.ALL, orphanRemoval = true)
     private List<LevelStatistics> levelStatistics;
 
-    public User( String username, String password) {
+    public User(String username, String password) {
         this.username = username;
         this.password = password;
         userCoins = 0;
@@ -63,7 +57,6 @@ public class User {
     @OneToMany(cascade = CascadeType.ALL, orphanRemoval = true)
     private List<ShopItem> boughtItems;
 
-
     public boolean isItemBought(ShopItem item) {
         return boughtItems.contains(item);
     }
@@ -72,8 +65,8 @@ public class User {
         boughtItems.add(item);
     }
 
-    public void subtractCoins(Integer coins){
-        this.userCoins-=coins;
+    public void subtractCoins(Integer coins) {
+        this.userCoins -= coins;
     }
 
 }

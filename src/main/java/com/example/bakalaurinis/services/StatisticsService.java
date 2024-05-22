@@ -18,20 +18,21 @@ public class StatisticsService {
     private UserService userService;
 
     @Autowired
-    public StatisticsService( UserService userService) {
+    public StatisticsService(UserService userService) {
         this.userService = userService;
     }
-        public Optional<StatisticsResponse> getStatisticsForUser() {
+
+    public Optional<StatisticsResponse> getStatisticsForUser() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        String username = authentication.getName(); //gaunam username vartotojo prisijungusio
+        String username = authentication.getName();
         User user = userService.findUserByUsername(username);
         List<LevelStatistics> levelStatistics = user.getLevelStatistics();
         Integer totalAnswered = 0;
         Integer correctlyAnswered = 0;
         List<LevelStatisticsDto> levelStatisticsDtos = new ArrayList<>();
-        for (LevelStatistics l: levelStatistics){
-            totalAnswered+= l.getTotalAnswered();
-            correctlyAnswered+= l.getCorrectlyAnswered();
+        for (LevelStatistics l : levelStatistics) {
+            totalAnswered += l.getTotalAnswered();
+            correctlyAnswered += l.getCorrectlyAnswered();
             levelStatisticsDtos.add(new LevelStatisticsDto(l.getLevelName(),
                     l.getCorrectlyAnswered(), l.getTotalAnswered()));
         }

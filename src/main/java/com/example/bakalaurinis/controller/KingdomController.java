@@ -11,7 +11,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/kingdoms")
 public class KingdomController {
-
     private KingdomService kingdomService;
 
     @Autowired
@@ -22,7 +21,7 @@ public class KingdomController {
     @GetMapping("/getKingdoms")
     public ResponseEntity<?> getKingdomsForUser() {
         KingdomsResponse kingdoms = kingdomService.getKingdomsForUser();
-        if(kingdoms!=null){
+        if (kingdoms != null) {
             return ResponseEntity.ok(kingdoms);
         }
         return ResponseEntity.badRequest().body("Kingdoms not found");

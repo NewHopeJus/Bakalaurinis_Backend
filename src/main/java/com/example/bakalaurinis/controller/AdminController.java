@@ -15,7 +15,6 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 @Controller
 public class AdminController {
     UserService userService;
-
     @Autowired
     public AdminController(UserService userService) {
         this.userService = userService;
@@ -67,6 +66,4 @@ public class AdminController {
         }
         return "redirect:/quizapp/admin";
     }
-
-
 }

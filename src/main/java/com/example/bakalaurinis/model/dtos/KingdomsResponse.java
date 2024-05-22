@@ -11,7 +11,6 @@ import java.util.List;
 public class KingdomsResponse {
     private List<KingdomDto> openedKingdoms;
     private List<KingdomDto> closedKingdoms;
-
     public KingdomsResponse() {
         this.openedKingdoms = new ArrayList<>();
         this.closedKingdoms = new ArrayList<>();

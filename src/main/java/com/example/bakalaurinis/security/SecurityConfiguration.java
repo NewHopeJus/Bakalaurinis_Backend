@@ -59,8 +59,6 @@ public class SecurityConfiguration {
         return http.build();
     }
 
-
-
     @Bean
     public AuthenticationManager authenticationManagerBean(HttpSecurity http) throws Exception {
         AuthenticationManagerBuilder authenticationManagerBuilder = http.getSharedObject(AuthenticationManagerBuilder.class);
@@ -69,7 +67,6 @@ public class SecurityConfiguration {
                 .passwordEncoder(passwordEncoder());
         return authenticationManagerBuilder.build();
     }
-
 
     @Bean
     public PasswordEncoder passwordEncoder() {

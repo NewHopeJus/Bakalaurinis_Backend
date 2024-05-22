@@ -25,7 +25,7 @@ public class Option {
     @ManyToOne
     private Question question;
     private String text;
-    private Boolean isCorrect; //nes del saugumo nesiunciamas i frontenda
+    private Boolean isCorrect;
 
     @JsonIgnore
     public Boolean getCorrect() {

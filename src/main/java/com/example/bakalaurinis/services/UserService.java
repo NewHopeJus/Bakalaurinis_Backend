@@ -18,17 +18,13 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 import java.util.Optional;
 
-// @Autowired is used to inject the UserRepository dependency into the UserService class.
 @Service
 public class UserService {
     private final UserRepository userRepository;
 
-
     private PasswordEncoder passwordEncoder;
 
     private final AuthenticationManager authenticationManager;
-
-
 
     @Autowired
     public UserService(UserRepository userRepository, PasswordEncoder passwordEncoder, AuthenticationManager authenticationManager) {
@@ -38,7 +34,6 @@ public class UserService {
         this.authenticationManager = authenticationManager;
 
     }
-
 
     public User registerUser(LoginRegisterUserRequest input) {
         User user = new User(input.getUsername(), passwordEncoder.encode(input.getPassword()));
@@ -71,12 +66,11 @@ public class UserService {
                 user.getUsername()));
     }
 
-
     public User updateUsername(LoginRegisterUserRequest loginRegisterUserRequest) {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
         User user = userRepository.findByUsername(username);
-        if (user!=null && passwordEncoder.matches(loginRegisterUserRequest.getPassword(), user.getPassword())) {
+        if (user != null && passwordEncoder.matches(loginRegisterUserRequest.getPassword(), user.getPassword())) {
             user.setUsername(loginRegisterUserRequest.getUsername());
             return userRepository.save(user);
 
@@ -90,7 +84,7 @@ public class UserService {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
         User user = userRepository.findByUsername(username);
-        if (user!=null && passwordEncoder.matches(passwordChangeRequest.getOldPassword(), user.getPassword())) {
+        if (user != null && passwordEncoder.matches(passwordChangeRequest.getOldPassword(), user.getPassword())) {
             user.setPassword(passwordEncoder.encode(passwordChangeRequest.getNewPassword()));
             return userRepository.save(user);
 
@@ -98,6 +92,7 @@ public class UserService {
             throw new CustomValidationException("Password validation failed or user not found.");
         }
     }
+
     public User changePassword(Long userId, String newPassword) {
         Optional<User> userOptional = userRepository.findById(userId);
         if (userOptional.isPresent()) {
@@ -109,19 +104,20 @@ public class UserService {
         }
     }
 
-    public void deleteUser(AccountDeleteRequest accountDeleteRequest){
+    public void deleteUser(AccountDeleteRequest accountDeleteRequest) {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
         String username = authentication.getName(); //gaunam username vartotojo prisijungusio
         User user = userRepository.findByUsername(username);
-        if (user!=null && passwordEncoder.matches(accountDeleteRequest.getPsw(), user.getPassword())) {
+        if (user != null && passwordEncoder.matches(accountDeleteRequest.getPsw(), user.getPassword())) {
             user.getOpenedKingdoms().clear();
-             userRepository.delete(user);
+            userRepository.delete(user);
 
         } else {
             throw new CustomValidationException("User not found.");
         }
     }
-    public void deleteUser(Long id){
+
+    public void deleteUser(Long id) {
         Optional<User> user = userRepository.findById(id);
         if (user.isPresent()) {
             user.get().getOpenedKingdoms().clear();
@@ -131,11 +127,11 @@ public class UserService {
         }
     }
 
-    public User findUserByUsername(String username){
+    public User findUserByUsername(String username) {
         return userRepository.findByUsername(username);
     }
 
-    public void saveUser(User user){
+    public void saveUser(User user) {
         userRepository.save(user);
     }
 

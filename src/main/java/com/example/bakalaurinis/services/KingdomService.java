@@ -42,7 +42,7 @@ public class KingdomService {
 
     public KingdomsResponse getKingdomsForUser() {
         Authentication authentication = SecurityContextHolder.getContext().getAuthentication();
-        String username = authentication.getName(); //gaunam username vartotojo prisijungusio
+        String username = authentication.getName(); //getting the username of the logged-in user
         User user = userService.findUserByUsername(username);
         KingdomsResponse kingdomsResponse = new KingdomsResponse();
         List<Kingdom> openedKingdoms = kingdomRepository.getOpenedKingdoms(user.getId());

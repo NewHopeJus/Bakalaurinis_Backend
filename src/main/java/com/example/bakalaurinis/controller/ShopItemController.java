@@ -23,7 +23,6 @@ public class ShopItemController {
         if (shopItems != null) {
             return ResponseEntity.ok(shopItems);
         } else {
-            // Jeigu nerado grazina HTTP status 404 (Not Found)
             return ResponseEntity.notFound().build();
         }
 
@@ -35,7 +34,6 @@ public class ShopItemController {
         if (buyItemResponse != null) {
             return ResponseEntity.ok(buyItemResponse);
         } else {
-            // Jeigu nerado grazina HTTP status 404 (Not Found)
             return ResponseEntity.notFound().build();
         }
     }
@@ -44,13 +42,10 @@ public class ShopItemController {
     public ResponseEntity<?> getBoughtItemsByKingdomId(@PathVariable Long id) {
         ShopItemListDto shopItems = shopItemService.getBoughtItemsByKingdomId(id);
         if (shopItems != null) {
-
             return ResponseEntity.ok(shopItems);
         } else {
-            // Jeigu nerado grazina HTTP status 404 (Not Found)
             return ResponseEntity.notFound().build();
         }
     }
-
 
 }

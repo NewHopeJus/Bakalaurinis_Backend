@@ -30,8 +30,7 @@ public class RankingService {
                 .map(result -> new RankingDto((String) result[0], ((Number) result[1]).intValue()))
                 .collect(Collectors.toList());
     }
-
-    public UserAnswer saveUserAnswer(UserAnswer userAnswer){
+    public UserAnswer saveUserAnswer(UserAnswer userAnswer) {
         return rankingRepository.save(userAnswer);
     }
 

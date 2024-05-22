@@ -14,7 +14,6 @@ import java.util.List;
 @RequestMapping("/api/ranking")
 public class RankingController {
     private RankingService rankingService;
-
     @Autowired
     public RankingController(RankingService rankingService) {
         this.rankingService = rankingService;

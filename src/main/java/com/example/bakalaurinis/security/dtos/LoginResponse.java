@@ -10,8 +10,5 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class LoginResponse {
-
-    //mano tokenas kuri siusiu
     private String jwt;
-
 }

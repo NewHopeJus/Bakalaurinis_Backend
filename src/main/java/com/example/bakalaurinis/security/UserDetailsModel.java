@@ -14,13 +14,14 @@ public class UserDetailsModel implements UserDetails {
     private String password;
     private List<GrantedAuthority> authorities;
 
-    public UserDetailsModel(User user){
+    public UserDetailsModel(User user) {
         this.username = user.getUsername();
         this.password = user.getPassword();
         this.authorities = user.getRoles().stream()
                 .map(role -> new SimpleGrantedAuthority(role.name()))
                 .collect(Collectors.toList());
     }
+
     @Override
     public Collection<? extends GrantedAuthority> getAuthorities() {
         return authorities;
@@ -55,7 +56,4 @@ public class UserDetailsModel implements UserDetails {
     public boolean isEnabled() {
         return true;
     }
-
-
-
 }

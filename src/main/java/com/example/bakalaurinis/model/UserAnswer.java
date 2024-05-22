@@ -14,11 +14,9 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Entity
 public class UserAnswer {
-
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
-
     private LocalDateTime dateTimeAnswered;
     @ManyToOne
     private User answeringUser;

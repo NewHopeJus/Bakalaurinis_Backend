@@ -213,9 +213,7 @@ public class QuestionService {
         userAnswer.setDateTimeAnswered(LocalDateTime.now());
         rankingService.saveUserAnswer(userAnswer);
 
-
         return answerSubmitResponse;
     }
-
 
 }

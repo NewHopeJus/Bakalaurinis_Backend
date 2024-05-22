@@ -17,7 +17,6 @@ import java.io.IOException;
 //Once per request filter ensures that it is executed once per HTTP request
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
-
     private MyUserDetailsService userDetailsService;
     private JwtUtil jwtUtil;
 
@@ -42,7 +41,6 @@ public class JwtRequestFilter extends OncePerRequestFilter {
             jwt = authorizationHeader.substring(7);
             username = jwtUtil.extractUsername(jwt);
         }
-
 
         if (username != null && SecurityContextHolder.getContext().getAuthentication() == null) {
 

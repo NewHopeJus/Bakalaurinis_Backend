@@ -10,16 +10,8 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 
-/**
- * User Details Service is used to retrieve users authentication and authorization information
- * Intended to allow you to define how to fetch user details given a username (or email)
- *   Most applications store user information in a custom manner,
- *  such as in a relational database, NoSQL database, or even an external service.
- *  Implementing UserDetailsService allows you to integrate Spring Security with whatever user
- *  storage solution
- *  your application uses.
- *
- * */
+//User Details Service is used to retrieve users authentication and authorization information
+//Intended to allow developer to define how to fetch user details given a username (or email)
 
 @Service
 public class MyUserDetailsService implements UserDetailsService {
@@ -29,8 +21,6 @@ public class MyUserDetailsService implements UserDetailsService {
     public MyUserDetailsService(UserRepository userRepository) {
         this.userRepository = userRepository;
     }
-
-
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

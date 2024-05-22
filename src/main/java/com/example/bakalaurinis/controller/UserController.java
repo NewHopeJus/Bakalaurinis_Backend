@@ -20,11 +20,6 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.Optional;
 
-/**
- * The controller handles the HTTP requests and responses and manages
- * the flow of data between the client(e.g., a web or mobile app)
- * and the repository
- */
 @RestController
 @RequestMapping("/api/users")
 public class UserController {
@@ -112,6 +107,5 @@ public class UserController {
         } catch (CustomValidationException e) {
             return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
         }
-
     }
 }
