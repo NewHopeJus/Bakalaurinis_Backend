@@ -17,8 +17,8 @@ import java.io.IOException;
 //Once per request filter ensures that it is executed once per HTTP request
 @Component
 public class JwtRequestFilter extends OncePerRequestFilter {
-    private MyUserDetailsService userDetailsService;
-    private JwtUtil jwtUtil;
+    private final MyUserDetailsService userDetailsService;
+    private final JwtUtil jwtUtil;
 
     @Autowired
     public JwtRequestFilter(MyUserDetailsService userDetailsService, JwtUtil jwtService) {

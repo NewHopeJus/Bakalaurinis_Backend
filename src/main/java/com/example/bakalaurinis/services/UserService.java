@@ -22,7 +22,7 @@ import java.util.Optional;
 public class UserService {
     private final UserRepository userRepository;
 
-    private PasswordEncoder passwordEncoder;
+    private final PasswordEncoder passwordEncoder;
 
     private final AuthenticationManager authenticationManager;
 

@@ -6,6 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PasswordChangeRequest {
-    String oldPassword;
-    String newPassword;
+    private String oldPassword;
+    private String newPassword;
 }

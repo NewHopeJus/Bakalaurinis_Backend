@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/api/items")
 public class ShopItemController {
-    private ShopItemService shopItemService;
+    private final ShopItemService shopItemService;
 
     @Autowired
     public ShopItemController(ShopItemService shopItemService) {

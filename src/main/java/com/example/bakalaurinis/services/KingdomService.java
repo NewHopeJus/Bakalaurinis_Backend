@@ -16,8 +16,8 @@ import java.util.Optional;
 
 @Service
 public class KingdomService {
-    private KingdomRepository kingdomRepository;
-    private UserService userService;
+    private final KingdomRepository kingdomRepository;
+    private final UserService userService;
 
     @Autowired
     public KingdomService(KingdomRepository kingdomRepository, UserService userService) {

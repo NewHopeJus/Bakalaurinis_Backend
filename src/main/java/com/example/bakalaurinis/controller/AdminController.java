@@ -14,7 +14,8 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 @Controller
 public class AdminController {
-    UserService userService;
+    private final UserService userService;
+
     @Autowired
     public AdminController(UserService userService) {
         this.userService = userService;

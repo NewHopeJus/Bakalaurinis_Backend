@@ -15,7 +15,7 @@ import java.util.Optional;
 
 @Service
 public class StatisticsService {
-    private UserService userService;
+    private final UserService userService;
 
     @Autowired
     public StatisticsService(UserService userService) {

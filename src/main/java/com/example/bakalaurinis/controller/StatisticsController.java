@@ -13,7 +13,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/api/statistics")
 public class StatisticsController {
-    private StatisticsService statisticsService;
+    private final StatisticsService statisticsService;
 
     @Autowired
     public StatisticsController(StatisticsService statisticsService) {

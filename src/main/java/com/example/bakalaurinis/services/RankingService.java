@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class RankingService {
-    private RankingRepository rankingRepository;
+    private final RankingRepository rankingRepository;
 
     @Autowired
     public RankingService(RankingRepository rankingRepository) {

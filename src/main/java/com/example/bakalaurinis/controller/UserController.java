@@ -24,12 +24,12 @@ import java.util.Optional;
 @RequestMapping("/api/users")
 public class UserController {
 
-    private UserService userService;
-    private AuthenticationManager authenticationManager;
+    private final UserService userService;
+    private final AuthenticationManager authenticationManager;
 
-    private JwtUtil jwtUtil;
+    private final JwtUtil jwtUtil;
 
-    private UserDetailsService userDetailsService;
+    private final UserDetailsService userDetailsService;
 
     @Autowired
     public UserController(UserService userService, AuthenticationManager authenticationManager,

@@ -22,8 +22,8 @@ public class QuestionService {
     private final QuestionRepository questionRepository;
     private final UserService userService;
 
-    private RankingService rankingService;
-    private KingdomService kingdomService;
+    private final RankingService rankingService;
+    private final KingdomService kingdomService;
     private StatisticsService statisticsService;
 
 

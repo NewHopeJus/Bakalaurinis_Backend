@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/kingdoms")
 public class KingdomController {
-    private KingdomService kingdomService;
+    private final KingdomService kingdomService;
 
     @Autowired
     public KingdomController(KingdomService kingdomService) {

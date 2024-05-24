@@ -13,7 +13,7 @@ import java.util.List;
 @RestController
 @RequestMapping("/api/ranking")
 public class RankingController {
-    private RankingService rankingService;
+    private final RankingService rankingService;
     @Autowired
     public RankingController(RankingService rankingService) {
         this.rankingService = rankingService;
